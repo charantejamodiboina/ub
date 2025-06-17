@@ -1,0 +1,131 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+
+  /* Overlay + Image combined */
+  
+  background-color: #ffff !important; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: var(--font-geist-sans);
+  box-sizing: border-box;
+}
+
+
+.main {
+  
+  background:
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 2550, 0, 0)),
+    url('../assets/c5.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin:0;
+  padding: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  width:100vw;
+  height:120vh;
+}
+
+
+@media (max-width: 1240px) {
+  .main {
+  
+ 
+  height:120vh;
+}
+}
+
+@media (max-width: 768px) {
+  .main {
+  
+  
+  width:100vw;
+  height:auto;
+}
+}
+
+
+/* 
+@media (prefers-color-scheme: dark) {
+  .page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+    padding: 0;
+    
+  }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+  padding: 0;
+}
+
+} */
+@media (max-width: 1024px) {
+  .main {
+  
+  padding: 0;
+}
+.page{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
+
+/* Small Tablets & Large Phones */
+@media (max-width: 768px) {
+.main {
+  
+  padding: 0;
+}
+.page{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .main {
+  
+  padding: 0;
+}
+.page{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
+
+/* Very Small Phones (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  .main {
+  padding: 0;
+}
+.page{
+  padding: 0;
+  overflow-x: hidden;
+}
+}
+
+.galleryimage{
+  width: 100% !important;
+}

@@ -1,0 +1,408 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+:root {
+  --navitems: #ffffff;
+  --active_nav_item: #CD9C40;
+  --link: #0070f3;
+  --primary: #CD9C40;
+  --iconbg: #CD9C40;
+  --iconcolor: #E1F5E9;
+  --pagetitle: #CD9C40;
+  --heading: #08232A;
+  --subhead: #73788C;
+  --mpbgclr:#F2F6F8;
+  --icontitle: #1F2744;
+  --icondesc: #CD9C40;
+  --amenitiesbg: #08232A;
+  --amenitiestitlebg: #0A2C35;
+  --gallerybg: #09404D;
+  --btncolor: #158A44;
+  --amanitiesdataheading:#4C98AB;
+}
+@font-face {
+  font-family: 'Seasons';
+  src: url('/fonts/Season.woff2') format('woff2');
+}
+.font-seasons {
+  font-family: 'The Seasons';
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-Book.otf') format('opentype');
+}
+
+.Heading{
+  color : var(--heading);
+  font-size: 48px;
+  font-family: 'The Seasons';
+}
+.Title{
+  color : var(--primary);
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.Navbar{
+  gap:200px; 
+  margin-left:130px
+}
+
+Nav a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+/* .introForm{
+  height: 438px;
+  width:474px;
+  border-top:5px solid var(--primary);
+  
+} */
+.introForm {
+  width: 100%;
+  max-width: 474px;
+  border-top: 5px solid var(--primary);
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .introForm {
+    padding: 1.5rem !important;
+  }
+}
+.villaicon { 
+  width: 61px;
+  height:61px;
+}
+.Villaimg{
+  width : 519px;
+  height : 767px;
+}
+.villadesc{
+  color: var(--subhead);
+  font-size: 24px;
+}
+.villaspecshead{
+  color: var(--icontitle);
+  font-size: 26px;
+}
+.villaspecdetail{
+  color: var(--icondesc);
+  font-size: 26px;
+}
+.GalleryTitle {
+  color : var(--primary);
+  font-size: 48px;
+  font-family: 'The Seasons';
+}
+.Gallery{
+  z-index: 10;
+}
+.smartliving_p{
+  color : var(--subhead);
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.smartliving_icon_container {
+   width: 334px;
+   height: 75px;
+}
+.smartliving_icon{
+  background-color: var(--iconbg);
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.smartliving_icon_name{
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.mpbroucherbtn{
+  font-family: "Poppins", sans-serif;
+  font-size: 16;
+  color: #ffffff;
+  background-color: var(--btncolor);
+  width: 300px;
+  height: 60px;
+  border:none;
+  border-radius: 10px;
+  margin-bottom: 60px ;
+}
+.mp {
+  padding: 2rem;
+}
+
+
+.floorplanssheading {
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.Amanities_title {
+  width : 252px;
+  height : 50px;
+  background-color: var(--amenitiestitlebg);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.AHeading{
+  color : var(--primary);
+  font-size: 48px;
+  font-family: 'The Seasons';
+}
+.Adataheading {
+  color: var(--amanitiesdataheading);
+  font-size: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.Adata{
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.c8mvheading{
+color : var(--heading);
+  font-size: 24px;
+  font-family: 'The Seasons';
+}
+.c8mvsubh{
+  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.c8mvfpbutton{
+  width:151px;
+  height: 37px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10;
+  color: var(--primary);
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+.fpdata{
+  
+  font-family: "Poppins", sans-serif;
+}
+.LaHbg{
+  background-color: #F8F9FE;
+  width: 229px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.la_li{
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.ctbox{
+  width: 376px;
+  height : 304px
+}
+.contactus_title {
+  color : var(--primary);
+  font-size: 48px;
+  font-family: 'The Seasons';
+}
+.contactus_sh{
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.contactus_s_btn{
+  width: 330px;
+  height : 60px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary);
+}
+.contactus_fp_btn{
+  width: 330px;
+  height : 60px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid white;
+  background-color: var(--amenitiesbg);
+}
+.aboutdata {
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.aboutdataheading {
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+html,
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+ 
+}
+p{
+  margin-bottom: 0rem;
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    padding: 0;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+@media (max-width:1024px){
+.Villaimg{
+  width : 389px;
+  height : 575px;
+}
+.villaicon { 
+  width: 45px;
+  height:45px;
+}
+.villaspecshead{
+  font-size: 18px;
+}
+.villaspecdetail{
+  font-size: 18px;
+}
+.AHeading{
+  font-size: 38px;
+}
+.Adataheading {
+  font-size: 30px;
+}
+.Adata{
+  font-size: 20px;
+}
+.datadiv{
+  height:100px
+}
+}
+
+
+@media (max-width:768px){
+  .Heading{
+  font-size: 24px;
+}
+.Title{
+  font-size: 8px;
+}
+.GalleryTitle {
+  color:white;
+  font-size: 24px;
+}
+.mpbroucherbtn{
+  font-size: 10;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+.smartliving_p{
+  font-size: 14px;
+}
+.smartliving_icon{
+  width: 37.5px;
+  height: 37.5px;
+  border-radius: 10px;
+}
+.smartliving_icon_name{
+  font-size: 12px;
+}
+.Amanities_title {
+  
+  border-radius: 5px;
+  width : 113px;
+  height : 23px;
+  font-size: 8px;
+}
+.AHeading{
+  font-size: 24px;
+}
+.Adataheading {
+  font-size: 18px;
+}
+.Adata{
+  font-size: 14px;
+}
+.datadiv{
+  height:100px
+}
+.villaicon { 
+  width: 24.65px;
+  height:24.65px;
+}
+.villaspecshead ,.villaspecdetail{
+  font-size: 10px;
+}
+.LaHbg{
+  width: 103px;
+  height: 23px;
+  border-radius: 5px;
+}
+.la_li{
+  font-size: 12px;
+}
+
+.ctbox{
+  width: 150px;
+  height : 120px
+}
+.contactus_title {
+  font-size: 24px;
+}
+.contactus_sh{
+  font-size: 14px;
+}
+.aboutdata {
+  font-size: 14px;
+}
+.aboutdataheading {
+  font-size: 18px;
+}
+}
+@media (max-width:450) {
+  .Villaimg{
+    width:300px;
+    height:443px;
+  }
+  
+}
