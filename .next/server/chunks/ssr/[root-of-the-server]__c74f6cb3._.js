@@ -271,6 +271,14 @@ function Header() {
     }, this);
 }
 }}),
+"[externals]/styled-jsx/style.js [external] (styled-jsx/style.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("styled-jsx/style.js", () => require("styled-jsx/style.js"));
+
+module.exports = mod;
+}}),
 "[externals]/react-responsive [external] (react-responsive, cjs)": (function(__turbopack_context__) {
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
@@ -298,6 +306,7 @@ __turbopack_context__.s({
     "default": (()=>Intro)
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$styled$2d$jsx$2f$style$2e$js__$5b$external$5d$__$28$styled$2d$jsx$2f$style$2e$js$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/styled-jsx/style.js [external] (styled-jsx/style.js, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$external$5d$__$28$react$2d$responsive$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react-responsive [external] (react-responsive, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/axios [external] (axios, esm_import)");
@@ -306,6 +315,7 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ]);
 ([__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__);
 "use client";
+;
 ;
 ;
 ;
@@ -339,229 +349,246 @@ function Intro() {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-        className: "container my-5 ps-lg-5 align-items-center",
         id: "home",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-            className: "row align-items-center g-5 ps-lg-5",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "col-lg-6 text-white text-center text-lg-start",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                            className: "font-seasons fs-lg-5 display-3",
-                            children: isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-                                children: [
-                                    "4BHK",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 45,
-                                        columnNumber: 21
-                                    }, this),
-                                    "Gated Villa",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 45,
-                                        columnNumber: 38
-                                    }, this),
-                                    "Community in",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 45,
-                                        columnNumber: 56
-                                    }, this),
-                                    "Adibatla"
-                                ]
-                            }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-                                children: [
-                                    "4BHK Gated",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 49,
-                                        columnNumber: 27
-                                    }, this),
-                                    "Villa Community in",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 49,
-                                        columnNumber: 51
-                                    }, this),
-                                    "Adibatla"
-                                ]
-                            }, void 0, true)
-                        }, void 0, false, {
-                            fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 42,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                            className: "lead",
-                            style: {
-                                fontFamily: "'Nunito Sans', sans-serif"
-                            },
-                            children: "Experience 17 acres of gated community living at Urban Ranch"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                            className: "btn fw-bold px-4 py-2 mt-3",
-                            style: {
-                                color: "var(--active_nav_item)",
-                                backgroundColor: "white"
-                            },
-                            children: "Download Brochure"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/Components/Intro.js",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "col-lg-6 d-flex justify-content-center",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "introForm bg-white shadow p-4 p-md-5 w-100",
-                        style: {
-                            maxWidth: "474px"
-                        },
+        className: "jsx-43c236b9ccbed2d1" + " " + "container my-5 ps-lg-5 align-items-center",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                className: "jsx-43c236b9ccbed2d1" + " " + "row align-items-center g-5 ps-lg-5",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 text-white text-center text-lg-start",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                className: "text-center mb-4 text-dark",
-                                children: "Unlock Early Access"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
+                                className: "jsx-43c236b9ccbed2d1" + " " + "font-seasons fs-lg-5 display-3",
+                                children: isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
+                                    children: [
+                                        "4BHK",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
+                                            className: "jsx-43c236b9ccbed2d1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 45,
+                                            columnNumber: 21
+                                        }, this),
+                                        "Gated Villa",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
+                                            className: "jsx-43c236b9ccbed2d1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 45,
+                                            columnNumber: 38
+                                        }, this),
+                                        "Community in",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
+                                            className: "jsx-43c236b9ccbed2d1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 45,
+                                            columnNumber: 56
+                                        }, this),
+                                        "Adibatla"
+                                    ]
+                                }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
+                                    children: [
+                                        "4BHK Gated",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
+                                            className: "jsx-43c236b9ccbed2d1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 49,
+                                            columnNumber: 27
+                                        }, this),
+                                        "Villa Community in",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
+                                            className: "jsx-43c236b9ccbed2d1"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 49,
+                                            columnNumber: 51
+                                        }, this),
+                                        "Adibatla"
+                                    ]
+                                }, void 0, true)
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Intro.js",
-                                lineNumber: 67,
-                                columnNumber: 13
+                                lineNumber: 42,
+                                columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
-                                onSubmit: handleSubmit,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "row g-3 mb-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                className: "col-12 col-md-6",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                    type: "text",
-                                                    className: "form-control form-control-lg w-100",
-                                                    placeholder: "Name",
-                                                    value: name,
-                                                    onChange: (e)=>setName(e.target.value),
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/Components/Intro.js",
-                                                    lineNumber: 71,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 70,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                className: "col-12 col-md-6",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                    type: "tel",
-                                                    className: "form-control form-control-lg w-100",
-                                                    placeholder: "Phone",
-                                                    value: phone,
-                                                    onChange: (e)=>setPhone(e.target.value),
-                                                    required: true
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/Components/Intro.js",
-                                                    lineNumber: 81,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 80,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 69,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "mb-3",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                            type: "date",
-                                            className: "form-control form-control-lg w-100",
-                                            value: date,
-                                            onChange: (e)=>setDate(e.target.value),
-                                            required: true
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/Components/Intro.js",
-                                            lineNumber: 93,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 92,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "mb-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                            type: "email",
-                                            className: "form-control form-control-lg w-100",
-                                            placeholder: "Email ID",
-                                            value: email,
-                                            onChange: (e)=>setEmail(e.target.value),
-                                            required: true
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/Components/Intro.js",
-                                            lineNumber: 103,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 102,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                                        type: "submit",
-                                        className: "btn w-100 fw-bold py-3",
-                                        style: {
-                                            backgroundColor: "var(--active_nav_item)",
-                                            color: "white"
-                                        },
-                                        children: "Book a visit"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 113,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontFamily: "'Nunito Sans', sans-serif"
+                                },
+                                className: "jsx-43c236b9ccbed2d1" + " " + "lead",
+                                children: "Experience 17 acres of gated community living at Urban Ranch"
+                            }, void 0, false, {
                                 fileName: "[project]/src/Components/Intro.js",
-                                lineNumber: 68,
-                                columnNumber: 13
+                                lineNumber: 53,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                style: {
+                                    color: "var(--active_nav_item)",
+                                    backgroundColor: "white"
+                                },
+                                className: "jsx-43c236b9ccbed2d1" + " " + "btn fw-bold px-4 py-2 mt-3",
+                                children: "Download Brochure"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Components/Intro.js",
+                                lineNumber: 56,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Components/Intro.js",
-                        lineNumber: 66,
-                        columnNumber: 11
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 d-flex justify-content-center",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            style: {
+                                maxWidth: "474px"
+                            },
+                            className: "jsx-43c236b9ccbed2d1" + " " + "introForm bg-white shadow p-4 p-md-5 w-100",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                    className: "jsx-43c236b9ccbed2d1" + " " + "text-center mb-4 text-dark",
+                                    children: "Unlock Early Access"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/Components/Intro.js",
+                                    lineNumber: 67,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
+                                    onSubmit: handleSubmit,
+                                    className: "jsx-43c236b9ccbed2d1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "jsx-43c236b9ccbed2d1" + " " + "row g-3 mb-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-12 col-md-6",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                        type: "text",
+                                                        placeholder: "Name",
+                                                        value: name,
+                                                        onChange: (e)=>setName(e.target.value),
+                                                        required: true,
+                                                        className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/Components/Intro.js",
+                                                        lineNumber: 71,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Components/Intro.js",
+                                                    lineNumber: 70,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-12 col-md-6",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                        type: "tel",
+                                                        placeholder: "Phone",
+                                                        value: phone,
+                                                        onChange: (e)=>setPhone(e.target.value),
+                                                        required: true,
+                                                        className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/Components/Intro.js",
+                                                        lineNumber: 81,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Components/Intro.js",
+                                                    lineNumber: 80,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 69,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "jsx-43c236b9ccbed2d1" + " " + "mb-3",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                type: "date",
+                                                value: date,
+                                                onChange: (e)=>setDate(e.target.value),
+                                                required: true,
+                                                className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Components/Intro.js",
+                                                lineNumber: 93,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 92,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "jsx-43c236b9ccbed2d1" + " " + "mb-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                type: "email",
+                                                placeholder: "Email ID",
+                                                value: email,
+                                                onChange: (e)=>setEmail(e.target.value),
+                                                required: true,
+                                                className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Components/Intro.js",
+                                                lineNumber: 103,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 102,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                            type: "submit",
+                                            style: {
+                                                backgroundColor: "var(--active_nav_item)",
+                                                color: "white"
+                                            },
+                                            className: "jsx-43c236b9ccbed2d1" + " " + "btn w-100 fw-bold py-3",
+                                            children: "Book a visit"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Components/Intro.js",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/Components/Intro.js",
+                                    lineNumber: 68,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/Components/Intro.js",
+                            lineNumber: 66,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/Components/Intro.js",
+                        lineNumber: 65,
+                        columnNumber: 9
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/Components/Intro.js",
-                    lineNumber: 65,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/Components/Intro.js",
-            lineNumber: 39,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/Components/Intro.js",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$styled$2d$jsx$2f$style$2e$js__$5b$external$5d$__$28$styled$2d$jsx$2f$style$2e$js$2c$__cjs$29$__["default"], {
+                id: "43c236b9ccbed2d1",
+                children: "::placeholder{font-size:1rem}@media (width<=767px){::placeholder{font-size:.85rem}}.introForm.jsx-43c236b9ccbed2d1{border-top:5px solid var(--primary);border-radius:8px}"
+            }, void 0, false, void 0, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/Components/Intro.js",
         lineNumber: 38,
         columnNumber: 5
@@ -1204,14 +1231,6 @@ function Component3() {
         columnNumber: 5
     }, this);
 }
-}}),
-"[externals]/styled-jsx/style.js [external] (styled-jsx/style.js, cjs)": (function(__turbopack_context__) {
-
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
-{
-const mod = __turbopack_context__.x("styled-jsx/style.js", () => require("styled-jsx/style.js"));
-
-module.exports = mod;
 }}),
 "[project]/src/assets/c1.png (static in ecmascript)": ((__turbopack_context__) => {
 
@@ -1926,7 +1945,7 @@ function Gallery() {
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "container text-start ",
+                className: "container ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
                         className: "mb-4 GalleryTitle",
@@ -1937,224 +1956,247 @@ function Gallery() {
                         columnNumber: 9
                     }, this),
                     isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "container position-relative",
+                        className: "container-fluid px-2",
+                        style: {
+                            position: "relative",
+                            zIndex: 10
+                        },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "row mb-3",
+                                className: "row gx-2 gy-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         className: "col-6",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c4mv$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c4mv$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                             alt: "Gallery Image 1",
-                                            className: "w-100 rounded galleryimage",
+                                            className: "img-fluid rounded w-100",
                                             style: {
-                                                zIndex: 10
+                                                objectFit: 'cover'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Gallery.js",
-                                            lineNumber: 48,
-                                            columnNumber: 15
+                                            lineNumber: 49,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 47,
-                                        columnNumber: 13
+                                        lineNumber: 48,
+                                        columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         className: "col-6",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$C8mv$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$C8mv$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                             alt: "Gallery Image 2",
-                                            className: "w-100 rounded",
+                                            className: "img-fluid rounded w-100",
                                             style: {
-                                                zIndex: 10
+                                                objectFit: 'cover'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Gallery.js",
-                                            lineNumber: 56,
-                                            columnNumber: 15
+                                            lineNumber: 57,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 55,
-                                        columnNumber: 13
+                                        lineNumber: 56,
+                                        columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 46,
-                                columnNumber: 11
+                                lineNumber: 47,
+                                columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "row mb-3",
+                                className: "row gx-2 gy-2 mt-1",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                     className: "col-12",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$image5mv$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$image5mv$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                         alt: "Gallery Image 3",
-                                        className: "w-100 rounded",
+                                        className: "img-fluid rounded w-100",
                                         style: {
-                                            zIndex: 10
+                                            objectFit: 'cover'
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 68,
-                                        columnNumber: 15
+                                        lineNumber: 69,
+                                        columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/Gallery.js",
-                                    lineNumber: 67,
-                                    columnNumber: 13
+                                    lineNumber: 68,
+                                    columnNumber: 7
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 66,
-                                columnNumber: 11
+                                lineNumber: 67,
+                                columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "row",
+                                className: "row gx-2 gy-2 mt-1",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         className: "col-6",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c7mv$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c7mv$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                             alt: "Gallery Image 4",
-                                            className: "w-100 rounded",
+                                            className: "img-fluid rounded w-100",
                                             style: {
-                                                zIndex: 10
+                                                objectFit: 'cover'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Gallery.js",
-                                            lineNumber: 80,
-                                            columnNumber: 15
+                                            lineNumber: 81,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 79,
-                                        columnNumber: 13
+                                        lineNumber: 80,
+                                        columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         className: "col-6",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c2mv$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c2mv$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                             alt: "Gallery Image 5",
-                                            className: "w-100 rounded"
+                                            className: "img-fluid rounded w-100",
+                                            style: {
+                                                objectFit: 'cover'
+                                            }
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Gallery.js",
-                                            lineNumber: 88,
-                                            columnNumber: 15
+                                            lineNumber: 89,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 87,
-                                        columnNumber: 13
+                                        lineNumber: 88,
+                                        columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 78,
-                                columnNumber: 11
+                                lineNumber: 79,
+                                columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Components/Gallery.js",
-                        lineNumber: 44,
-                        columnNumber: 22
+                        lineNumber: 45,
+                        columnNumber: 3
                     }, this),
                     !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "row",
+                        className: "row g-3 justify-content-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "col-md-4 d-flex flex-column gap-3",
+                                className: "col-md-4 d-flex flex-column justify-content-end align-items-end",
+                                style: {
+                                    zIndex: 10
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c4$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c4$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                         alt: "Gallery Image 1",
-                                        className: "img-fluid rounded",
+                                        className: "img-fluid w-100",
                                         style: {
-                                            zIndex: 10
+                                            maxHeight: 391,
+                                            objectFit: 'cover',
+                                            borderRadius: 15
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 101,
-                                        columnNumber: 13
+                                        lineNumber: 106,
+                                        columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$C8$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$C8$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                         alt: "Gallery Image 2",
-                                        className: "img-fluid rounded",
+                                        className: "img-fluid w-100 mt-3",
                                         style: {
-                                            zIndex: 10
+                                            maxHeight: 227,
+                                            objectFit: 'cover',
+                                            borderRadius: 15
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 107,
-                                        columnNumber: 13
+                                        lineNumber: 112,
+                                        columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 100,
-                                columnNumber: 11
+                                lineNumber: 105,
+                                columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "col-md-4 d-flex align-items-center",
+                                className: "col-md-4 d-flex align-items-center justify-content-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$image5$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$image5$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                     alt: "Gallery Image 3",
-                                    className: "img-fluid rounded w-100",
+                                    className: "img-fluid w-100",
                                     style: {
-                                        zIndex: 10
+                                        maxHeight: 636,
+                                        objectFit: 'cover',
+                                        borderRadius: 15
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/Gallery.js",
-                                    lineNumber: 117,
-                                    columnNumber: 13
+                                    lineNumber: 122,
+                                    columnNumber: 7
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 116,
-                                columnNumber: 11
+                                lineNumber: 121,
+                                columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "col-md-4 d-flex flex-column gap-3",
+                                className: "col-md-4 d-flex flex-column justify-content-start",
+                                style: {
+                                    zIndex: 10
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c7$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c7$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                         alt: "Gallery Image 4",
-                                        className: "img-fluid rounded",
+                                        className: "img-fluid w-100",
                                         style: {
-                                            zIndex: 10
+                                            maxHeight: 347,
+                                            objectFit: 'cover',
+                                            borderRadius: 15
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 127,
-                                        columnNumber: 13
+                                        lineNumber: 132,
+                                        columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$gallery$2f$c2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$gallery$2f$c2$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                         alt: "Gallery Image 5",
-                                        className: "img-fluid rounded",
+                                        className: "img-fluid w-100 mt-4 rounded",
                                         style: {
-                                            zIndex: 10
+                                            maxHeight: 263,
+                                            objectFit: 'cover',
+                                            borderRadius: 15
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Gallery.js",
-                                        lineNumber: 133,
-                                        columnNumber: 13
+                                        lineNumber: 138,
+                                        columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/Gallery.js",
-                                lineNumber: 126,
-                                columnNumber: 11
+                                lineNumber: 131,
+                                columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Components/Gallery.js",
-                        lineNumber: 98,
-                        columnNumber: 23
+                        lineNumber: 103,
+                        columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
@@ -3529,6 +3571,9 @@ function About() {
     const isMobile = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$external$5d$__$28$react$2d$responsive$2c$__cjs$29$__["useMediaQuery"])({
         query: '(max-width: 1240px)'
     });
+    const isSMobile = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$external$5d$__$28$react$2d$responsive$2c$__cjs$29$__["useMediaQuery"])({
+        query: '(max-width: 500px)'
+    });
     const projects = [
         {
             name: "IRA The Square Villas",
@@ -3563,7 +3608,7 @@ function About() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/About.js",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3575,13 +3620,13 @@ function About() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/About.js",
-                                    lineNumber: 29,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3593,24 +3638,24 @@ function About() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Components/About.js",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "col-lg-6 d-flex flex-column gap-3",
+                    className: "col-lg-6 d-flex flex-column gap-3 gap-xl-4 mt-xl-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                             className: "fw-semibold Title",
                             children: "About IRA Realty"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 46,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
@@ -3618,7 +3663,7 @@ function About() {
                             children: "Building Homes. Nurturing Communities."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3626,7 +3671,7 @@ function About() {
                             children: "At IRA Realty, we're redefining real estate with transparency, trust, and transformative design."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 50,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -3634,7 +3679,7 @@ function About() {
                             children: "Our Landmark Projects:"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 54,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -3645,19 +3690,19 @@ function About() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3",
                                             style: {
-                                                width: 38,
-                                                height: 38
+                                                width: isSMobile ? 20 : 38,
+                                                height: isSMobile ? 20 : 38
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["CiLocationOn"], {
-                                                size: 24
+                                                size: isSMobile ? 14 : 24
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/About.js",
-                                                lineNumber: 66,
+                                                lineNumber: 67,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/About.js",
-                                            lineNumber: 62,
+                                            lineNumber: 63,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -3671,41 +3716,41 @@ function About() {
                                                     children: item.area
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/About.js",
-                                                    lineNumber: 70,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/Components/About.js",
-                                            lineNumber: 68,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/Components/About.js",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Components/About.js",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/Components/About.js",
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/Components/About.js",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 3
     }, this);
 }
@@ -3893,4 +3938,4 @@ __turbopack_async_result__();
 
 };
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__882ff720._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__c74f6cb3._.js.map

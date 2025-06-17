@@ -63,14 +63,14 @@ export default function Intro() {
 
         {/* Right Form Box */}
         <div className="col-lg-6 d-flex justify-content-center">
-          <div className="introForm bg-white shadow p-3 p-md-5 w-100">
+          <div className="introForm bg-white shadow p-4 p-md-5 w-100" style={{ maxWidth: "474px" }}>
             <h2 className="text-center mb-4 text-dark">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>
-              <div className="row g-3 mb-3 justify-content-between d-flex">
+              <div className="row g-3 mb-3">
                 <div className="col-12 col-md-6">
                   <input
                     type="text"
-                    className="form-control form-control-lg"
+                    className="form-control form-control-lg w-100"
                     placeholder="Name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -80,7 +80,7 @@ export default function Intro() {
                 <div className="col-12 col-md-6">
                   <input
                     type="tel"
-                    className="form-control form-control-lg"
+                    className="form-control form-control-lg w-100"
                     placeholder="Phone"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
@@ -88,25 +88,28 @@ export default function Intro() {
                   />
                 </div>
               </div>
+
               <div className="mb-3">
                 <input
                   type="date"
-                  className="form-control form-control-lg"
+                  className="form-control form-control-lg w-100"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                   required
                 />
               </div>
+
               <div className="mb-4">
                 <input
                   type="email"
-                  className="form-control form-control-lg"
+                  className="form-control form-control-lg w-100"
                   placeholder="Email ID"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </div>
+
               <button
                 type="submit"
                 className="btn w-100 fw-bold py-3"
@@ -118,6 +121,23 @@ export default function Intro() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        ::placeholder {
+          font-size: 1rem;
+        }
+
+        @media (max-width: 767px) {
+          ::placeholder {
+            font-size: 0.85rem;
+          }
+        }
+
+        .introForm {
+          border-top: 5px solid var(--primary);
+          border-radius: 8px;
+        }
+      `}</style>
     </section>
   );
 }

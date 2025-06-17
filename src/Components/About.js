@@ -7,6 +7,7 @@ import { useMediaQuery } from "react-responsive";
 export default function About() {
   
   const isMobile = useMediaQuery({ query: '(max-width: 1240px)' });
+  const isSMobile = useMediaQuery({ query: '(max-width: 500px)' });
   const projects = [
     { name: "IRA The Square Villas", area: "Kongarakalan" },
     { name: "Moonglade Apartments", area: "Narsingi" },
@@ -42,7 +43,7 @@ export default function About() {
         </div>
 
         {/* Content Section */}
-        <div className="col-lg-6 d-flex flex-column gap-3">
+        <div className="col-lg-6 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
           <p className="fw-semibold Title">About IRA Realty</p>
           <h1 className=" fw-bold Heading">
             Building Homes. Nurturing Communities.
@@ -61,9 +62,9 @@ export default function About() {
               >
                 <div
                   className="d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3"
-                  style={{ width: 38, height: 38 }}
+                  style={{ width: isSMobile?20:38, height: isSMobile?20:38 }}
                 >
-                  <CiLocationOn size={24} />
+                  <CiLocationOn size={isSMobile?14:24} />
                 </div>
                 <span className="fw-bold text-dark">
                   {item.name} —{" "}
