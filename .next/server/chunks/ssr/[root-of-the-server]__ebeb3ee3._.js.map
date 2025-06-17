@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///D:/urban_ranch/src/pages/_document.js"],"sourcesContent":["import { Html, Head, Main, NextScript } from \"next/document\";\r\n\r\nexport default function Document() {\r\n  \r\n  return (\r\n    <Html lang=\"en\">\r\n      <link href=\"https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap\" rel=\"stylesheet\"></link>\r\n      <link href=\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\" rel=\"stylesheet\"></link>\r\n      <Head />\r\n      <body>\r\n        <Main />\r\n        <NextScript />\r\n      </body>\r\n    </Html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IAEtB,qBACE,qKAAC,yHAAA,CAAA,OAAI;QAAC,MAAK;;0BACT,qKAAC;gBAAK,MAAK;gBAAyF,KAAI;;;;;;0BACxG,qKAAC;gBAAK,MAAK;gBAAsL,KAAI;;;;;;0BACrM,qKAAC,yHAAA,CAAA,OAAI;;;;;0BACL,qKAAC;;kCACC,qKAAC,yHAAA,CAAA,OAAI;;;;;kCACL,qKAAC,yHAAA,CAAA,aAAU;;;;;;;;;;;;;;;;;AAInB","debugId":null}}]
+}

@@ -1,0 +1,100 @@
+/* [project]/src/styles/Home.module.css [client] (css) */
+.Home-module__Ho9lYW__page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), .08);
+  --gray-alpha-100: rgba(var(--gray-rgb), .05);
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  overflow-x: hidden;
+  background-color: #fff !important;
+}
+
+.Home-module__Ho9lYW__main {
+  background-color: #0000;
+  background-image: linear-gradient(to bottom right, #0009, #0f00), url("../media/c5.2f590550.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 120vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+@media (width <= 1240px) {
+  .Home-module__Ho9lYW__main {
+    height: 120vh;
+  }
+}
+
+@media (width <= 768px) {
+  .Home-module__Ho9lYW__main {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (width <= 1024px) {
+  .Home-module__Ho9lYW__main {
+    padding: 0;
+  }
+
+  .Home-module__Ho9lYW__page {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media (width <= 768px) {
+  .Home-module__Ho9lYW__main {
+    padding: 0;
+  }
+
+  .Home-module__Ho9lYW__page {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media (width <= 480px) {
+  .Home-module__Ho9lYW__main {
+    padding: 0;
+  }
+
+  .Home-module__Ho9lYW__page {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media (width <= 375px) {
+  .Home-module__Ho9lYW__main {
+    padding: 0;
+  }
+
+  .Home-module__Ho9lYW__page {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+.Home-module__Ho9lYW__galleryimage {
+  width: 100% !important;
+}
+
+/*# sourceMappingURL=src_styles_Home_module_css_2bef753f._.single.css.map*/

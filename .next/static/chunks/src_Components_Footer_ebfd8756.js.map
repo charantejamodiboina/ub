@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/urban_ranch/src/Components/Footer.js"],"sourcesContent":["import dynamic from 'next/dynamic';\r\nimport { useMediaQuery } from 'react-responsive';\r\nconst MobileFooter = dynamic(() => import('./MobileFooter'));\r\nconst DesktopFooter = dynamic(() => import('./DesktopFooter'));\r\nexport default function Footer () {\r\n    \r\n \r\n    const isMobile = useMediaQuery({ query: '(min-width: 991px)' });\r\n    return isMobile ? <DesktopFooter/>: <MobileFooter/> \r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;;;;AACA,MAAM,eAAe,CAAA,GAAA,2HAAA,CAAA,UAAO,AAAD,EAAE;;;;;;;KAAvB;AACN,MAAM,gBAAgB,CAAA,GAAA,2HAAA,CAAA,UAAO,AAAD,EAAE;;;;;;;MAAxB;AACS,SAAS;;IAGpB,MAAM,WAAW,CAAA,GAAA,uJAAA,CAAA,gBAAa,AAAD,EAAE;QAAE,OAAO;IAAqB;IAC7D,OAAO,yBAAW,0JAAC;;;;6BAAiB,0JAAC;;;;;AACzC;GALwB;;QAGH,uJAAA,CAAA,gBAAa;;;MAHV","debugId":null}}]
+}

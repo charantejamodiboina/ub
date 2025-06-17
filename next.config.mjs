@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   images: {
-    unoptimized: true, // ✅ Add this line
+    unoptimized: true,
   },
 };
 // module.exports = {
