@@ -40,8 +40,14 @@
   font-style: normal;
 }
 
-input {
-  font-size: 12px;
+.introinput {
+  font-family: Nunito Sans, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.form-heading {
+  font-family: Nunito Sans, sans-serif !important;
+  font-size: 36px !important;
 }
 
 .Heading {
@@ -360,11 +366,20 @@ ul, li {
   }
 }
 
+@media (width <= 1399px) {
+  .Navbar {
+    max-width: 1000px;
+  }
+}
+
+@media (width <= 1199px) {
+  .Navbar {
+    max-width: 885px;
+  }
+}
+
 @media (width <= 1024px) {
   .Navbar {
-    align-self: center;
-    align-items: flex-start;
-    width: 100%;
     max-width: 880px;
   }
 
@@ -438,6 +453,15 @@ ul, li {
 
   .Title {
     font-size: 8px;
+  }
+
+  .form-heading {
+    font-family: Nunito Sans, sans-serif !important;
+    font-size: 24px !important;
+  }
+
+  .introinput {
+    font-size: 10px !important;
   }
 
   .intro_h {

@@ -75,13 +75,13 @@ export default function Intro() {
         <div className="col-lg-6 d-flex justify-content-center">
           <div className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
           style={{maxWidth:500}}>
-            <h2 className="text-center text-dark">Unlock Early Access</h2>
+            <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>
-              <div className="row g-3 mb-3">
-                <div className="col-6">
+              <div className="row g-3 mb-3 ">
+                <div className="col-6 ">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control introinput"
                     placeholder="Name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -91,7 +91,7 @@ export default function Intro() {
                 <div className="col-6">
                   <input
                     type="tel"
-                    className="form-control"
+                    className="form-control introinput"
                     placeholder="Mobile Number"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
@@ -104,8 +104,8 @@ export default function Intro() {
                 <DatePicker
                   selected={date}
                   onChange={(date) => setDate(date)}
-                  className="form-control"
-                  placeholderText="Select a date"
+                  className="form-control introinput"
+                  placeholderText="Select date"
                   dateFormat="dd/MM/yyyy"
                   required
                 />
@@ -115,7 +115,7 @@ export default function Intro() {
               <div className="mb-4">
                 <input
                   type="email"
-                  className="form-control"
+                  className="form-control introinput"
                   placeholder="Email ID"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import image1 from "../assets/c3.png";
 import image2 from "../assets/mask1.png";
-
+import { useMediaQuery } from "react-responsive";
 export default function Component3() {
+  
+  const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
   return (
     <div
       className="py-5 d-flex flex-column align-items-center bg-light"
@@ -20,8 +22,10 @@ export default function Component3() {
           <div className="col-md-12">
             <h3 className="fw-bold mb-3 Heading">Ranch Life = Refined Living</h3>
             <p className="c3-p">
-              Welcome to IRA Urban Ranch — Set in Kongarakalan, near Adibatla, this 17-acre gated villa community is
-              crafted for families seeking luxury, privacy, and soul-deep connection.
+              { isMobile ? <>
+              Welcome to IRA Urban Ranch — Set in Kongarakalan, near Adibatla, this 17-acre gated villa community is crafted for families seeking luxury, privacy, and soul-deep connection.</> :
+              <>Welcome to IRA Urban Ranch — Set in Kongarakalan, near Adibatla, this 17-acre gated villa <br/>community is crafted for families seeking luxury, privacy, and soul-deep connection.</>
+              }
             </p>
           </div>
           <div className="col-md-12">

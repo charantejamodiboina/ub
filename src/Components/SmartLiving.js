@@ -31,7 +31,7 @@ export default function SmartLiving() {
           <div className="col-lg-6">
             <div className="row row-cols-1 g-4 text-start ">
               {data.map((item) => (
-                <div className="col-6 col-lg-12 d-flex align-items-center smartliving_icon_container" key={item.id}>
+                <div className="col-6 col-lg-12 d-flex align-items-lg-center align-items-start flex-lg-row flex-column smartliving_icon_container my-4 my-md-5 my-lg-3" key={item.id}>
                   <div>
                     <div
                       className="me-3 align-items-center smartliving_icon"

@@ -38,8 +38,14 @@
   font-weight: 400;
   font-style: normal;
 }
-input {
-  font-size: 12px;
+.introinput {
+  font-size: 14px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+.form-heading{
+  
+  font-size: 36px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 .Heading{
   color : var(--heading);
@@ -331,14 +337,22 @@ li {
     color-scheme: dark;
   }
 }
-
-
+@media (max-width:1399px) {
+  .Navbar{
+    max-width: 1000px;
+  };
+  
+}
+@media (max-width:1199px) {
+  .Navbar{
+    max-width: 885px;
+  };
+  
+}
 @media (max-width:1024px){
   .Navbar{
   max-width: 880px;
-  align-self: center;
-  align-items: flex-start;
-  width:100%
+  
 }
   .Heading{
   font-size: 36px;
@@ -401,6 +415,14 @@ li {
 }
 .Title{
   font-size: 8px;
+}
+.form-heading{
+  
+  font-size: 24px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+.introinput {
+  font-size: 10px !important;
 }
 .intro_h {
   font-size: 36px;
