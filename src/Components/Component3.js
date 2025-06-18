@@ -9,11 +9,11 @@ export default function Component3() {
       style={{
         backgroundImage: `url(${image2.src})`,
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'bottom',
+        backgroundPosition: 'center bottom ',
         backgroundSize: 'contain',
       }}
     >
-      <div className="w-100" style={{ maxWidth: '86%' }}>
+      <div className="" style={{ maxWidth: '86%' }}>
         <h2 className="mb-4 Title">Welcome to Urban Ranch</h2>
 
         <div className="align-items-center gx-5">

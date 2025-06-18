@@ -1122,11 +1122,11 @@ function Component3() {
         style: {
             backgroundImage: `url(${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$mask1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$mask1$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"].src})`,
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'bottom',
+            backgroundPosition: 'center bottom ',
             backgroundSize: 'contain'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-            className: "w-100",
+            className: "",
             style: {
                 maxWidth: '86%'
             },
