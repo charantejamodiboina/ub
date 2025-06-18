@@ -9,8 +9,8 @@ export default function DesktopFooter() {
       <div className="container">
         <div className="row gx-5">
           {/* Left Column */}
-          <div className="col-md-4 d-flex flex-column gap-4">
-            <div className="d-flex gap-3 align-items-center">
+          <div className="col-md-5 col-lg-4 d-flex flex-column gap-4">
+            <div className="d-flex gap-3 align-items-center flex-wrap">
               <Image src={ftrimg1} alt="urban ranch logo" className="img-fluid" />
               <Image src={ftrimg2} alt="Iron horse logo" className="img-fluid" />
             </div>
@@ -28,7 +28,7 @@ export default function DesktopFooter() {
           </div>
 
           {/* Right Column */}
-          <div className="col-md-8 mt-5 mt-md-0">
+          <div className="col-md-7 col-lg-8 mt-5 mt-md-0">
             <div className="d-flex flex-column gap-4">
               <div className="d-flex justify-content-between flex-wrap gap-4">
                 {/* Quick Links */}

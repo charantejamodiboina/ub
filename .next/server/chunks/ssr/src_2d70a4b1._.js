@@ -111,7 +111,7 @@ function Component8mv() {
         id: "floor-plans",
         className: "py-5 text-center text-white",
         style: {
-            background: "linear-gradient(to bottom, #CD9C40 70%, #158A44 30%)"
+            background: "linear-gradient(to bottom, #CD9C40 60%, #158A44 40%)"
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
             className: "container",
@@ -185,7 +185,7 @@ function Component8mv() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "row justify-content-center g-5",
+                    className: "row justify-content-center g-3",
                     children: villa.floor.map((floorItem, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "row-12 col-6",
                             children: [
@@ -194,8 +194,8 @@ function Component8mv() {
                                     alt: floorItem.floor_name,
                                     style: {
                                         objectFit: "cover",
-                                        height: "auto",
-                                        width: "100%"
+                                        height: 210,
+                                        width: 142
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/Component8mv.js",

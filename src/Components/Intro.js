@@ -122,22 +122,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <style jsx>{`
-        ::placeholder {
-          font-size: 1rem;
-        }
-
-        @media (max-width: 767px) {
-          ::placeholder {
-            font-size: 0.85rem;
-          }
-        }
-
-        .introForm {
-          border-top: 5px solid var(--primary);
-          border-radius: 8px;
-        }
-      `}</style>
+      
     </section>
   );
 }

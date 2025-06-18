@@ -44,7 +44,7 @@ export default function About() {
 
         {/* Content Section */}
         <div className="col-lg-6 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
-          <p className="fw-semibold Title">About IRA Realty</p>
+          <p className="fw-semibold mb-0 Title">About IRA Realty</p>
           <h1 className=" fw-bold Heading">
             Building Homes. Nurturing Communities.
           </h1>
@@ -52,20 +52,23 @@ export default function About() {
             At IRA Realty, we're redefining real estate with transparency, trust, and transformative design.
           </p>
 
-          <h2 className="h4 text-dark mt-4">Our Landmark Projects:</h2>
+          <h2 className="h4 text-dark mt-lg-4">Our Landmark Projects:</h2>
 
-          <ul className="list-unstyled mt-3 aboutdata ">
+          <ul className="list-unstyled mt-lg-3 d-flex flex-column aboutdata " style={{gap:10}}>
             {projects.map((item, index) => (
               <li
                 key={index}
-                className="d-flex align-items-center mb-3 text-secondary"
+                className="d-flex align-items-center mb-lg-3 text-secondary"
               >
-                <div
+                <div>
+                  <div
                   className="d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3"
                   style={{ width: isSMobile?20:38, height: isSMobile?20:38 }}
                 >
                   <CiLocationOn size={isSMobile?14:24} />
                 </div>
+                </div>
+                
                 <span className="fw-bold text-dark">
                   {item.name} —{" "}
                   <span className="fw-normal text-muted">{item.area}</span>

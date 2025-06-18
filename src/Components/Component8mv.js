@@ -55,7 +55,7 @@ export default function Component8mv() {
       id="floor-plans"
       className="py-5 text-center text-white"
       style={{
-        background: "linear-gradient(to bottom, #CD9C40 70%, #158A44 30%)",
+        background: "linear-gradient(to bottom, #CD9C40 60%, #158A44 40%)",
       }}
     >
       <div className="container">
@@ -87,13 +87,13 @@ export default function Component8mv() {
         </div>
 
         {/* Villa Cards */}
-        <div className="row justify-content-center g-5">
+        <div className="row justify-content-center g-3">
           {villa.floor.map((floorItem, idx) => (
             <div key={idx} className="row-12 col-6">
                 <Image
                   src={floorItem.image}
                   alt={floorItem.floor_name}
-                  style={{objectFit: "cover", height:"auto", width:"100%"}}
+                  style={{objectFit: "cover", height:210, width:142}}
                 />
                 
                 

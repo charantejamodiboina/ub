@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 export default function ContactUs() {
 
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isSMobile = useMediaQuery({ query: '(max-width: 500px)' });
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [date, setDate] = useState("");
@@ -49,7 +50,7 @@ export default function ContactUs() {
 
           <form onSubmit={handleSubmit}>
             <div className="row g-3 mb-3">
-              <div className="col-md-6">
+              <div className="col-6">
                 <input
                   type="text"
                   className="form-control"
@@ -59,6 +60,20 @@ export default function ContactUs() {
                   required
                 />
               </div>
+              <div className="col-6">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Email ID"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              
+            </div>
+
+            <div className="row g-3 mb-3">
               <div className="col-md-6">
                 <input
                   type="tel"
@@ -69,28 +84,17 @@ export default function ContactUs() {
                   required
                 />
               </div>
-            </div>
-
-            <div className="row g-3 mb-3">
               <div className="col-md-6">
                 <input
                   type="date"
+                  placeholder="Schedule a date"
                   className="form-control"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                   required
                 />
               </div>
-              <div className="col-md-6">
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Email ID"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
+              
             </div>
 
             <div className="form-check text-start mb-4">
@@ -106,13 +110,15 @@ export default function ContactUs() {
               </label>
             </div>
 
-            <div className="d-flex flex-md-nowrap  flex-wrap gap-3 justify-content-start">
-              <div className="col-12 col-md-6 contactus_s_btn">
+            <div className="d-flex flex-nowrap gap-3 justify-content-start">
+              <div className=" col-6 contactus_s_btn">
                 <button type="submit" className=" " style={{ border: "none", color: "white", backgroundColor: "var(--primary)" }}>
-                  Schedule your site visit
+                  
+                  {isSMobile? "Book a visit" :"Schedule your site visit"}
                 </button>
+                
               </div>
-              <div className="col-12 col-md-6 contactus_fp_btn">
+              <div className=" col-6 contactus_fp_btn">
                 <button
                   type="button"
                   className=""

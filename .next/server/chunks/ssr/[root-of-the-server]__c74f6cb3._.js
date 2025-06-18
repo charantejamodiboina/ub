@@ -350,21 +350,21 @@ function Intro() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
         id: "home",
-        className: "jsx-43c236b9ccbed2d1" + " " + "container my-5 ps-lg-5 align-items-center",
+        className: "jsx-867b8708a2161bb2" + " " + "container my-5 ps-lg-5 align-items-center",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "jsx-43c236b9ccbed2d1" + " " + "row align-items-center g-5 ps-lg-5",
+                className: "jsx-867b8708a2161bb2" + " " + "row align-items-center g-5 ps-lg-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 text-white text-center text-lg-start",
+                        className: "jsx-867b8708a2161bb2" + " " + "col-lg-6 text-white text-center text-lg-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                className: "jsx-43c236b9ccbed2d1" + " " + "font-seasons intro_h",
+                                className: "jsx-867b8708a2161bb2" + " " + "font-seasons intro_h",
                                 children: isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
                                     children: [
                                         "4BHK",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
-                                            className: "jsx-43c236b9ccbed2d1"
+                                            className: "jsx-867b8708a2161bb2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
                                             lineNumber: 45,
@@ -372,7 +372,7 @@ function Intro() {
                                         }, this),
                                         "Gated Villa",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
-                                            className: "jsx-43c236b9ccbed2d1"
+                                            className: "jsx-867b8708a2161bb2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
                                             lineNumber: 45,
@@ -380,7 +380,7 @@ function Intro() {
                                         }, this),
                                         "Community in",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
-                                            className: "jsx-43c236b9ccbed2d1"
+                                            className: "jsx-867b8708a2161bb2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
                                             lineNumber: 45,
@@ -392,7 +392,7 @@ function Intro() {
                                     children: [
                                         "4BHK Gated",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
-                                            className: "jsx-43c236b9ccbed2d1"
+                                            className: "jsx-867b8708a2161bb2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
                                             lineNumber: 49,
@@ -400,7 +400,7 @@ function Intro() {
                                         }, this),
                                         "Villa Community in",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {
-                                            className: "jsx-43c236b9ccbed2d1"
+                                            className: "jsx-867b8708a2161bb2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
                                             lineNumber: 49,
@@ -418,7 +418,7 @@ function Intro() {
                                 style: {
                                     fontFamily: "'Nunito Sans', sans-serif"
                                 },
-                                className: "jsx-43c236b9ccbed2d1" + " " + "lead",
+                                className: "jsx-867b8708a2161bb2" + " " + "lead",
                                 children: "Experience 17 acres of gated community living at Urban Ranch"
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Intro.js",
@@ -430,7 +430,7 @@ function Intro() {
                                     color: "var(--active_nav_item)",
                                     backgroundColor: "white"
                                 },
-                                className: "jsx-43c236b9ccbed2d1" + " " + "btn fw-bold px-4 py-2 mt-3",
+                                className: "jsx-867b8708a2161bb2" + " " + "btn fw-bold px-4 py-2 mt-3",
                                 children: "Download Brochure"
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Intro.js",
@@ -444,12 +444,12 @@ function Intro() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 d-flex justify-content-center",
+                        className: "jsx-867b8708a2161bb2" + " " + "col-lg-6 d-flex justify-content-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "jsx-43c236b9ccbed2d1" + " " + "introForm bg-white shadow p-4 p-lg-5",
+                            className: "jsx-867b8708a2161bb2" + " " + "introForm bg-white shadow p-4 p-lg-5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                    className: "jsx-43c236b9ccbed2d1" + " " + "text-center lg-4 text-dark",
+                                    className: "jsx-867b8708a2161bb2" + " " + "text-center lg-4 text-dark",
                                     children: "Unlock Early Access"
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/Intro.js",
@@ -458,20 +458,20 @@ function Intro() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
                                     onSubmit: handleSubmit,
-                                    className: "jsx-43c236b9ccbed2d1",
+                                    className: "jsx-867b8708a2161bb2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "jsx-43c236b9ccbed2d1" + " " + "row g-3 mb-3",
+                                            className: "jsx-867b8708a2161bb2" + " " + "row g-3 mb-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-43c236b9ccbed2d1" + " " + " col-6",
+                                                    className: "jsx-867b8708a2161bb2" + " " + " col-6",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Name",
                                                         value: name,
                                                         onChange: (e)=>setName(e.target.value),
                                                         required: true,
-                                                        className: "jsx-43c236b9ccbed2d1" + " " + "half_input"
+                                                        className: "jsx-867b8708a2161bb2" + " " + "half_input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/Intro.js",
                                                         lineNumber: 71,
@@ -483,14 +483,14 @@ function Intro() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-6",
+                                                    className: "jsx-867b8708a2161bb2" + " " + "col-6",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         type: "tel",
                                                         placeholder: "Phone",
                                                         value: phone,
                                                         onChange: (e)=>setPhone(e.target.value),
                                                         required: true,
-                                                        className: "jsx-43c236b9ccbed2d1" + " " + "half_input"
+                                                        className: "jsx-867b8708a2161bb2" + " " + "half_input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/Intro.js",
                                                         lineNumber: 81,
@@ -508,13 +508,13 @@ function Intro() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "jsx-43c236b9ccbed2d1" + " " + "mb-3",
+                                            className: "jsx-867b8708a2161bb2" + " " + "mb-3",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "date",
                                                 value: date,
                                                 onChange: (e)=>setDate(e.target.value),
                                                 required: true,
-                                                className: "jsx-43c236b9ccbed2d1" + " " + "full_input"
+                                                className: "jsx-867b8708a2161bb2" + " " + "full_input"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
                                                 lineNumber: 93,
@@ -526,14 +526,14 @@ function Intro() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "jsx-43c236b9ccbed2d1" + " " + "mb-4",
+                                            className: "jsx-867b8708a2161bb2" + " " + "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "email",
                                                 placeholder: "Email ID",
                                                 value: email,
                                                 onChange: (e)=>setEmail(e.target.value),
                                                 required: true,
-                                                className: "jsx-43c236b9ccbed2d1" + " " + "full_input"
+                                                className: "jsx-867b8708a2161bb2" + " " + "full_input"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
                                                 lineNumber: 103,
@@ -550,7 +550,7 @@ function Intro() {
                                                 backgroundColor: "var(--active_nav_item)",
                                                 color: "white"
                                             },
-                                            className: "jsx-43c236b9ccbed2d1" + " " + "btn introFbtn",
+                                            className: "jsx-867b8708a2161bb2" + " " + "btn introFbtn",
                                             children: "Book a visit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
@@ -581,8 +581,8 @@ function Intro() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$styled$2d$jsx$2f$style$2e$js__$5b$external$5d$__$28$styled$2d$jsx$2f$style$2e$js$2c$__cjs$29$__["default"], {
-                id: "43c236b9ccbed2d1",
-                children: "::placeholder{font-size:1rem}@media (width<=767px){::placeholder{font-size:.85rem}}.introForm.jsx-43c236b9ccbed2d1{border-top:5px solid var(--primary);border-radius:8px}"
+                id: "867b8708a2161bb2",
+                children: "::placeholder{font-size:1rem}@media (width<=767px){::placeholder{font-size:.85rem}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
@@ -3648,7 +3648,7 @@ function About() {
                     className: "col-lg-6 d-flex flex-column gap-3 gap-xl-4 mt-xl-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                            className: "fw-semibold Title",
+                            className: "fw-semibold mb-0 Title",
                             children: "About IRA Realty"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
@@ -3672,7 +3672,7 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                            className: "h4 text-dark mt-4",
+                            className: "h4 text-dark mt-lg-4",
                             children: "Our Landmark Projects:"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
@@ -3680,21 +3680,30 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                            className: "list-unstyled mt-3 aboutdata ",
+                            className: "list-unstyled mt-lg-3 d-flex flex-column aboutdata ",
+                            style: {
+                                gap: 10
+                            },
                             children: projects.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                    className: "d-flex align-items-center mb-3 text-secondary",
+                                    className: "d-flex align-items-center mb-lg-3 text-secondary",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3",
-                                            style: {
-                                                width: isSMobile ? 20 : 38,
-                                                height: isSMobile ? 20 : 38
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["CiLocationOn"], {
-                                                size: isSMobile ? 14 : 24
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3",
+                                                style: {
+                                                    width: isSMobile ? 20 : 38,
+                                                    height: isSMobile ? 20 : 38
+                                                },
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["CiLocationOn"], {
+                                                    size: isSMobile ? 14 : 24
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Components/About.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 19
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/About.js",
-                                                lineNumber: 67,
+                                                lineNumber: 64,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
@@ -3713,13 +3722,13 @@ function About() {
                                                     children: item.area
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/About.js",
-                                                    lineNumber: 71,
+                                                    lineNumber: 74,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/Components/About.js",
-                                            lineNumber: 69,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, this)
                                     ]

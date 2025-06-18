@@ -339,6 +339,10 @@ ul, li {
 }
 
 @media (width <= 1024px) {
+  .Heading {
+    font-size: 36px;
+  }
+
   .intro_h {
     font-size: 48px;
   }
@@ -391,6 +395,10 @@ ul, li {
 
   .datadiv {
     height: 100px;
+  }
+
+  .aboutdata {
+    font-size: 20px;
   }
 }
 
@@ -521,6 +529,13 @@ ul, li {
   .Villaimg {
     width: 300px;
     height: 443px;
+  }
+
+  .contactus_fp_btn, .contactus_s_btn {
+    border-radius: 5px;
+    width: 144px;
+    height: 25px;
+    font-size: 10px;
   }
 }
 
