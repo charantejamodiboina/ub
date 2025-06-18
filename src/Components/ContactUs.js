@@ -33,8 +33,8 @@ export default function ContactUs() {
   };
   return (
     <div className="container-fluid text-white py-5" id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
-      <div className="row g-5 align-items-start px-4">
-        {isMobile ? null : <div className="col-lg-6">
+      <div className="row g-5 align-items-start justify-content-center px-4">
+        {isMobile ? null : <div className="col-lg-6 d-flex justify-content-center">
           <Image
             src={contactusbanner}
             alt="Contact Banner"

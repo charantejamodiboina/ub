@@ -20,7 +20,7 @@
 
 .Home-module__Ho9lYW__main {
   background-color: #0000;
-  background-image: linear-gradient(to bottom right, #0009, #0f00), url("../media/c5.2f590550.png");
+  background-image: linear-gradient(to bottom right, #0009, #0000), url("../media/c5.2f590550.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,6 @@
   flex-direction: column;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;

@@ -15,7 +15,7 @@ export default function About() {
   ];
 
   return (
-  <div className="container-fluid py-5 px-5 bg-light d-flex justify-content-center align-items-center min-vw-100 min-vh-100">
+  <div className="container-fluid py-5 px-5 bg-light d-flex justify-content-center align-items-center ">
 
       <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
