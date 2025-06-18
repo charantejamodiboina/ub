@@ -28,6 +28,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .font-seasons {
   font-family: 'The Seasons';
 }
@@ -123,6 +124,12 @@ Nav a {
 .villaspecdetail{
   color: var(--icondesc);
   font-size: 26px;
+}
+
+.c3-p {
+  font-size: 24px;
+  color: var(--subhead);
+  font-family: 'Nunito Sans', sans-serif;;
 }
 .GalleryTitle {
   color : var(--primary);
@@ -414,6 +421,9 @@ li {
 .introFbtn{
   width:272.93px;
   height:40px
+}
+.c3-p {
+  font-size: 14px;
 }
 .GalleryTitle {
   color:white;

@@ -19,7 +19,7 @@ export default function Component3() {
         <div className="align-items-center gx-5">
           <div className="col-md-12">
             <h3 className="fw-bold mb-3 Heading">Ranch Life = Refined Living</h3>
-            <p>
+            <p className="c3-p">
               Welcome to IRA Urban Ranch — Set in Kongarakalan, near Adibatla, this 17-acre gated villa community is
               crafted for families seeking luxury, privacy, and soul-deep connection.
             </p>

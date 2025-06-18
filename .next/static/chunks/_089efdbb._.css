@@ -136,6 +136,12 @@ Nav a {
   font-size: 26px;
 }
 
+.c3-p {
+  color: var(--subhead);
+  font-family: Nunito Sans, sans-serif;
+  font-size: 24px;
+}
+
 .GalleryTitle {
   color: var(--primary);
   font-family: The Seasons;
@@ -456,6 +462,10 @@ ul, li {
   .introFbtn {
     width: 272.93px;
     height: 40px;
+  }
+
+  .c3-p {
+    font-size: 14px;
   }
 
   .GalleryTitle {
