@@ -341,7 +341,9 @@ li {
   .Navbar{
     max-width: 1000px;
   };
-  
+  .intro_h {
+  font-size: 50px;
+ }
 }
 @media (max-width:1199px) {
   .Navbar{
