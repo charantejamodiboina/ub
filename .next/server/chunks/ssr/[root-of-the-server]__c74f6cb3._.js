@@ -150,7 +150,7 @@ function Header() {
                             height: 69.35,
                             width: 91,
                             priority: true,
-                            className: "mx-auto"
+                            className: "mx-auto mt-5"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/Header.js",
                             lineNumber: 29,
@@ -359,7 +359,7 @@ function Intro() {
                         className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 text-white text-center text-lg-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                className: "jsx-43c236b9ccbed2d1" + " " + "font-seasons fs-lg-5 display-3",
+                                className: "jsx-43c236b9ccbed2d1" + " " + "font-seasons intro_h",
                                 children: isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
                                     children: [
                                         "4BHK",
@@ -446,13 +446,10 @@ function Intro() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "jsx-43c236b9ccbed2d1" + " " + "col-lg-6 d-flex justify-content-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            style: {
-                                maxWidth: "474px"
-                            },
-                            className: "jsx-43c236b9ccbed2d1" + " " + "introForm bg-white shadow p-4 p-md-5 w-100",
+                            className: "jsx-43c236b9ccbed2d1" + " " + "introForm bg-white shadow p-4 p-lg-5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                    className: "jsx-43c236b9ccbed2d1" + " " + "text-center mb-4 text-dark",
+                                    className: "jsx-43c236b9ccbed2d1" + " " + "text-center lg-4 text-dark",
                                     children: "Unlock Early Access"
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/Intro.js",
@@ -467,14 +464,14 @@ function Intro() {
                                             className: "jsx-43c236b9ccbed2d1" + " " + "row g-3 mb-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-12 col-md-6",
+                                                    className: "jsx-43c236b9ccbed2d1" + " " + " col-6",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Name",
                                                         value: name,
                                                         onChange: (e)=>setName(e.target.value),
                                                         required: true,
-                                                        className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                        className: "jsx-43c236b9ccbed2d1" + " " + "half_input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/Intro.js",
                                                         lineNumber: 71,
@@ -486,14 +483,14 @@ function Intro() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-12 col-md-6",
+                                                    className: "jsx-43c236b9ccbed2d1" + " " + "col-6",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         type: "tel",
                                                         placeholder: "Phone",
                                                         value: phone,
                                                         onChange: (e)=>setPhone(e.target.value),
                                                         required: true,
-                                                        className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                        className: "jsx-43c236b9ccbed2d1" + " " + "half_input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/Intro.js",
                                                         lineNumber: 81,
@@ -517,7 +514,7 @@ function Intro() {
                                                 value: date,
                                                 onChange: (e)=>setDate(e.target.value),
                                                 required: true,
-                                                className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                className: "jsx-43c236b9ccbed2d1" + " " + "full_input"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
                                                 lineNumber: 93,
@@ -536,7 +533,7 @@ function Intro() {
                                                 value: email,
                                                 onChange: (e)=>setEmail(e.target.value),
                                                 required: true,
-                                                className: "jsx-43c236b9ccbed2d1" + " " + "form-control form-control-lg w-100"
+                                                className: "jsx-43c236b9ccbed2d1" + " " + "full_input"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
                                                 lineNumber: 103,
@@ -553,7 +550,7 @@ function Intro() {
                                                 backgroundColor: "var(--active_nav_item)",
                                                 color: "white"
                                             },
-                                            className: "jsx-43c236b9ccbed2d1" + " " + "btn w-100 fw-bold py-3",
+                                            className: "jsx-43c236b9ccbed2d1" + " " + "btn introFbtn",
                                             children: "Book a visit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",

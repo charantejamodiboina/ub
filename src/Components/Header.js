@@ -32,7 +32,7 @@ export default function Header() {
             height={69.35}
             width={91}
             priority
-            className="mx-auto"
+            className="mx-auto mt-5"
           />
         </div>
         {/* Hamburger top-right */}

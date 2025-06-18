@@ -3,6 +3,7 @@
   --foreground: #171717;
 }
 :root {
+  --inputborder : #DADBDE;
   --navitems: #ffffff;
   --active_nav_item: #CD9C40;
   --link: #0070f3;
@@ -62,13 +63,36 @@ Nav a {
   border-top:5px solid var(--primary);
   
 } */
+ .intro_h {
+  font-size: 64px;
+ }
 .introForm {
-  width: 100%;
-  max-width: 474px;
+  width: 474px;
   border-top: 5px solid var(--primary);
-  height: auto;
+  height: 438px;
+}
+.half_input {
+  width : 190px;
+  height : 40px;
+  padding : 5px;
+  border-radius: 5px;
+  border-style:ridge;
+  border-color: 1px solid var(--inputborder);
+
+}
+.full_input {
+  width : 385px;
+  height : 40px;
+  padding : 5px;
+  border-radius: 5px;
+  border-style:ridge;
+  border-color:1px solid var(--inputborder);
 }
 
+.introFbtn{
+  width:385px;
+  height:60px
+}
 @media (max-width: 576px) {
   .introForm {
     padding: 1.5rem !important;
@@ -293,6 +317,26 @@ li {
 
 
 @media (max-width:1024px){
+  .intro_h {
+  font-size: 48px;
+ }
+  .introForm {
+  width: 370px;
+  height: 370px;
+}
+.half_input {
+  width : 133px;
+  height : 33.45px;
+
+}
+.full_input {
+  width : 272.93px;
+  height : 33.45px;
+}
+.introFbtn{
+  width:272.93px;
+  height:40px
+}
 .Villaimg{
   width : 389px;
   height : 575px;
@@ -328,6 +372,26 @@ li {
 }
 .Title{
   font-size: 8px;
+}
+.intro_h {
+  font-size: 36px;
+ }
+ .introForm {
+  width: 317px;
+  height: 293px;
+}
+.half_input {
+  width : 133px;
+  height : 33.45px;
+
+}
+.full_input {
+  width : 272.93px;
+  height : 33.45px;
+}
+.introFbtn{
+  width:272.93px;
+  height:40px
 }
 .GalleryTitle {
   color:white;
@@ -404,6 +468,9 @@ li {
 }
 }
 @media (max-width:450) {
+  .intro_h {
+  font-size: 28px;
+ }
   .Villaimg{
     width:300px;
     height:443px;
