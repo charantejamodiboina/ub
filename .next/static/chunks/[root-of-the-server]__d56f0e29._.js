@@ -3221,43 +3221,49 @@ function MasterPlan() {
                 className: "row g-5 align-items-center ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "col-lg-7",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mb-3 fw-bold Heading",
-                                children: "Master Plan"
-                            }, void 0, false, {
-                                fileName: "[project]/src/Components/MasterPlan.js",
-                                lineNumber: 37,
-                                columnNumber: 21
-                            }, this),
-                            !isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: " mpbroucherbtn",
-                                children: "Download Brochure"
-                            }, void 0, false, {
-                                fileName: "[project]/src/Components/MasterPlan.js",
-                                lineNumber: 38,
-                                columnNumber: 33
-                            }, this) : null,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$plan$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$plan$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                                    alt: "Master plan image",
-                                    className: "img-fluid ",
-                                    priority: true
+                        className: "col-lg-7 d-flex flex-column align-items-end",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "mb-3 fw-bold Heading",
+                                    children: "Master Plan"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/Components/MasterPlan.js",
+                                    lineNumber: 38,
+                                    columnNumber: 25
+                                }, this),
+                                !isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: " mpbroucherbtn",
+                                    children: "Download Brochure"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/Components/MasterPlan.js",
+                                    lineNumber: 39,
+                                    columnNumber: 38
+                                }, this) : null,
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$plan$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$plan$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                        alt: "Master plan image",
+                                        className: "img-fluid ",
+                                        priority: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Components/MasterPlan.js",
+                                        lineNumber: 41,
+                                        columnNumber: 29
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/MasterPlan.js",
                                     lineNumber: 40,
                                     columnNumber: 25
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/Components/MasterPlan.js",
-                                lineNumber: 39,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/Components/MasterPlan.js",
+                            lineNumber: 37,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/Components/MasterPlan.js",
                         lineNumber: 36,
                         columnNumber: 17
@@ -3273,7 +3279,7 @@ function MasterPlan() {
                                 children: "Legend"
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/MasterPlan.js",
-                                lineNumber: 52,
+                                lineNumber: 55,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3292,31 +3298,31 @@ function MasterPlan() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/Components/MasterPlan.js",
-                                                lineNumber: 60,
+                                                lineNumber: 63,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/MasterPlan.js",
-                                                lineNumber: 61,
+                                                lineNumber: 64,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/Components/MasterPlan.js",
-                                        lineNumber: 55,
+                                        lineNumber: 58,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/MasterPlan.js",
-                                lineNumber: 53,
+                                lineNumber: 56,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Components/MasterPlan.js",
-                        lineNumber: 51,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this)
                 ]
@@ -3330,7 +3336,7 @@ function MasterPlan() {
                 children: "Download Brochure"
             }, void 0, false, {
                 fileName: "[project]/src/Components/MasterPlan.js",
-                lineNumber: 67,
+                lineNumber: 70,
                 columnNumber: 25
             }, this) : null
         ]
@@ -3815,8 +3821,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$c6$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$c6$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/src/assets/c6.png.mjs { IMAGE => "[project]/src/assets/c6.png (static in ecmascript)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$responsive$2f$dist$2f$esm$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-responsive/dist/esm/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/axios/lib/axios.js [client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
+;
 ;
 ;
 ;
@@ -3824,30 +3832,40 @@ var _s = __turbopack_context__.k.signature();
 function ContactUs() {
     _s();
     const isMobile = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$responsive$2f$dist$2f$esm$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMediaQuery"])({
-        query: '(max-width: 768px)'
+        query: "(max-width: 768px)"
     });
     const isSMobile = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$responsive$2f$dist$2f$esm$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMediaQuery"])({
-        query: '(max-width: 500px)'
+        query: "(max-width: 500px)"
     });
-    const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [phone, setPhone] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [form, setForm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])({
+        name: "",
+        phone: "",
+        date: "",
+        email: ""
+    });
+    const handleChange = (e)=>{
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value
+        });
+    };
     const handleSubmit = async (e)=>{
         e.preventDefault();
         try {
             const formData = new FormData();
-            formData.append("name", name);
-            formData.append("phone", phone);
-            formData.append("message", "Schedule Date is: " + date);
-            formData.append("email", email);
+            formData.append("name", form.name);
+            formData.append("phone", form.phone);
+            formData.append("message", "Schedule Date is: " + form.date);
+            formData.append("email", form.email);
             formData.append("property", "Urban Ranch");
-            await axios.post("https://irarealty.in/cms/api/submitContact", formData);
+            await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].post("https://irarealty.in/cms/api/submitContact", formData);
             alert("Submitted successfully!");
-            setName("");
-            setPhone("");
-            setDate("");
-            setEmail("");
+            setForm({
+                name: "",
+                phone: "",
+                date: "",
+                email: ""
+            });
         } catch (error) {
             console.error("Submission error", error);
             alert("Something went wrong. Please try again.");
@@ -3862,7 +3880,7 @@ function ContactUs() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "row g-5 align-items-start justify-content-center px-4",
             children: [
-                isMobile ? null : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "col-lg-6 d-flex justify-content-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$c6$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$c6$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -3870,19 +3888,19 @@ function ContactUs() {
                         className: "img-fluid rounded-3"
                     }, void 0, false, {
                         fileName: "[project]/src/Components/ContactUs.js",
-                        lineNumber: 38,
-                        columnNumber: 11
+                        lineNumber: 41,
+                        columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Components/ContactUs.js",
-                    lineNumber: 37,
-                    columnNumber: 28
+                    lineNumber: 40,
+                    columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "col-lg-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: " fw-bold mb-3 contactus_title",
+                            className: "fw-bold mb-3 contactus_title",
                             children: "Ready to Make a Move?"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/ContactUs.js",
@@ -3907,10 +3925,11 @@ function ContactUs() {
                                             className: "col-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
+                                                name: "name",
                                                 className: "form-control contactus_input",
                                                 placeholder: "Name",
-                                                value: name,
-                                                onChange: (e)=>setName(e.target.value),
+                                                value: form.name,
+                                                onChange: handleChange,
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
@@ -3926,19 +3945,20 @@ function ContactUs() {
                                             className: "col-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "email",
+                                                name: "email",
                                                 className: "form-control contactus_input",
                                                 placeholder: "Email ID",
-                                                value: email,
-                                                onChange: (e)=>setEmail(e.target.value),
+                                                value: form.email,
+                                                onChange: handleChange,
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 64,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 63,
+                                            lineNumber: 64,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -3954,44 +3974,45 @@ function ContactUs() {
                                             className: "col-md-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "tel",
+                                                name: "phone",
                                                 className: "form-control contactus_input",
                                                 placeholder: "Phone",
-                                                value: phone,
-                                                onChange: (e)=>setPhone(e.target.value),
+                                                value: form.phone,
+                                                onChange: handleChange,
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 78,
+                                                lineNumber: 79,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 77,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "col-md-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "date",
-                                                placeholder: "Schedule a date",
+                                                name: "date",
                                                 className: "form-control contactus_input",
-                                                value: date,
-                                                onChange: (e)=>setDate(e.target.value),
+                                                value: form.date,
+                                                onChange: handleChange,
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 88,
+                                                lineNumber: 90,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 87,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 76,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4003,7 +4024,7 @@ function ContactUs() {
                                             id: "authorization"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 101,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -4012,64 +4033,40 @@ function ContactUs() {
                                             children: "I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC."
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 106,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "d-flex flex-nowrap gap-3 justify-content-start",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: " col-6 contactus_s_btn",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                type: "submit",
-                                                className: " ",
-                                                style: {
-                                                    border: "none",
-                                                    color: "white",
-                                                    backgroundColor: "var(--primary)"
-                                                },
-                                                children: isSMobile ? "Book a visit" : "Schedule your site visit"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 115,
-                                                columnNumber: 17
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "submit",
+                                            className: "custom-btn contactus_s_btn",
+                                            children: isSMobile ? "Book a visit" : "Schedule your site visit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 114,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: " col-6 contactus_fp_btn",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                type: "button",
-                                                className: "",
-                                                style: {
-                                                    border: "none",
-                                                    color: "white",
-                                                    backgroundColor: "var(--amenitiesbg)"
-                                                },
-                                                children: "Download Floor Plans"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 122,
-                                                columnNumber: 17
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "button",
+                                            className: "custom-btn contactus_fp_btn",
+                                            children: "Download Floor Plans"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 121,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 113,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -4087,16 +4084,16 @@ function ContactUs() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/Components/ContactUs.js",
-            lineNumber: 36,
+            lineNumber: 38,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/Components/ContactUs.js",
-        lineNumber: 35,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 }
-_s(ContactUs, "Ez7IGJjmMWvF1kbkreDPWjJTh+o=", false, function() {
+_s(ContactUs, "qlnoMuBmsiefAKB8tfrMCpGGJFM=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$responsive$2f$dist$2f$esm$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMediaQuery"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$responsive$2f$dist$2f$esm$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMediaQuery"]

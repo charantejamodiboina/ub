@@ -33,17 +33,20 @@ export default function MasterPlan() {
         <section className="mp" style={{ backgroundColor: "var(--mpbgclr)" }}>
             <div className="row g-5 align-items-center ">
                 {/* Left Column: Master Plan */}
-                <div className="col-lg-7">
-                    <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
-                    {!isMobile ?< button className=" mpbroucherbtn" >Download Brochure</button> :null }
-                    <div className="">
-                        <Image
-                            src={masterPlanImage}
-                            alt="Master plan image"
-                            className="img-fluid "
-                            priority
-                        />
+                <div className="col-lg-7 d-flex flex-column align-items-end">
+                    <div>
+                        <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
+                        {!isMobile ? < button className=" mpbroucherbtn" >Download Brochure</button> : null}
+                        <div className="">
+                            <Image
+                                src={masterPlanImage}
+                                alt="Master plan image"
+                                className="img-fluid "
+                                priority
+                            />
+                        </div>
                     </div>
+
 
                 </div>
 
