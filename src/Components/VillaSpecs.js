@@ -37,7 +37,7 @@ export default function VillaSpecs() {
 
           <div className="row">
             {data.map((item) => (
-              <div key={item.id} className=" col-6 d-flex align-items-center p-3 my-3 my-lg-4 my-xl-5" style={{height:60}}>
+              <div key={item.id} className=" col-6 d-flex align-items-center p-3 my-lg-3 my-lg-4 my-xl-5" style={{height:60}}>
                 <Image
                   src={item.icon}
                   alt={`${item.name} icon`}

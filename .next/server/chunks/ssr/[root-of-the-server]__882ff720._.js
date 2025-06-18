@@ -963,7 +963,7 @@ function VillaSpecs() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "row",
                                 children: data.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: " col-6 d-flex align-items-center p-3 my-3 my-lg-4 my-xl-5",
+                                        className: " col-6 d-flex align-items-center p-3 my-lg-3 my-lg-4 my-xl-5",
                                         style: {
                                             height: 60
                                         },
