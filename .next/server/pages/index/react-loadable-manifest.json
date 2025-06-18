@@ -2,24 +2,24 @@
   "[project]/src/Components/Footer.js [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/src/Components/Footer.js [client] (ecmascript, next/dynamic entry)",
     "files": [
-      "static/chunks/src_Components_725d65ee._.js",
+      "static/chunks/src_Components_891a436b._.js",
       "static/chunks/src_Components_Footer_ebfd8756.js",
-      "static/chunks/src_Components_Footer_434c3d40.js"
+      "static/chunks/src_Components_Footer_c2ecc1b4.js"
     ]
   },
   "[project]/src/Components/LoadingPage.js [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/src/Components/LoadingPage.js [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/src_Components_LoadingPage_ec35f153.js",
-      "static/chunks/src_Components_LoadingPage_434c3d40.js"
+      "static/chunks/src_Components_LoadingPage_c2ecc1b4.js"
     ]
   },
   "[project]/src/Components/Component8.js [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/src/Components/Component8.js [client] (ecmascript, next/dynamic entry)",
     "files": [
-      "static/chunks/src_Components_17700c10._.js",
+      "static/chunks/src_Components_5d8cc2de._.js",
       "static/chunks/src_Components_Component8_51326515.js",
-      "static/chunks/src_Components_Component8_434c3d40.js"
+      "static/chunks/src_Components_Component8_c2ecc1b4.js"
     ]
   }
 }

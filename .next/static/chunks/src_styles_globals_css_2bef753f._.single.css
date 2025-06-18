@@ -40,6 +40,10 @@
   font-style: normal;
 }
 
+input {
+  font-size: 12px;
+}
+
 .Heading {
   color: var(--heading);
   font-family: The Seasons;
@@ -279,31 +283,31 @@ Nav a {
   height: 50px;
 }
 
-.custom-btn {
+.contactus_s_btn {
   color: #fff;
-  text-align: center;
-  border: none;
+  background-color: var(--primary);
   border-radius: 10px;
   justify-content: center;
   align-items: center;
+  width: 300px;
+  height: 60px;
   font-family: Poppins, sans-serif;
-  font-weight: 500;
+  font-size: 16px;
   display: flex;
 }
 
-.contactus_s_btn {
-  background-color: var(--primary);
-  width: 300px;
-  height: 60px;
-  font-size: 16px;
-}
-
 .contactus_fp_btn {
+  color: #fff;
   background-color: var(--amenitiesbg);
   border: 1px solid #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 60px;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
+  display: flex;
 }
 
 .aboutdata {
@@ -564,6 +568,26 @@ ul, li {
     height: 45px;
     font-size: 14px;
   }
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+  width: 100%;
+  display: block;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+.calendar-icon {
+  color: #666;
+  pointer-events: none;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
 }
 
 /*# sourceMappingURL=src_styles_globals_css_2bef753f._.single.css.map*/

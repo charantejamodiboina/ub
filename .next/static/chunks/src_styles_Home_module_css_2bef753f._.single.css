@@ -35,12 +35,6 @@
   display: flex;
 }
 
-@media (width <= 1240px) {
-  .Home-module__Ho9lYW__main {
-    height: 120vh;
-  }
-}
-
 @media (width <= 768px) {
   .Home-module__Ho9lYW__main {
     width: 100vw;
