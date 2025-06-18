@@ -137,7 +137,7 @@ function Header() {
         closeMenu();
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("header", {
-        className: "py-3 mb-5 px-3 px-lg-5",
+        className: "py-3 mb-5 px-3 px-lg-5 Navbar",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "d-lg-none position-relative",
@@ -188,7 +188,7 @@ function Header() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "d-none d-lg-flex justify-content-start align-items-center Navbar",
+                className: "d-none d-lg-flex justify-content-start align-items-center Navbar1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$Layer_1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$Layer_1$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -3265,7 +3265,7 @@ function ContactUs() {
                                             className: "col-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "text",
-                                                className: "form-control",
+                                                className: "form-control contactus_input",
                                                 placeholder: "Name",
                                                 value: name,
                                                 onChange: (e)=>setName(e.target.value),
@@ -3284,7 +3284,7 @@ function ContactUs() {
                                             className: "col-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "email",
-                                                className: "form-control",
+                                                className: "form-control contactus_input",
                                                 placeholder: "Email ID",
                                                 value: email,
                                                 onChange: (e)=>setEmail(e.target.value),
@@ -3312,7 +3312,7 @@ function ContactUs() {
                                             className: "col-md-6",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "tel",
-                                                className: "form-control",
+                                                className: "form-control contactus_input",
                                                 placeholder: "Phone",
                                                 value: phone,
                                                 onChange: (e)=>setPhone(e.target.value),
@@ -3332,7 +3332,7 @@ function ContactUs() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                 type: "date",
                                                 placeholder: "Schedule a date",
-                                                className: "form-control",
+                                                className: "form-control contactus_input",
                                                 value: date,
                                                 onChange: (e)=>setDate(e.target.value),
                                                 required: true

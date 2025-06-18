@@ -49,10 +49,14 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 .Navbar{
-  gap:200px; 
-  margin-left:130px
+  max-width: 1200px;
+  align-self: center;
+  align-items: flex-start;
+  width:100%
 }
-
+.Navbar1{
+  gap:200px; 
+}
 Nav a {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -244,8 +248,12 @@ color : var(--heading);
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.contactus_input{
+  height: 50px;
+}
 .contactus_s_btn{
-  width: 330px;
+  width: 300px;
   height : 60px;
   border-radius: 10px;
   display:flex;
@@ -256,7 +264,7 @@ color : var(--heading);
   background-color: var(--primary);
 }
 .contactus_fp_btn{
-  width: 330px;
+  width: 300px;
   height : 60px;
   border-radius: 10px;
   display:flex;
@@ -315,6 +323,12 @@ li {
 
 
 @media (max-width:1024px){
+  .Navbar{
+  max-width: 880px;
+  align-self: center;
+  align-items: flex-start;
+  width:100%
+}
   .Heading{
   font-size: 36px;
 }

@@ -53,7 +53,7 @@ export default function ContactUs() {
               <div className="col-6">
                 <input
                   type="text"
-                  className="form-control"
+                  className="form-control contactus_input"
                   placeholder="Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -63,7 +63,7 @@ export default function ContactUs() {
               <div className="col-6">
                 <input
                   type="email"
-                  className="form-control"
+                  className="form-control contactus_input"
                   placeholder="Email ID"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -77,7 +77,7 @@ export default function ContactUs() {
               <div className="col-md-6">
                 <input
                   type="tel"
-                  className="form-control"
+                  className="form-control contactus_input"
                   placeholder="Phone"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
@@ -88,7 +88,7 @@ export default function ContactUs() {
                 <input
                   type="date"
                   placeholder="Schedule a date"
-                  className="form-control"
+                  className="form-control contactus_input"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                   required

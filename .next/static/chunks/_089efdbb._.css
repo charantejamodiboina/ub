@@ -53,8 +53,14 @@
 }
 
 .Navbar {
+  align-self: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Navbar1 {
   gap: 200px;
-  margin-left: 130px;
 }
 
 Nav a {
@@ -269,12 +275,16 @@ Nav a {
   font-size: 24px;
 }
 
+.contactus_input {
+  height: 50px;
+}
+
 .contactus_s_btn {
   background-color: var(--primary);
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  width: 330px;
+  width: 300px;
   height: 60px;
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -287,7 +297,7 @@ Nav a {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  width: 330px;
+  width: 300px;
   height: 60px;
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -339,6 +349,13 @@ ul, li {
 }
 
 @media (width <= 1024px) {
+  .Navbar {
+    align-self: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 880px;
+  }
+
   .Heading {
     font-size: 36px;
   }

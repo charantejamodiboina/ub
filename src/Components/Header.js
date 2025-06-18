@@ -21,7 +21,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-3 mb-5 px-3 px-lg-5">
+    <header className="py-3 mb-5 px-3 px-lg-5 Navbar">
       {/* Mobile View */}
       <div className="d-lg-none position-relative">
         {/* Centered Logo */}
@@ -46,7 +46,7 @@ export default function Header() {
       </div>
 
       {/* Desktop View */}
-      <div className="d-none d-lg-flex justify-content-start align-items-center Navbar" >
+      <div className="d-none d-lg-flex justify-content-start align-items-center Navbar1" >
         <Image src={logo} alt="logo" height={69.35} width={91} priority />
         <nav className="d-flex gap-5">
           {["#home", "#floor-plans", "#amenities", "#contact-us"].map((section) => (
