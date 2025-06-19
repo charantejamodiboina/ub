@@ -74,10 +74,10 @@ export default function Intro() {
         {/* Right Form Box */}
         <div className="col-lg-6 d-flex justify-content-center">
           <div className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
-          style={{maxWidth:500}}>
+          style={{maxWidth:400, maxHeight:"fit-content"}}>
             <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>
-              <div className="row g-3 mb-3 ">
+              <div className="row g-3 mb-3 mt-3 mt-lg-4 ">
                 <div className="col-6 ">
                   <input
                     type="text"

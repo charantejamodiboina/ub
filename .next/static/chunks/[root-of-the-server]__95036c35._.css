@@ -129,9 +129,16 @@
   display: flex;
 }
 
-@media (width <= 768px) {
+@media (width <= 600px) {
   .Home-module__Ho9lYW__main {
-    width: 100vw;
+    background-color: #0000;
+    background-image: linear-gradient(to top, #000c, #0000), url("../media/mobilehomebg.c55775eb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
     height: auto;
   }
 }

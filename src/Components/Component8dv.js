@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import gf from "../assets/villa images/groundfloor.png";
 import ff from "../assets/villa images/firstfloor.png";
+import img6 from "../assets/Vector.png";
 
 export default function FloorPlans() {
   const data = [
@@ -42,12 +43,29 @@ export default function FloorPlans() {
       style={{
         background:
           "linear-gradient(to bottom, #CD9C40 70%, #158A44 30%)",
+          position:"relative"
       }}
     >
+      <Image
+                src={img6}
+                alt="Decoration"
+                width={162}
+                height={145}
+                className="position-absolute start-0"
+                style={{top:0, zIndex:0}}
+              />
+              <Image
+                src={img6}
+                alt="Decoration"
+                width={162}
+                height={145}
+                className="position-absolute end-0"
+                style={{top:0}}
+              />
       <div className="container">
 
         {/* ───── Title / CTA ───── */}
-        <h1 className="fw-bold mb-3 Heading">Spacious by Design.&nbsp;Smart by Default.</h1>
+        <h1 className="fw-bold mb-3 Heading" style={{zIndex:10, position:"relative"}}>Spacious by Design.&nbsp;Smart by Default.</h1>
         <p className="fs-4 mb-4 floorplanssheading">Choose from East &amp; West‑facing villas:</p>
         <button className="btn btn-light text-warning fw-semibold px-4 mb-5">
           Download Floor Plans

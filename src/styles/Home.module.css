@@ -43,11 +43,15 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .main {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url('../assets/mobilehomebg.png');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   
-  
-  width:100vw;
   height:auto;
 }
 }
