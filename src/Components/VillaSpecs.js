@@ -26,37 +26,40 @@ export default function VillaSpecs() {
     <div className="container py-5" id="villa-specs">
       <h2 className="text-start mb-4 Title">Villa Specifications</h2>
 
-      <div className="row align-items-center gy-4">
-        <div className="col-lg-7">
+      <div className="row align-items-start">
+        <div className="col-lg-7 d-flex flex-column gap-3">
           <h3 className="fw-bold mb-3 Heading">
             Designed for Comfort, <br /> Built with Intention
           </h3>
-         {isMobile? null : <p className="mb-4 villadesc">
+         {isMobile? null : <p className=" villadesc">
             Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further.
           </p>}
 
-          <div className="row">
-            {data.map((item) => (
-              <div key={item.id} className=" col-6 d-flex align-items-center p-3 my-lg-3 my-lg-4 my-xl-5" style={{height:60}}>
-                <Image
-                  src={item.icon}
-                  alt={`${item.name} icon`}
-                  className="me-3 villaicon"
-                />
-                <div>
-                  <h6 className="mb-1 villaspecshead">{item.name}</h6>
-                  <p className="mb-0 villaspecdetail">{item.value}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <div className="row gx-3 gy-4">
+  {data.map((item) => (
+    <div key={item.id} className="col-6">
+      <div className="d-flex align-items-center p-3 villacont">
+        <Image
+          src={item.icon}
+          alt={`${item.name} icon`}
+          className="me-3 villaicon"
+        />
+        <div>
+          <h6 className="mb-1 villaspecshead">{item.name}</h6>
+          <p className="mb-0 villaspecdetail">{item.value}</p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
         </div>
 
         <div className="col-lg-5 position-relative d-flex align-items-center justify-content-center ">
           <Image
             src={villa}
             alt="Villa Image"
-            className="Villaimg"
+            className="img-fluid rounded"
             style={{ objectFit: "contain" }}
             priority
           />

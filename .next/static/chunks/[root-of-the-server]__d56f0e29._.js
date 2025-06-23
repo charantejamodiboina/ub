@@ -1478,10 +1478,10 @@ function VillaSpecs() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "row align-items-center gy-4",
+                className: "row align-items-start",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "col-lg-7",
+                        className: "col-lg-7 d-flex flex-column gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "fw-bold mb-3 Heading",
@@ -1500,7 +1500,7 @@ function VillaSpecs() {
                                 columnNumber: 11
                             }, this),
                             isMobile ? null : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mb-4 villadesc",
+                                className: " villadesc",
                                 children: "Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further."
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/VillaSpecs.js",
@@ -1508,51 +1508,55 @@ function VillaSpecs() {
                                 columnNumber: 28
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "row",
+                                className: "row gx-3 gy-4",
                                 children: data.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: " col-6 d-flex align-items-center p-3 my-lg-3 my-lg-4 my-xl-5",
-                                        style: {
-                                            height: 60
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: item.icon,
-                                                alt: `${item.name} icon`,
-                                                className: "me-3 villaicon"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Components/VillaSpecs.js",
-                                                lineNumber: 41,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                                        className: "mb-1 villaspecshead",
-                                                        children: item.name
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Components/VillaSpecs.js",
-                                                        lineNumber: 47,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "mb-0 villaspecdetail",
-                                                        children: item.value
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Components/VillaSpecs.js",
-                                                        lineNumber: 48,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/Components/VillaSpecs.js",
-                                                lineNumber: 46,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, item.id, true, {
+                                        className: "col-6",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "d-flex align-items-center p-3 villacont",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: item.icon,
+                                                    alt: `${item.name} icon`,
+                                                    className: "me-3 villaicon"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Components/VillaSpecs.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 9
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                                            className: "mb-1 villaspecshead",
+                                                            children: item.name
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/Components/VillaSpecs.js",
+                                                            lineNumber: 48,
+                                                            columnNumber: 11
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "mb-0 villaspecdetail",
+                                                            children: item.value
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/Components/VillaSpecs.js",
+                                                            lineNumber: 49,
+                                                            columnNumber: 11
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/Components/VillaSpecs.js",
+                                                    lineNumber: 47,
+                                                    columnNumber: 9
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/Components/VillaSpecs.js",
+                                            lineNumber: 41,
+                                            columnNumber: 7
+                                        }, this)
+                                    }, item.id, false, {
                                         fileName: "[project]/src/Components/VillaSpecs.js",
                                         lineNumber: 40,
-                                        columnNumber: 15
+                                        columnNumber: 5
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/VillaSpecs.js",
@@ -1570,19 +1574,19 @@ function VillaSpecs() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$c7$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$c7$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                             alt: "Villa Image",
-                            className: "Villaimg",
+                            className: "img-fluid rounded",
                             style: {
                                 objectFit: "contain"
                             },
                             priority: true
                         }, void 0, false, {
                             fileName: "[project]/src/Components/VillaSpecs.js",
-                            lineNumber: 56,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/Components/VillaSpecs.js",
-                        lineNumber: 55,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this)
                 ]
@@ -4322,7 +4326,7 @@ function About() {
             className: "row gx-5 align-items-start flex-column-reverse flex-lg-row",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "col-lg-6 d-flex flex-column gap-2 gap-md-3",
+                    className: "col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "d-flex gap-2 gap-md-3 align-items-md-center",

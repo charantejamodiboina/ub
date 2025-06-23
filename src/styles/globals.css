@@ -101,7 +101,10 @@ Nav a {
   border-style:ridge;
   border-color:1px solid var(--inputborder);
 }
-
+.villacont{
+  border: #DEDCDA 1px solid;
+  border-radius: 20px;
+}
 .introFbtn{
   width:385px;
   height:60px

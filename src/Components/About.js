@@ -19,7 +19,7 @@ export default function About() {
 
       <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
-        <div className="col-lg-6 d-flex flex-column gap-2 gap-md-3">
+        <div className="col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end">
           <div className="d-flex gap-2 gap-md-3 align-items-md-center">
             <Image
               src={about1}
