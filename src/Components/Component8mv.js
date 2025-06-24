@@ -98,10 +98,10 @@ export default function Component8mv() {
                 
                 
                 <div className="card-body text-light fpdata">
-                  <h5 className="pt-3" style={{fontSize:18}}>{villa.type}</h5>
-                  <h6 style={{fontSize:14}}>{villa.name}</h6>
-                  <p className="mb-1" style={{fontSize:16}}>{floorItem.floor_name}</p>
-                  <p className="mb-0"style={{fontSize:16}}>
+                  <h5 className="pt-3 villatype" >{villa.type}</h5>
+                  <h6 className="villaname">{villa.name}</h6>
+                  <p className="mb-1 floorname" >{floorItem.floor_name}</p>
+                  <p className="mb-0 builtuparea" >
                     Built-up Area:<br />
                     {floorItem.built_up_area}
                   </p>

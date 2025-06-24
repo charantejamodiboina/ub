@@ -67,7 +67,7 @@ export default function ContactUs() {
 
         <div className="col-lg-6">
           <h1 className="fw-bold mb-3 contactus_title">Ready to Make a Move?</h1>
-          <p className="fs-5 mb-4 contactus_sh">
+          <p className=" mb-4 contactus_sh">
             Choose the villa lifestyle that blends luxury with legacy.
           </p>
 
@@ -123,7 +123,7 @@ export default function ContactUs() {
 
             <div className="form-check text-start mb-4">
               <input className="form-check-input" type="checkbox" id="authorization" />
-              <label className="form-check-label" htmlFor="authorization">
+              <label className="form-check-label checkLabel" htmlFor="authorization">
                 I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and
                 offers. This consent overrides any registration for DNC/NDNC.
               </label>

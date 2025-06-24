@@ -3388,7 +3388,7 @@ function ContactUs() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                            className: "fs-5 mb-4 contactus_sh",
+                            className: " mb-4 contactus_sh",
                             children: "Choose the villa lifestyle that blends luxury with legacy."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/ContactUs.js",
@@ -3508,7 +3508,7 @@ function ContactUs() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                            className: "form-check-label",
+                                            className: "form-check-label checkLabel",
                                             htmlFor: "authorization",
                                             children: "I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC."
                                         }, void 0, false, {

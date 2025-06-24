@@ -206,10 +206,7 @@ function Component8mv() {
                                     className: "card-body text-light fpdata",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
-                                            className: "pt-3",
-                                            style: {
-                                                fontSize: 18
-                                            },
+                                            className: "pt-3 villatype",
                                             children: villa.type
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Component8mv.js",
@@ -217,9 +214,7 @@ function Component8mv() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                            style: {
-                                                fontSize: 14
-                                            },
+                                            className: "villaname",
                                             children: villa.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Component8mv.js",
@@ -227,10 +222,7 @@ function Component8mv() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "mb-1",
-                                            style: {
-                                                fontSize: 16
-                                            },
+                                            className: "mb-1 floorname",
                                             children: floorItem.floor_name
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Component8mv.js",
@@ -238,10 +230,7 @@ function Component8mv() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "mb-0",
-                                            style: {
-                                                fontSize: 16
-                                            },
+                                            className: "mb-0 builtuparea",
                                             children: [
                                                 "Built-up Area:",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {

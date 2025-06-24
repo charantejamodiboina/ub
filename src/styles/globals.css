@@ -240,6 +240,20 @@ color : var(--heading);
   
   font-family: "Poppins", sans-serif;
 }
+
+.villatype {
+  font-size: 18px;
+}
+
+.villaname {
+  font-size: 14px;
+}
+.floorname {
+  font-size: 14px;
+}
+.builtuparea {
+  font-size: 14px;
+}
 .LaHbg{
   background-color: #F8F9FE;
   width: 229px;
@@ -281,6 +295,7 @@ color : var(--heading);
   color: white;
   font-family: "Poppins", sans-serif;
   background-color: var(--primary);
+  BORDER : none
 }
 .contactus_fp_btn{
   width: 100%;
@@ -492,6 +507,9 @@ li {
   color:white;
   font-size: 24px;
 }
+.villacont{
+  border-radius: 10px;
+}
 .mpbroucherbtn{
   font-size: 10px;
   width: 150px;
@@ -544,7 +562,20 @@ li {
 .la_li{
   font-size: 12px;
 }
+.villatype {
+  font-size: 14px;
+}
 
+.villaname {
+  font-size: 10px;
+}
+.floorname {
+  font-size: 10px;
+  font-weight: 200;
+}
+.builtuparea {
+  font-size: 10px;
+}
 .ctbox{
   width: 150px;
   height : 120px
@@ -553,7 +584,10 @@ li {
   font-size: 24px;
 }
 .contactus_sh{
-  font-size: 14px;
+  font-size: 14px !important; 
+}
+.checkLabel {
+  font-size: 8px;
 }
 
 .aboutdata {
@@ -585,7 +619,7 @@ li {
   .contactus_s_btn,
   .contactus_fp_btn {
     height: 45px;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 .react-datepicker-wrapper,

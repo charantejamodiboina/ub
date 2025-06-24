@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/Components/style.module.css"],"sourcesContent":[".smartliving_p{\r\n  color : var(--primary);\r\n  font-size: 18px;\r\n  font-family: 'Nunito Sans', sans-serif;\r\n}"],"names":[],"mappings":"AAAA"}}]
-}
