@@ -1,5 +1,5 @@
 import Image from "next/image";
-import villa from "../assets/c7.png";
+import villa from "../assets/c7.webp";
 import areaIcon from "../assets/specicons/area.png";
 import locationIcon from "../assets/specicons/location.png";
 import typeIcon from "../assets/specicons/type.png";
