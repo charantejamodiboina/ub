@@ -49,9 +49,10 @@
 }
 
 .introinput:focus {
-  border-color: var(--primary) !important; 
+  border-color: var(--primary) !important;
   box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
 }
+
 .form-heading {
 
   font-size: 36px !important;
@@ -95,11 +96,13 @@ Nav a {
 .intro_h {
   font-size: 64px;
 }
-.intro_desc{
+
+.intro_desc {
   font-size: 24px;
   color: white;
   font-family: 'Nunito Sans', sans-serif;
 }
+
 .introForm {
   width: 474px;
   border-top: 5px solid var(--primary);
@@ -433,6 +436,10 @@ li {
     font-size: 50px;
   }
 
+  .intro_desc {
+    font-size: 18px;
+  }
+
   .Heading {
     font-size: 36px;
   }
@@ -490,7 +497,8 @@ li {
   .Heading {
     font-size: 36px;
   }
-.Title {
+
+  .Title {
     font-size: 18px;
   }
 
