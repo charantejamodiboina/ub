@@ -26,7 +26,7 @@ export default function VillaSpecs() {
     <div className="container py-5" id="villa-specs">
       <h2 className="text-start mb-4 Title">Villa Specifications</h2>
 
-      <div className="row align-items-start">
+      <div className="row align-items-start gap-3 gap-lg-0">
         <div className="col-lg-7 d-flex flex-column gap-3">
           <h3 className="fw-bold mb-3 Heading">
             Designed for Comfort, <br /> Built with Intention

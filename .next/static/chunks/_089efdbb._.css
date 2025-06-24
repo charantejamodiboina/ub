@@ -385,11 +385,42 @@ ul, li {
   .intro_h {
     font-size: 50px;
   }
+
+  .Heading {
+    font-size: 36px;
+  }
+
+  .Title {
+    font-size: 12px;
+  }
+
+  .villadesc {
+    color: var(--subhead);
+    font-size: 18px;
+  }
+
+  .villaicon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .villaspecshead, .villaspecdetail {
+    font-size: 20px;
+  }
 }
 
 @media (width <= 1199px) {
   .Navbar {
     max-width: 885px;
+  }
+
+  .villaicon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .villaspecshead, .villaspecdetail {
+    font-size: 12px;
   }
 }
 
@@ -432,12 +463,12 @@ ul, li {
   }
 
   .villaicon {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
 
   .villaspecshead, .villaspecdetail {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .AHeading {
