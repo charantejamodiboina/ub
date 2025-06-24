@@ -510,7 +510,9 @@ li {
     width: 370px;
     height: 370px;
   }
-
+.introinput {
+  height: 40px !important;
+}
   .half_input {
     width: 133px;
     height: 33.45px;
@@ -584,6 +586,8 @@ li {
 
   .introinput {
     font-size: 10px !important;
+  height: 30px !important;
+
   }
 
   .intro_h {

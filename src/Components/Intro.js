@@ -82,7 +82,7 @@ export default function Intro() {
         <div className="col-lg-6 d-flex justify-content-center">
           <div
             className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
-            style={{ maxWidth: 474, maxHeight: "fit-content" }}
+            style={{ maxWidth: 474, maxHeight: "500px" }}
           >
             <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>
