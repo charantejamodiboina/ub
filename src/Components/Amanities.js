@@ -2,8 +2,8 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
-import image2 from "../assets/c1.png";
-import image2mv from "../assets/c1mv.png";
+import image2 from "../assets/c1.webp";
+import image2mv from "../assets/c1mv.webp";
 import { useMediaQuery } from "react-responsive";
 
 export default function AmenitiesComponent() {

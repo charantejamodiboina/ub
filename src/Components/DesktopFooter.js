@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ftrimg1 from "../assets/footer/ftrimg1.png";
-import ftrimg2 from "../assets/footer/ftrimg2.png";
-import ftrimg3 from "../assets/footer/ftrimg3.png";
+import ftrimg1 from "../assets/footer/ftrimg1.webp";
+import ftrimg2 from "../assets/footer/ftrimg2.webp";
+import ftrimg3 from "../assets/footer/ftrimg3.webp";
 
 export default function DesktopFooter() {
   return (

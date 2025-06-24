@@ -1,9 +1,9 @@
-import fan from "../assets/smarticons/fan.png";
-import lock from "../assets/smarticons/smartlock.png";
-import voice from "../assets/smarticons/voice_assistant.png";
-import remote from "../assets/smarticons/remote_access.png";
-import wiring from "../assets/smarticons/wiring.png";
-import smartimage from "../assets/C4_Westfacingwithclub.png";
+import fan from "../assets/smarticons/fan.webp";
+import lock from "../assets/smarticons/smartlock.webp";
+import voice from "../assets/smarticons/voice_assistant.webp";
+import remote from "../assets/smarticons/remote_access.webp";
+import wiring from "../assets/smarticons/wiring.webp";
+import smartimage from "../assets/C4_Westfacingwithclub.webp";
 import Image from "next/image";
 import "./style.module.css"
 import { useMediaQuery } from 'react-responsive';

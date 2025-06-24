@@ -1,15 +1,15 @@
 import Image from "next/image";
-import img1 from "../assets/gallery/c4.png";
-import img2 from "../assets/gallery/C8.png";
-import img3 from "../assets/gallery/image5.png";
-import img4 from "../assets/gallery/c7.png";
-import img5 from "../assets/gallery/c2.png";
-import img1mv from "../assets/gallery/c4mv.png";
-import img2mv from "../assets/gallery/C8mv.png";
-import img3mv from "../assets/gallery/image5mv.png";
-import img4mv from "../assets/gallery/c7mv.png";
-import img5mv from "../assets/gallery/c2mv.png";
-import img6 from "../assets/Vector.png";
+import img1 from "../assets/gallery/c4.webp";
+import img2 from "../assets/gallery/C8.webp";
+import img3 from "../assets/gallery/image5.webp";
+import img4 from "../assets/gallery/c7.webp";
+import img5 from "../assets/gallery/c2.webp";
+import img1mv from "../assets/gallery/c4mv.webp";
+import img2mv from "../assets/gallery/C8mv.webp";
+import img3mv from "../assets/gallery/image5mv.webp";
+import img4mv from "../assets/gallery/c7mv.webp";
+import img5mv from "../assets/gallery/c2mv.webp";
+import img6 from "../assets/Vector.webp";
 import { useMediaQuery } from "react-responsive";
 
 export default function Gallery() {

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import about1 from "../assets/About Images/aboutimg1.png";
-import about2 from "../assets/About Images/aboutimg2.png";
-import about3 from "../assets/About Images/aboutimg3.png";
+import about1 from "../assets/About Images/aboutimg1.webp";
+import about2 from "../assets/About Images/aboutimg2.webp";
+import about3 from "../assets/About Images/aboutimg3.webp";
 import { CiLocationOn } from "react-icons/ci";
 import { useMediaQuery } from "react-responsive";
 export default function About() {

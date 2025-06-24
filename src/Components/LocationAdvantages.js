@@ -1,5 +1,5 @@
 import Image from "next/image";
-import location from "../assets/location.png";
+import location from "../assets/location.webp";
 import { GoCheckCircleFill } from "react-icons/go";
 
 export default function LocationAdvantages() {

@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import gf from "../assets/villa images/groundfloor.png";
-import ff from "../assets/villa images/firstfloor.png";
-import img6 from "../assets/Vector.png";
+import gf from "../assets/villa images/groundfloor.webp";
+import ff from "../assets/villa images/firstfloor.webp";
+import img6 from "../assets/Vector.webp";
 
 export default function FloorPlans() {
   const data = [

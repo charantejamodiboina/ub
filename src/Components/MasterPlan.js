@@ -1,5 +1,5 @@
 import Image from "next/image";
-import masterPlanImage from "../assets/plan.png";
+import masterPlanImage from "../assets/plan.webp";
 import { useMediaQuery } from 'react-responsive';
 export default function MasterPlan() {
     const legendItems = [
