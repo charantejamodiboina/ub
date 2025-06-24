@@ -51,7 +51,7 @@ export default function Intro() {
           <h1 className="font-seasons intro_h">
             {isMobile ? (
               <>
-                4BHK<br />Gated Villas<br />Community in<br />Adibatla
+                4BHK<br />Gated Villa<br />Community in<br />Adibatla
               </>
             ) : (
               <>
