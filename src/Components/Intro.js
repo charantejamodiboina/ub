@@ -51,7 +51,7 @@ export default function Intro() {
           <h1 className="font-seasons intro_h">
             {isMobile ? (
               <>
-                4BHK<br />Gated Villa<br />Community in<br />Adibatla
+                4BHK<br />GATED VILLA<br />COMMUNITY in<br />AdIBATLA
               </>
             ) : (
               <>
@@ -59,18 +59,20 @@ export default function Intro() {
               </>
             )}
           </h1>
-          <p className="lead" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+          <p className="intro_desc" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
             {isMobile ? (
               <>
-                Experience 17 acres of <br /> gated community <br /> living at Urban Ranch
+                Experience 17 Acres Of <br /> Gated Community <br /> Living At Urban Ranch
               </>
             ) : (
-              "Experience 17 acres of gated community living at Urban Ranch"
+              <>
+                Experience 17 acres of gated community living <br/> at Urban Ranch
+              </>
             )}
           </p>
           <button
             className="btn fw-bold px-4 py-2 mt-3"
-            style={{ color: "var(--active_nav_item)", backgroundColor: "white" }}
+            style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
           >
             Download Brochure
           </button>

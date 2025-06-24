@@ -45,8 +45,13 @@
 .introinput {
   font-size: 14px !important;
   font-family: 'Nunito Sans', sans-serif !important;
+  height: 50px !important;
 }
 
+.introinput:focus {
+  border-color: var(--primary) !important; 
+  box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
+}
 .form-heading {
 
   font-size: 36px !important;
@@ -90,7 +95,11 @@ Nav a {
 .intro_h {
   font-size: 64px;
 }
-
+.intro_desc{
+  font-size: 24px;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
 .introForm {
   width: 474px;
   border-top: 5px solid var(--primary);
@@ -99,7 +108,7 @@ Nav a {
 
 .half_input {
   width: 190px;
-  height: 40px;
+  height: 50px;
   padding: 5px;
   border-radius: 5px;
   border-style: ridge;
@@ -109,7 +118,7 @@ Nav a {
 
 .full_input {
   width: 385px;
-  height: 40px;
+  height: 50px;
   padding: 5px;
   border-radius: 5px;
   border-style: ridge;
@@ -429,7 +438,7 @@ li {
   }
 
   .Title {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .villadesc {
@@ -480,6 +489,9 @@ li {
 
   .Heading {
     font-size: 36px;
+  }
+.Title {
+    font-size: 18px;
   }
 
   .intro_h {

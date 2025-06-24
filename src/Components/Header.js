@@ -47,23 +47,44 @@ export default function Header() {
       </div>
 
       {/* Desktop View */}
-      <div className="d-none d-lg-flex justify-content-start align-items-center Navbar1">
-        <Image src={logo} alt="logo" height={69.35} width={91} priority />
-        <nav className="d-flex gap-5">
-          {["#home", "#floor-plans", "#amenities", "#contact-us"].map((section) => (
-            <a
-              key={section}
-              href={section}
-              className={`nav-link fw-medium ${
-                activeLink === section ? "text-warning" : "text-light"
-              }`}
-              onClick={() => handleLinkClick(section)}
-            >
-              {section.replace("#", "").replace("-", " ").replace(/\b\w/g, (c) => c.toUpperCase())}
-            </a>
-          ))}
-        </nav>
-      </div>
+<div className="d-none d-lg-flex justify-content-start align-items-center Navbar1">
+  <Image src={logo} alt="logo" height={69.35} width={91} priority />
+  <nav className="d-flex gap-5">
+    {["#home", "#floor-plans", "#amenities", "#contact-us"].map((section) => (
+      <a
+        key={section}
+        href={section}
+        className={`nav-link fw-medium position-relative ${
+          activeLink === section ? "text-warning" : "text-light"
+        }`}
+        onClick={() => handleLinkClick(section)}
+      >
+        {section
+          .replace("#", "")
+          .replace("-", " ")
+          .replace(/\b\w/g, (c) => c.toUpperCase())}
+
+        {/* Dot for active link */}
+        {activeLink === section && (
+          <span
+            style={{
+              position: "absolute",
+              bottom: -16,
+              left: "50%",
+              transform: "translateX(-50%)",
+              fontSize: "1.2rem",
+              marginTop: "0.2rem",
+              paddingTop: "0.2rem",
+            }}
+          >
+            •
+          </span>
+        )}
+      </a>
+    ))}
+  </nav>
+</div>
+
 
       {/* Mobile Overlay Menu */}
       {isOpen && (
