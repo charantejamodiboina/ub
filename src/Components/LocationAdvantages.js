@@ -19,28 +19,28 @@ export default function LocationAdvantages() {
         </div>
 
         {/* Text Content */}
-        <div className="col-12 col-md-7">
+        <div className="col-12 col-md-7 ">
           <div className="LaHbg">
-          <p className=" fw-semibold mb-0 Title">Location Advantages</p>
+            <p className=" fw-semibold mb-0 Title">Location Advantages</p>
           </div>
           <h1 className=" fw-bold mb-4 Heading">
             Close to What Matters. <br className="d-none d-md-block" />
             Away From What Doesn’t.
           </h1>
 
-          <ul className="list-unstyled fs-5">
+          <ul className="list-unstyled ">
             {data.map((item, index) => (
               <li key={index} className="d-flex align-items-center mb-3">
                 <GoCheckCircleFill className="text-success me-3 flex-shrink-0" size={28} />
                 <span className="la_li">
-                  <span className="fw-semibold" style={{color:"#73788C"}}>{item.time}</span>
+                  <span className="fw-semibold" style={{ color: "#73788C" }}>{item.time}</span>
                   <span className="text-dark"> {item.place}</span>
                 </span>
               </li>
             ))}
           </ul>
 
-          <button className="btn btn-success mt-4 px-4 py-2 fw-semibold">
+          <button className="btn mt-4 px-4 py-2 fw-semibold la_btn">
             Why Adibatla?
           </button>
         </div>

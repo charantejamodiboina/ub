@@ -71,7 +71,7 @@ export default function Intro() {
             )}
           </p>
           <button
-            className="btn fw-bold px-4 py-2 mt-3"
+            className="btn fw-bold px-4 py-2 mt-3 intro_btn"
             style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
           >
             Download Brochure
@@ -81,8 +81,8 @@ export default function Intro() {
         {/* Right Form Box */}
         <div className="col-lg-6 d-flex justify-content-center">
           <div
-            className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
-            style={{ maxWidth: 474, maxHeight: "500px" }}
+            className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100 h-100"
+            style={{ maxWidth: 474, maxHeight: 600 }}
           >
             <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>

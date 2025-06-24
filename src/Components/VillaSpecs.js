@@ -29,7 +29,7 @@ export default function VillaSpecs() {
       <div className="row align-items-start gap-3 gap-lg-0">
         <div className="col-lg-7 d-flex flex-column gap-3">
           <h3 className="fw-bold mb-3 Heading">
-            Designed for Comfort, <br /> Built with Intention
+            Designed for Comfort, Built <br />with Intention
           </h3>
          {isMobile? null : <p className=" villadesc">
             Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further.

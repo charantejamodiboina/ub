@@ -41,7 +41,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.intro_btn{
+  font-size: 16px !important;
+}
 .introinput {
   font-size: 14px !important;
   font-family: 'Nunito Sans', sans-serif !important;
@@ -63,6 +65,8 @@
   color: var(--heading);
   font-size: 48px;
   font-family: 'The Seasons';
+  line-height: 56px;
+  letter-spacing: 0.5px;
 }
 
 .Title {
@@ -135,7 +139,8 @@ Nav a {
 
 .introFbtn {
   width: 385px;
-  height: 60px
+  height: 60px;
+  font-size: 16px;
 }
 
 @media (max-width: 576px) {
@@ -313,14 +318,21 @@ Nav a {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .la_li {
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
+  line-height: 59px;
 }
-
+.la_btn {
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+  background-color: var(--btncolor) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
 .ctbox {
   width: 376px;
   height: 304px
@@ -465,6 +477,11 @@ li {
   .villaspecdetail {
     font-size: 20px;
   }
+  .la_li {
+  font-size: 18px;
+  line-height: 48px;
+}
+
 }
 
 @media (max-width:1199px) {
@@ -472,7 +489,10 @@ li {
     max-width: 885px;
   }
 
-  ;
+  .la_li {
+  font-size: 16px;
+  line-height: 36px;
+}
 
   .villaicon {
     width: 40px;
@@ -505,7 +525,9 @@ li {
   .intro_h {
     font-size: 48px;
   }
-
+.intro_btn{
+  font-size: 12px !important;
+}
   .introForm {
     width: 370px;
     height: 370px;
@@ -526,7 +548,8 @@ li {
 
   .introFbtn {
     width: 272.93px;
-    height: 40px
+    height: 40px;
+    font-size: 10px !important;
   }
 
   .Villaimg {
