@@ -327,6 +327,7 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$e
 var __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/axios [external] (axios, esm_import)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$datepicker$2f$dist$2f$index$2e$es$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-datepicker/dist/index.es.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Spinner$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-bootstrap/esm/Spinner.js [ssr] (ecmascript)"); // Optional spinner (Bootstrap)
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
     __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__
 ]);
@@ -339,16 +340,19 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ;
 ;
 ;
+;
 function Intro() {
     const [name, setName] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
     const [phone, setPhone] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
-    const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(null); // Date object
+    const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(null);
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false); // Loading state
     const isMobile = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$external$5d$__$28$react$2d$responsive$2c$__cjs$29$__["useMediaQuery"])({
         query: "(max-width: 991px)"
     });
     const handleSubmit = async (e)=>{
         e.preventDefault();
+        setLoading(true);
         try {
             const formData = new FormData();
             formData.append("name", name);
@@ -365,6 +369,8 @@ function Intro() {
         } catch (error) {
             console.error("Submission error", error);
             alert("Something went wrong. Please try again.");
+        } finally{
+            setLoading(false);
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -383,19 +389,19 @@ function Intro() {
                                     "4BHK",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 49,
+                                        lineNumber: 54,
                                         columnNumber: 21
                                     }, this),
                                     "Gated Villa",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 49,
+                                        lineNumber: 54,
                                         columnNumber: 38
                                     }, this),
                                     "Community in",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 49,
+                                        lineNumber: 54,
                                         columnNumber: 56
                                     }, this),
                                     "Adibatla"
@@ -405,13 +411,13 @@ function Intro() {
                                     "4BHK Gated",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 53,
+                                        lineNumber: 58,
                                         columnNumber: 27
                                     }, this),
                                     "Villa Community in",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 53,
+                                        lineNumber: 58,
                                         columnNumber: 51
                                     }, this),
                                     "Adibatla"
@@ -419,7 +425,7 @@ function Intro() {
                             }, void 0, true)
                         }, void 0, false, {
                             fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 46,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -432,13 +438,13 @@ function Intro() {
                                     "Experience 17 acres of ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 60,
+                                        lineNumber: 65,
                                         columnNumber: 40
                                     }, this),
                                     " gated community ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 60,
+                                        lineNumber: 65,
                                         columnNumber: 63
                                     }, this),
                                     " living at Urban Ranch"
@@ -446,7 +452,7 @@ function Intro() {
                             }, void 0, true) : "Experience 17 acres of gated community living at Urban Ranch"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 57,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -458,13 +464,13 @@ function Intro() {
                             children: "Download Brochure"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/Intro.js",
-                            lineNumber: 66,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Components/Intro.js",
-                    lineNumber: 45,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -472,7 +478,7 @@ function Intro() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100",
                         style: {
-                            maxWidth: 400,
+                            maxWidth: 474,
                             maxHeight: "fit-content"
                         },
                         children: [
@@ -481,17 +487,17 @@ function Intro() {
                                 children: "Unlock Early Access"
                             }, void 0, false, {
                                 fileName: "[project]/src/Components/Intro.js",
-                                lineNumber: 78,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
                                 onSubmit: handleSubmit,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "row g-3 mb-3 mt-3 mt-lg-4 ",
+                                        className: "row g-3 mb-3 mt-3 mt-lg-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                className: "col-6 ",
+                                                className: "col-6",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                     type: "text",
                                                     className: "form-control introinput",
@@ -501,12 +507,12 @@ function Intro() {
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/Intro.js",
-                                                    lineNumber: 82,
+                                                    lineNumber: 89,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 81,
+                                                lineNumber: 88,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -520,18 +526,18 @@ function Intro() {
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/Intro.js",
-                                                    lineNumber: 92,
+                                                    lineNumber: 99,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 91,
+                                                lineNumber: 98,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 80,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -546,20 +552,20 @@ function Intro() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 104,
+                                                lineNumber: 111,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["FaCalendarAlt"], {
                                                 className: "calendar-icon"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/Intro.js",
-                                                lineNumber: 112,
+                                                lineNumber: 119,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 103,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -573,53 +579,67 @@ function Intro() {
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/Intro.js",
-                                            lineNumber: 116,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 115,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                         type: "submit",
                                         className: "btn w-100 introFbtn",
+                                        disabled: loading,
                                         style: {
                                             backgroundColor: "var(--active_nav_item)",
                                             color: "white"
                                         },
-                                        children: "Book a visit"
+                                        children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Spinner$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    animation: "border",
+                                                    size: "sm",
+                                                    className: "me-2"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Components/Intro.js",
+                                                    lineNumber: 141,
+                                                    columnNumber: 21
+                                                }, this),
+                                                "Submitting..."
+                                            ]
+                                        }, void 0, true) : "Book a visit"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/Intro.js",
-                                        lineNumber: 126,
+                                        lineNumber: 133,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/Intro.js",
-                                lineNumber: 79,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Components/Intro.js",
-                        lineNumber: 76,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Components/Intro.js",
-                    lineNumber: 75,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/Components/Intro.js",
-            lineNumber: 43,
+            lineNumber: 48,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/Components/Intro.js",
-        lineNumber: 42,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 }
@@ -3263,10 +3283,16 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$c6$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$c6$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/src/assets/c6.png.mjs { IMAGE => "[project]/src/assets/c6.png (static in ecmascript)" } [ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$responsive__$5b$external$5d$__$28$react$2d$responsive$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react-responsive [external] (react-responsive, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/axios [external] (axios, esm_import)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$datepicker$2f$dist$2f$index$2e$es$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-datepicker/dist/index.es.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Spinner$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-bootstrap/esm/Spinner.js [ssr] (ecmascript)"); // Optional spinner
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
     __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__
 ]);
 ([__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__);
+"use client";
+;
+;
+;
 ;
 ;
 ;
@@ -3283,35 +3309,46 @@ function ContactUs() {
     const [form, setForm] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])({
         name: "",
         phone: "",
-        date: "",
+        date: null,
         email: ""
     });
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     const handleChange = (e)=>{
         setForm({
             ...form,
             [e.target.name]: e.target.value
         });
     };
+    const handleDateChange = (selectedDate)=>{
+        setForm({
+            ...form,
+            date: selectedDate
+        });
+    };
     const handleSubmit = async (e)=>{
         e.preventDefault();
+        setLoading(true);
         try {
             const formData = new FormData();
             formData.append("name", form.name);
             formData.append("phone", form.phone);
-            formData.append("message", "Schedule Date is: " + form.date);
+            formData.append("message", "Schedule Date is: " + (form.date ? form.date.toLocaleDateString() : ""));
             formData.append("email", form.email);
             formData.append("property", "Urban Ranch");
             await __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].post("https://irarealty.in/cms/api/submitContact", formData);
             alert("Submitted successfully!");
+            // Reset form
             setForm({
                 name: "",
                 phone: "",
-                date: "",
+                date: null,
                 email: ""
             });
         } catch (error) {
             console.error("Submission error", error);
             alert("Something went wrong. Please try again.");
+        } finally{
+            setLoading(false);
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3331,12 +3368,12 @@ function ContactUs() {
                         className: "img-fluid rounded-3"
                     }, void 0, false, {
                         fileName: "[project]/src/Components/ContactUs.js",
-                        lineNumber: 41,
+                        lineNumber: 64,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Components/ContactUs.js",
-                    lineNumber: 40,
+                    lineNumber: 63,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3347,7 +3384,7 @@ function ContactUs() {
                             children: "Ready to Make a Move?"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/ContactUs.js",
-                            lineNumber: 46,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3355,7 +3392,7 @@ function ContactUs() {
                             children: "Choose the villa lifestyle that blends luxury with legacy."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/ContactUs.js",
-                            lineNumber: 47,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
@@ -3376,12 +3413,12 @@ function ContactUs() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 54,
+                                                lineNumber: 77,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 53,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3396,18 +3433,18 @@ function ContactUs() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 65,
+                                                lineNumber: 88,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 64,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 52,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3425,37 +3462,37 @@ function ContactUs() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 79,
+                                                lineNumber: 102,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 78,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "col-md-6",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
-                                                type: "date",
-                                                name: "date",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$datepicker$2f$dist$2f$index$2e$es$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                selected: form.date,
+                                                onChange: handleDateChange,
                                                 className: "form-control contactus_input",
-                                                value: form.date,
-                                                onChange: handleChange,
+                                                placeholderText: "Select Date",
+                                                dateFormat: "dd/MM/yyyy",
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ContactUs.js",
-                                                lineNumber: 90,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 89,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 77,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3467,7 +3504,7 @@ function ContactUs() {
                                             id: "authorization"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 102,
+                                            lineNumber: 125,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
@@ -3476,13 +3513,13 @@ function ContactUs() {
                                             children: "I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC."
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 103,
+                                            lineNumber: 126,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 101,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3491,10 +3528,24 @@ function ContactUs() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                             type: "submit",
                                             className: "custom-btn contactus_s_btn",
-                                            children: isSMobile ? "Book a visit" : "Schedule your site visit"
+                                            disabled: loading,
+                                            children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Spinner$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        animation: "border",
+                                                        size: "sm",
+                                                        className: "me-2"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/Components/ContactUs.js",
+                                                        lineNumber: 136,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    "Submitting..."
+                                                ]
+                                            }, void 0, true) : isSMobile ? "Book a visit" : "Schedule your site visit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 110,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3503,36 +3554,36 @@ function ContactUs() {
                                             children: "Download Floor Plans"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/ContactUs.js",
-                                            lineNumber: 113,
+                                            lineNumber: 143,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/ContactUs.js",
-                                    lineNumber: 109,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Components/ContactUs.js",
-                            lineNumber: 51,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Components/ContactUs.js",
-                    lineNumber: 45,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/Components/ContactUs.js",
-            lineNumber: 38,
+            lineNumber: 61,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/Components/ContactUs.js",
-        lineNumber: 37,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }
@@ -3659,7 +3710,7 @@ function About() {
             className: "row gx-5 align-items-start flex-column-reverse flex-lg-row",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end",
+                    className: "col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center align-items-lg-end",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "d-flex gap-2 gap-md-3 align-items-md-center",
@@ -3669,7 +3720,7 @@ function About() {
                                     alt: "About Image 1",
                                     className: "img-fluid rounded abtimg",
                                     style: {
-                                        width: !isMobile ? 301 : "55%"
+                                        width: "55%"
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/About.js",
@@ -3681,7 +3732,7 @@ function About() {
                                     alt: "About Image 2",
                                     className: "img-fluid rounded",
                                     style: {
-                                        width: !isMobile ? 225 : "41%"
+                                        width: "41%"
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/About.js",
@@ -3694,13 +3745,19 @@ function About() {
                             lineNumber: 23,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$About__Images$2f$aboutimg3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$About__Images$2f$aboutimg3$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                            alt: "About Image 3",
-                            className: "img-fluid rounded ",
-                            style: {
-                                width: !isMobile ? 537 : "100%"
-                            }
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$About__Images$2f$aboutimg3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$About__Images$2f$aboutimg3$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                alt: "About Image 3",
+                                className: "img-fluid rounded ",
+                                style: {
+                                    width: !isMobile ? 537 : "100%"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/src/Components/About.js",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
                             lineNumber: 37,
@@ -3720,7 +3777,7 @@ function About() {
                             children: "About IRA Realty"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 47,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
@@ -3728,7 +3785,7 @@ function About() {
                             children: "Building Homes. Nurturing Communities."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 48,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3736,7 +3793,7 @@ function About() {
                             children: "At IRA Realty, we're redefining real estate with transparency, trust, and transformative design."
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 51,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -3744,7 +3801,7 @@ function About() {
                             children: "Our Landmark Projects:"
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 55,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -3766,17 +3823,17 @@ function About() {
                                                     size: isSMobile ? 14 : 24
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/About.js",
-                                                    lineNumber: 68,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/About.js",
-                                                lineNumber: 64,
+                                                lineNumber: 67,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/About.js",
-                                            lineNumber: 63,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -3790,30 +3847,30 @@ function About() {
                                                     children: item.area
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/About.js",
-                                                    lineNumber: 74,
+                                                    lineNumber: 77,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/Components/About.js",
-                                            lineNumber: 72,
+                                            lineNumber: 75,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/Components/About.js",
-                                    lineNumber: 59,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/Components/About.js",
-                            lineNumber: 57,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Components/About.js",
-                    lineNumber: 46,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this)
             ]

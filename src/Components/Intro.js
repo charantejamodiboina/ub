@@ -6,17 +6,20 @@ import axios from "axios";
 import DatePicker from "react-datepicker";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
+import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)
 
 export default function Intro() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [date, setDate] = useState(null); // Date object
+  const [date, setDate] = useState(null);
   const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false); // Loading state
 
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const formData = new FormData();
@@ -35,6 +38,8 @@ export default function Intro() {
     } catch (error) {
       console.error("Submission error", error);
       alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -73,12 +78,14 @@ export default function Intro() {
 
         {/* Right Form Box */}
         <div className="col-lg-6 d-flex justify-content-center">
-          <div className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
-          style={{maxWidth:400, maxHeight:"fit-content"}}>
+          <div
+            className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100"
+            style={{ maxWidth: 474, maxHeight: "fit-content" }}
+          >
             <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
             <form onSubmit={handleSubmit}>
-              <div className="row g-3 mb-3 mt-3 mt-lg-4 ">
-                <div className="col-6 ">
+              <div className="row g-3 mb-3 mt-3 mt-lg-4">
+                <div className="col-6">
                   <input
                     type="text"
                     className="form-control introinput"
@@ -126,9 +133,17 @@ export default function Intro() {
               <button
                 type="submit"
                 className="btn w-100 introFbtn"
+                disabled={loading}
                 style={{ backgroundColor: "var(--active_nav_item)", color: "white" }}
               >
-                Book a visit
+                {loading ? (
+                  <>
+                    <Spinner animation="border" size="sm" className="me-2" />
+                    Submitting...
+                  </>
+                ) : (
+                  "Book a visit"
+                )}
               </button>
             </form>
           </div>

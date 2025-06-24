@@ -19,27 +19,30 @@ export default function About() {
 
       <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
-        <div className="col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end">
+        <div className="col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center align-items-lg-end">
           <div className="d-flex gap-2 gap-md-3 align-items-md-center">
             <Image
               src={about1}
               alt="About Image 1"
               className="img-fluid rounded abtimg"
-              style={{ width: !isMobile ? 301 : "55%" }}
+              style={{ width:  "55%" }}
             />
             <Image
               src={about2}
               alt="About Image 2"
               className="img-fluid rounded"
-              style={{ width: !isMobile ? 225 :"41%" }}
+              style={{ width: "41%" }}
             />
           </div>
-          <Image
+          <div>
+            <Image
             src={about3}
             alt="About Image 3"
             className="img-fluid rounded "
             style={{width:!isMobile ? 537:"100%"}}
           />
+          </div>
+          
         </div>
 
         {/* Content Section */}

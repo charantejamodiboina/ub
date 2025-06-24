@@ -1,35 +1,58 @@
+
+"use client";
+
 import Image from "next/image";
 import { useState } from "react";
 import contactusbanner from "../assets/c6.png";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import Spinner from "react-bootstrap/Spinner"; // Optional spinner
 
 export default function ContactUs() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isSMobile = useMediaQuery({ query: "(max-width: 500px)" });
 
-  const [form, setForm] = useState({ name: "", phone: "", date: "", email: "" });
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    date: null, // now a Date object
+    email: "",
+  });
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const handleDateChange = (selectedDate) => {
+    setForm({ ...form, date: selectedDate });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
+
     try {
       const formData = new FormData();
       formData.append("name", form.name);
       formData.append("phone", form.phone);
-      formData.append("message", "Schedule Date is: " + form.date);
+      formData.append("message", "Schedule Date is: " + (form.date ? form.date.toLocaleDateString() : ""));
       formData.append("email", form.email);
       formData.append("property", "Urban Ranch");
 
       await axios.post("https://irarealty.in/cms/api/submitContact", formData);
       alert("Submitted successfully!");
-      setForm({ name: "", phone: "", date: "", email: "" });
+
+      // Reset form
+      setForm({ name: "", phone: "", date: null, email: "" });
     } catch (error) {
       console.error("Submission error", error);
       alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -87,12 +110,12 @@ export default function ContactUs() {
                 />
               </div>
               <div className="col-md-6">
-                <input
-                  type="date"
-                  name="date"
+                <DatePicker
+                  selected={form.date}
+                  onChange={handleDateChange}
                   className="form-control contactus_input"
-                  value={form.date}
-                  onChange={handleChange}
+                  placeholderText="Select Date"
+                  dateFormat="dd/MM/yyyy"
                   required
                 />
               </div>
@@ -107,8 +130,15 @@ export default function ContactUs() {
             </div>
 
             <div className="d-flex flex-nowrap gap-3 justify-content-start">
-              <button type="submit" className="custom-btn contactus_s_btn">
-                {isSMobile ? "Book a visit" : "Schedule your site visit"}
+              <button type="submit" className="custom-btn contactus_s_btn" disabled={loading}>
+                {loading ? (
+                  <>
+                    <Spinner animation="border" size="sm" className="me-2" />
+                    Submitting...
+                  </>
+                ) : (
+                  isSMobile ? "Book a visit" : "Schedule your site visit"
+                )}
               </button>
               <button type="button" className="custom-btn contactus_fp_btn">
                 Download Floor Plans
