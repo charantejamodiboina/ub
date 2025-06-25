@@ -10,7 +10,6 @@ import { Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
-// import "./swiper-custom.css"; // for custom styles
 
 export default function AmenitiesComponent() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -55,12 +54,12 @@ export default function AmenitiesComponent() {
 
   return (
     <section
-      className="text-white py-5"
+      className="text-white py-5 position-relative"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
       id="amenities"
     >
-      <div className="container">
-        <div className="row g-5 align-items-start mt-3 align-items-lg-center justify-content-lg-between">
+      <div className="mx-auto px-3" style={{ maxWidth: "1500px" }}>
+        <div className="row g-5 align-items-start mt-3 align-items-lg-center justify-content-lg-end">
           {/* Left Text Column */}
           <div className="col-lg-6">
             <div className="Amanities_title">
@@ -76,7 +75,7 @@ export default function AmenitiesComponent() {
           </div>
 
           {/* Swiper Image Carousel */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-0">
             <Swiper
               modules={[Pagination]}
               loop={true}
@@ -109,28 +108,34 @@ export default function AmenitiesComponent() {
 
       {/* Swiper Custom Styling */}
       <style jsx>{`
-  :global(.swiper-amenities .swiper-pagination) {
-    position: relative;
-    margin-top: 12px;
-    text-align: center;
-  }
+        :global(.swiper-amenities .swiper-pagination) {
+          position: relative;
+          margin-top: 42px;
+          display: flex;
+          justify-content: center;
+        }
 
-  :global(.swiper-amenities .swiper-pagination-bullet) {
-    background: #999;
-    opacity: 1;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-  }
+        @media (min-width: 992px) {
+          :global(.swiper-amenities .swiper-pagination) {
+            justify-content: flex-end;
+          }
+        }
 
-  :global(.swiper-amenities .swiper-pagination-bullet-active) {
-    background: #f7c24c;
-    width: 24px;
-    border-radius: 10px;
-  }
-`}</style>
+        :global(.swiper-amenities .swiper-pagination-bullet) {
+          background: #999;
+          opacity: 1;
+          width: 10px;
+          height: 5px;
+          border-radius: 10px;
+          transition: all 0.3s ease;
+        }
 
+        :global(.swiper-amenities .swiper-pagination-bullet-active) {
+          background: #f7c24c;
+          width: 30px;
+          border-radius: 10px;
+        }
+      `}</style>
     </section>
   );
 }

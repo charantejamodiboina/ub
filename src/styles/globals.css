@@ -41,6 +41,34 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+        .swiper-amenities .swiper-pagination {
+          position: relative;
+          margin-top: 42px;
+          display: flex;
+          
+        }
+
+        @media (min-width: 992px) {
+          .swiper-amenities .swiper-pagination {
+          }
+        }
+
+        .swiper-amenities .swiper-pagination-bullet {
+          background: #999;
+          opacity: 1;
+          width: 30px;
+          height: 5px;
+          border-radius: 10px;
+          transition: all 0.3s ease;
+        }
+
+        .swiper-amenities .swiper-pagination-bullet-active {
+          background: #f7c24c;
+          width: 30px;
+          border-radius: 10px;
+        }
 .intro_btn{
   font-size: 16px !important;
 }
@@ -454,6 +482,7 @@ li {
 
   .Heading {
     font-size: 36px;
+  line-height: 50px;
   }
 
   .Title {
@@ -516,6 +545,7 @@ li {
 
   .Heading {
     font-size: 36px;
+  line-height: 45px;
   }
 
   .Title {
