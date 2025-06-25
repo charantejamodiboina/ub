@@ -54,7 +54,7 @@ export default function AmenitiesComponent() {
 
   return (
     <section
-      className="text-white py-5 ps-md-5 position-relative mb-5"
+      className="text-white py-5 ps-3 ps-md-5 position-relative mb-5"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
       id="amenities"
     >

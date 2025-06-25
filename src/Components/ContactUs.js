@@ -122,7 +122,7 @@ export default function ContactUs() {
             </div>
 
             <div className="form-check text-start mb-4">
-              <input className="form-check-input" type="checkbox" id="authorization" />
+              <input className="form-check-input" type="checkbox" id="authorization" style={{backgroundColor : "rgba(255, 255, 255, 0.0)"}}/>
               <label className="form-check-label checkLabel" htmlFor="authorization">
                 I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and
                 offers. This consent overrides any registration for DNC/NDNC.

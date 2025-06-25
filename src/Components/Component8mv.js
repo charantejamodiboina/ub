@@ -73,14 +73,14 @@ export default function Component8mv() {
           <button
             className="btn btn-outline-light rounded-circle me-2 px-2 py-1"
             onClick={handlePrev}
-            style={{ width: 32, height: 32 }}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
           >
             ‹
           </button>
           <button
             className="btn btn-outline-light rounded-circle px-2 py-1"
             onClick={handleNext}
-            style={{ width: 32, height: 32 }}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
           >
             ›
           </button>
@@ -90,20 +90,22 @@ export default function Component8mv() {
         <div className="row justify-content-center g-3">
           {villa.floor.map((floorItem, idx) => (
             <div key={idx} className="row-12 col-6">
+              <div>
                 <Image
                   src={floorItem.image}
                   alt={floorItem.floor_name}
-                  className="img-fluid rounded mb-3"
+                  className="img-fluid mb-3"
+                  style={{height:"auto", borderRadius:10}}
                 />
-                
+              </div>
                 
                 <div className="card-body text-light fpdata">
                   <h5 className="pt-3 villatype" >{villa.type}</h5>
                   <h6 className="villaname">{villa.name}</h6>
                   <p className="mb-1 floorname" >{floorItem.floor_name}</p>
                   <p className="mb-0 builtuparea" >
-                    Built-up Area:<br />
-                    {floorItem.built_up_area}
+                    Built-up Area:<br /><span style={{fontWeight:200}}>{floorItem.built_up_area}</span>
+                    
                   </p>
                 </div>
             </div>

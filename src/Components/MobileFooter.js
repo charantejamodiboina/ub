@@ -5,7 +5,7 @@ import ftrimg3 from "../assets/footer/ftrimg3.webp";
 
 export default function MobileFooter() {
   return (
-    <footer className=" text-white pt-5 px-3 d-flex flex-column align-items-center gap-3" style={{backgroundColor:"var(--amenitiesbg)"}}>
+    <footer className=" text-white pt-5 px-3 py-3 d-flex flex-column align-items-center gap-3" style={{backgroundColor:"var(--amenitiesbg)"}}>
       {/* Top Section with Images and Contact */}
       <div className="d-flex w-100 justify-content-center align-items-start flex-nowrap gap-4">
         {/* Logos Column */}
