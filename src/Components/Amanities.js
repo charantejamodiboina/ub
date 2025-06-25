@@ -54,12 +54,12 @@ export default function AmenitiesComponent() {
 
   return (
     <section
-      className="text-white py-5 ps-3 ps-md-5 position-relative mb-5"
+      className="text-white  ps-3 py-3 ps-md-5 position-relative mb-5"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
       id="amenities"
     >
-      <div className="mx-auto px-3" style={{ maxWidth: "1500px" }}>
-        <div className="row g-5 align-items-center mt-3 align-items-lg-center justify-content-lg-end">
+      <div className="container mx-auto ps-5 " style={{ maxWidth: "1500px" }}>
+        <div className="row g-5 align-items-center mt-3 align-items-lg-center justify-content-lg-center">
           {/* Left Text Column */}
           <div className="col-sm-6 d-flex flex-column mt-0 align-items-center justify-content-center ">
             
@@ -84,8 +84,8 @@ export default function AmenitiesComponent() {
               loop={true}
               pagination={{ clickable: true }}
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-              spaceBetween={10}
-              slidesPerView={1.5}
+              spaceBetween={60}
+              slidesPerView={1.3}
               
               className="swiper-amenities swam"
             >
@@ -94,7 +94,7 @@ export default function AmenitiesComponent() {
                   <Image
                     src={isMobile ? item.mobileimage : item.image}
                     alt={item.name}
-                    className="w-100 h-auto rounded shadow AmanitiesImage"
+                    className=" rounded img-fluid"
                   />
                 </SwiperSlide>
               ))}
@@ -107,7 +107,7 @@ export default function AmenitiesComponent() {
       <style jsx>{`
         :global(.swiper-amenities .swiper-pagination) {
           position: relative;
-          margin-top: 20px;
+          margin-top: 50px;
           display: flex;
           justify-content: flex-end;
           max-width: 70%;

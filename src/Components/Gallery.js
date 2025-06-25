@@ -16,24 +16,20 @@ export default function Gallery() {
   const isMobile = useMediaQuery({ query: "(max-width: 750px)" });
 
   return (
-    <section className="py-5 position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
+    <section className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
       <Image
           src={img6}
           alt="Decoration"
-          width={isMobile ?121 :162}
-          height={isMobile ?107 :145}
-          className="position-absolute start-0"
-          style={{bottom:isMobile?0:"20%", zIndex:0}}
+          className="position-absolute start-0 image-fluid"
+          style={{bottom:isMobile?0:"22%", zIndex:0}}
         />
         <Image
           src={img6}
           alt="Decoration"
-          width={isMobile ?121 :162}
-          height={isMobile ?107 :145}
-          className="position-absolute end-0"
-          style={{top:isMobile?0:"20%"}}
+          className="position-absolute end-0 image-fluid"
+          style={{top:isMobile?0:"7%"}}
         />
-      <div className="container " >
+      <div className="container px-md-5" >
         
 
         <h3 className="mb-4 GalleryTitle" >Gallery</h3>
