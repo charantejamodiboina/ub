@@ -1,8 +1,11 @@
 import Image from "next/image";
 import location from "../assets/location.webp";
+import locationmv from "../assets/locmv.webp";
 import { GoCheckCircleFill } from "react-icons/go";
-
+import { useMediaQuery } from "react-responsive";
 export default function LocationAdvantages() {
+  const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
+  const issmallMobile = useMediaQuery({ query: "(max-width: 767px)" });
   const data = [
     { time: "10-15 mins to", place: "TCS, Tata Aerospace, Adibatla SEZ" },
     { time: "15-20 mins to", place: "Delhi Public School, Aga Khan Academy" },
@@ -11,11 +14,11 @@ export default function LocationAdvantages() {
   ];
 
   return (
-    <div className="container  py-5">
+    <div className="container  py-5 px-4">
       <div className="row align-items-center g-5 flex-column-reverse flex-md-row">
         {/* Image Section */}
-        <div className="col-12 col-md-5">
-          <Image src={location} alt="Location Advantages" className="img-fluid" />
+        <div className="col-12 col-md-5 d-flex justify-content-center">
+          <Image src={issmallMobile?locationmv:location} alt="Location Advantages" className="img-fluid" />
         </div>
 
         {/* Text Content */}
@@ -31,7 +34,7 @@ export default function LocationAdvantages() {
           <ul className="list-unstyled ">
             {data.map((item, index) => (
               <li key={index} className="d-flex align-items-center mb-3">
-                <GoCheckCircleFill className="text-success me-3 flex-shrink-0" size={28} />
+                <GoCheckCircleFill className="text-success me-3 flex-shrink-0" size={isMobile ? 16 : 28} />
                 <span className="la_li">
                   <span className="fw-semibold" style={{ color: "#73788C" }}>{item.time}</span>
                   <span className="text-dark"> {item.place}</span>

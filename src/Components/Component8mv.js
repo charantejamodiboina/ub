@@ -93,7 +93,7 @@ export default function Component8mv() {
                 <Image
                   src={floorItem.image}
                   alt={floorItem.floor_name}
-                  style={{objectFit: "cover", height:210, width:142}}
+                  className="img-fluid rounded mb-3"
                 />
                 
                 

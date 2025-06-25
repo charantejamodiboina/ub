@@ -116,7 +116,7 @@ export default function FloorPlans() {
             </div>
 
             {/* Right details */}
-            <div className="text-lg-start text-light flex-grow-1">
+            <div className="text-lg-start text-light ">
               <h2 className="fw-bold mb-1">{villa.type}</h2>
               <h4 className="mb-3">{villa.name}</h4>
               <p className="mb-2">{villa.floor[1].floor_name}</p>

@@ -37,7 +37,7 @@ export default function Header() {
           />
         </div>
         {/* Hamburger top-right */}
-        <div className="position-absolute top-0 end-0 mt-2 me-3">
+        <div className="position-absolute hammenu">
           {!isOpen && (
             <button className="btn text-white fs-3" onClick={() => setIsOpen(true)}>
               <GiHamburgerMenu />

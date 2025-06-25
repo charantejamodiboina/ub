@@ -69,8 +69,15 @@
           width: 30px;
           border-radius: 10px;
         }
+
+.hammenu {
+  top : -43px;
+  right: 10px;
+}
 .intro_btn{
   font-size: 16px !important;
+  width: 242px !important;
+  height: 60px !important;
 }
 .introinput {
   font-size: 14px !important;
@@ -206,7 +213,7 @@ Nav a {
   font-size: 24px;
   color: var(--subhead);
   font-family: 'Nunito Sans', sans-serif;
-  ;
+  
 }
 
 .GalleryTitle {
@@ -266,7 +273,9 @@ Nav a {
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
 }
-
+.AmanitiesImage {
+  max-width: 546px;
+}
 .Amanities_title {
   width: 252px;
   height: 50px;
@@ -330,7 +339,9 @@ Nav a {
 .villaname {
   font-size: 14px;
 }
-
+.datadiv {
+    height: 100px
+  }
 .floorname {
   font-size: 14px;
 }
@@ -359,6 +370,8 @@ Nav a {
   background-color: var(--btncolor) !important;
   color: #ffffff !important;
   border: none !important;
+  width : 300px !important;
+  height: 60px !important;
   border-radius: 10px !important;
 }
 .ctbox {
@@ -378,7 +391,7 @@ Nav a {
 }
 
 .contactus_input {
-  height: 50px;
+  height: 50px !important;
 }
 
 .contactus_s_btn {
@@ -510,6 +523,28 @@ li {
   font-size: 18px;
   line-height: 48px;
 }
+.Amanities_title{
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+}
+.AHeading {
+  font-size: 40px;
+}
+.Adata {
+  font-size: 18px;
+}
+.Adataheading {
+  font-size: 30px;
+}
+.smartliving_icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+  }
+.smartliving_icon_name {
+  font-size: 18px;
+}
 
 }
 
@@ -557,6 +592,8 @@ li {
   }
 .intro_btn{
   font-size: 12px !important;
+  width: 200px !important;
+  height: 40px !important;
 }
   .introForm {
     width: 370px;
@@ -619,12 +656,55 @@ li {
   .aboutdata {
     font-size: 20px;
   }
+  .c3-p {
+  font-size: 18px;
+  
 }
-
-
+}
+@media (max-width:991px) {
+.AmanitiesImage {
+  max-width: 346px;
+  
+}
+.Heading {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.26px;
+  }
+.la_btn {
+  font-size: 10px !important;
+  width : 150px !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+}
+.la_li {
+  font-size: 12px;
+  line-height: 20px;
+}
+.smartliving_icon {
+  
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+.smartliving_icon_name {
+    font-size: 14px;
+  }
+  .smartliving_p {
+  font-size: 16px;
+}
+}
 @media (max-width:768px) {
+  
+.contactus_input {
+  height: 35px !important;
+  font-size: 12px !important;
+  border-radius: 5px !important;
+}
   .Heading {
     font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.26px;
   }
 
   .Title {
@@ -743,9 +823,7 @@ li {
     border-radius: 5px;
   }
 
-  .la_li {
-    font-size: 12px;
-  }
+  
 
   .villatype {
     font-size: 14px;
@@ -788,8 +866,18 @@ li {
   .aboutdataheading {
     font-size: 18px;
   }
+  .la_btn {
+  font-size: 10px !important;
+  width : 150px !important;
+  height: 30px !important;
+  border-radius: 5px !important;
 }
-
+}
+@media (max-width:576px) {
+  .swam {
+    width: 300px
+  }
+}
 @media (max-width:450px) {
   .intro_h {
     font-size: 28px;

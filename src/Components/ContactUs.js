@@ -89,7 +89,7 @@ export default function ContactUs() {
                   type="email"
                   name="email"
                   className="form-control contactus_input"
-                  placeholder="Email ID"
+                  placeholder="Email Address"
                   value={form.email}
                   onChange={handleChange}
                   required
@@ -103,7 +103,7 @@ export default function ContactUs() {
                   type="tel"
                   name="phone"
                   className="form-control contactus_input"
-                  placeholder="Phone"
+                  placeholder="Phone Number"
                   value={form.phone}
                   onChange={handleChange}
                   required

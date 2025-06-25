@@ -54,50 +54,47 @@ export default function AmenitiesComponent() {
 
   return (
     <section
-      className="text-white py-5 position-relative"
+      className="text-white py-5 ps-md-5 position-relative mb-5"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
       id="amenities"
     >
       <div className="mx-auto px-3" style={{ maxWidth: "1500px" }}>
-        <div className="row g-5 align-items-start mt-3 align-items-lg-center justify-content-lg-end">
+        <div className="row g-5 align-items-center mt-3 align-items-lg-center justify-content-lg-end">
           {/* Left Text Column */}
-          <div className="col-lg-6">
-            <div className="Amanities_title">
+          <div className="col-sm-6 d-flex flex-column mt-0 align-items-center justify-content-center ">
+            
+              <div className="Amanities_title align-self-start ">
               <span>Community &amp; Amenities</span>
             </div>
-            <h2 className="py-4 fw-bold AHeading">
+            <h2 className="py-4 fw-bold AHeading  align-self-start ">
               A Lifestyle that <br /> Breathes and Belongs
             </h2>
-            <div className="datadiv">
+            <div className="datadiv  align-self-start ">
               <h5 className="mb-2 Adataheading">{data[activeIndex].name}</h5>
               <div className="text-white Adata">{data[activeIndex].points}</div>
             </div>
+            
+            
           </div>
 
           {/* Swiper Image Carousel */}
-          <div className="col-lg-6 p-0">
+          <div className="col-sm-6 p-0">
             <Swiper
               modules={[Pagination]}
               loop={true}
               pagination={{ clickable: true }}
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-              spaceBetween={16}
-              slidesPerView={1.25}
-              breakpoints={{
-                0: { slidesPerView: 1.1 },
-                768: { slidesPerView: 1.25 },
-                1200: { slidesPerView: 1.5 },
-              }}
-              className="swiper-amenities"
+              spaceBetween={10}
+              slidesPerView={1.5}
+              
+              className="swiper-amenities swam"
             >
               {data.map((item) => (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide key={item.id}  className="d-flex justify-content-center align-items-center swiperamenities">
                   <Image
                     src={isMobile ? item.mobileimage : item.image}
                     alt={item.name}
-                    width={400}
-                    height={300}
-                    className="w-100 h-auto rounded shadow"
+                    className="w-100 h-auto rounded shadow AmanitiesImage"
                   />
                 </SwiperSlide>
               ))}
@@ -110,21 +107,26 @@ export default function AmenitiesComponent() {
       <style jsx>{`
         :global(.swiper-amenities .swiper-pagination) {
           position: relative;
-          margin-top: 42px;
+          margin-top: 20px;
           display: flex;
-          justify-content: center;
+          justify-content: flex-end;
+          max-width: 70%;
         }
 
-        @media (min-width: 992px) {
-          :global(.swiper-amenities .swiper-pagination) {
-            justify-content: flex-end;
-          }
+        @media (max-width: 992px) {
+           :global(.swiper-amenities .swiper-pagination-bullet) {
+          
+          width: 10px;
+          height: 5px;
+          border-radius: 5px;
+          transition: all 0.3s ease;
+        }
         }
 
         :global(.swiper-amenities .swiper-pagination-bullet) {
           background: #999;
           opacity: 1;
-          width: 10px;
+          width: 25px;
           height: 5px;
           border-radius: 10px;
           transition: all 0.3s ease;
@@ -132,7 +134,7 @@ export default function AmenitiesComponent() {
 
         :global(.swiper-amenities .swiper-pagination-bullet-active) {
           background: #f7c24c;
-          width: 30px;
+          width: 25px;
           border-radius: 10px;
         }
       `}</style>
