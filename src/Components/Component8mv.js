@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
-import ff from "../assets/villa images/firstfloor.webp";
-import gf from "../assets/villa images/groundfloor.webp";
+import ff from "../assets/villa images/ffmv.webp";
+import gf from "../assets/villa images/ggmv.webp";
 
 export default function Component8mv() {
   const data = [

@@ -60,7 +60,7 @@ export default function MasterPlan() {
                                 className="col-6 col-lg-12 d-flex align-items-start"
                                 style={{ fontSize: isMobile ? "10px" : "18px" }}
                             >
-                                <span className="fw-semibold me-2">{index + 1}.</span>
+                                <span className="me-2">{index + 1}.</span>
                                 <span>{item}</span>
                             </li>
                         ))}
