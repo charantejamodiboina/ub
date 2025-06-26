@@ -30,7 +30,8 @@ export default function MasterPlan() {
     const isMobile = useMediaQuery({ query: '(max-width: 756px)' });
 
     return (
-        <section className="mp" style={{ backgroundColor: "var(--mpbgclr)" }}>
+        <section className="mp px-5" style={{ backgroundColor: "var(--mpbgclr)" }}>
+            <div className="container py-5">
             <div className="row g-5 align-items-center ">
                 {/* Left Column: Master Plan */}
                 <div className="col-lg-7 d-flex flex-column align-items-end">
@@ -68,6 +69,7 @@ export default function MasterPlan() {
                 </div>
             </div>
             {isMobile ? <button className=" mpbroucherbtn" >Download Brochure</button> : null}
+            </div>
         </section>
     );
 }

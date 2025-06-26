@@ -54,7 +54,7 @@ export default function Component8mv() {
   return (
     <section
       id="floor-plans"
-      className="py-5 text-center text-white"
+      className="py-5 text-center text-white position-relative"
       style={{
         background: "linear-gradient(to bottom, #CD9C40 60%, #158A44 40%)",
       }}
@@ -63,11 +63,11 @@ export default function Component8mv() {
         <Image
                   src={img6mv}
                   alt="Decoration"
-                  className="position-absolute start-0 image-fluid"
-                  style={{bottom:0, zIndex:0}}
+                  className="position-absolute image-fluid"
+                  style={{top:0, right:0}}
                 />
         {/* Header Section */}
-        <div className="mb-4 text-start">
+        <div className="mb-4 text-start" style={{zIndex:10}}>
           <h1 className="fw-bold mb-3 c8mvheading">Spacious by Design. Smart by Default.</h1>
           <p className="c8mvsubh" >Choose from East &amp; West-facing villas:</p>
           <button className=" mt-2 py-2 c8mvfpbutton">

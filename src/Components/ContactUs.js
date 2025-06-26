@@ -57,7 +57,8 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="container-fluid text-white py-5" id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
+    <div className="container-fluid text-white py-5 px-3" id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
+      <div className="container px-3">
       <div className="row g-5 align-items-start justify-content-center px-4">
         {!isMobile && (
           <div className="col-lg-6 d-flex justify-content-center">
@@ -146,6 +147,7 @@ export default function ContactUs() {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </div>
   );
