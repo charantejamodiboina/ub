@@ -67,7 +67,7 @@ export default function Component8mv() {
                   style={{top:0, right:0}}
                 />
         {/* Header Section */}
-        <div className="mb-4 text-start" style={{zIndex:10}}>
+        <div className="mb-4 text-start" style={{zIndex:10, position:"relative"}}>
           <h1 className="fw-bold mb-3 c8mvheading">Spacious by Design. Smart by Default.</h1>
           <p className="c8mvsubh" >Choose from East &amp; West-facing villas:</p>
           <button className=" mt-2 py-2 c8mvfpbutton">

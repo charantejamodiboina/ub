@@ -663,16 +663,24 @@ li {
     font-size: 12px;
   }
 
+  .Amanities_title {
+
+    border-radius: 5px;
+    width: 113px;
+    height: 23px;
+    font-size: 8px;
+  }
+
   .AHeading {
-    font-size: 38px;
+    font-size: 24px;
   }
 
   .Adataheading {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .Adata {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .datadiv {
