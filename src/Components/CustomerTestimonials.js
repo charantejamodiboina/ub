@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
-
+import Image from "next/image";
+import quotes from "../assets/ct/quotes.webp"
 export default function CustomerTestimonials() {
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
     const data = [
@@ -33,23 +34,35 @@ export default function CustomerTestimonials() {
     ];
 
     const getInitials = (fullName) => {
-        const words = fullName.split(" ");
-        const initials = words
-            .filter((word) => word[0]?.toUpperCase() !== "&")
-            .map((word) => word[0]?.toUpperCase())
-            .join("");
-        return initials.slice(0, 2);
-    };
+  if (!fullName) return "";
+
+  const hasAmpersand = fullName.includes("&");
+  const words = fullName.split(" ").filter(Boolean);
+
+  if (hasAmpersand) {
+    // If '&' is present, take first letter of names on both sides of '&'
+    const initials = words
+      .filter(word => word !== "&")
+      .map(word => word[0].toUpperCase());
+    return initials.slice(0, 2).join("");
+  } else {
+    // If no '&', return the first letter of the first word
+    return words[0][0].toUpperCase();
+  }
+};
+
 
     return (
-        <div className="container py-4 px-4 py-md-5" >
+        <div className=" py-4 px-4 py-md-5" style={{backgroundColor:"#ffefef"}} >
+            <div className="container px-2 px-md-5">
             <p className="fw-semibold Title">Customer Testimonials</p>
             {isMobile ?<h1 className="fw-bold mb-3 Heading">Built with Heart.<br/> Backed by Trust.</h1> :<h1 className="fw-bold mb-3 Heading">Built with Heart. Backed by Trust.</h1>}
             <div className="row g-4">
                 {data.map((item) => (
                     <div key={item.id} className="col-6 col-md-4 ">
-                        <div className="border rounded-2 h-100 rounded-md-4 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm ">
-                            <div>
+                        <div className="border rounded-2 h-100 rounded-md-4 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm " style={{backgroundColor: "#DEDCDA"}}>
+                            <div >
+                                <Image src={quotes} className="image-fluid mb-2"/>
                                 <h3 className="h5 fw-semibold mb-1 mb-md-3" style={{fontSize: isMobile? 10: 24}}>{item.customer_voice}</h3>
                                 <p className="text-secondary" style={{fontSize: isMobile? 8: 18}}>{item.customer_voice2}</p>
                             </div>
@@ -78,6 +91,7 @@ export default function CustomerTestimonials() {
                         </div>
                     </div>
                 ))}
+            </div>
             </div>
         </div>
     );

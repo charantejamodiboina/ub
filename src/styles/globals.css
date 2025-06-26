@@ -369,6 +369,7 @@ Nav a {
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .la_li {

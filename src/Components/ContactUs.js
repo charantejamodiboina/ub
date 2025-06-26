@@ -61,12 +61,12 @@ export default function ContactUs() {
       <div className="container px-3">
       <div className="row g-5 align-items-start justify-content-center px-4">
         {!isMobile && (
-          <div className="col-lg-6 d-flex justify-content-center">
+          <div className="col-lg-5 d-flex justify-content-center">
             <Image src={contactusbanner} alt="Contact Banner" className="img-fluid rounded-3" />
           </div>
         )}
 
-        <div className="col-lg-6">
+        <div className="col-lg-7">
           <h1 className="fw-bold mb-3 contactus_title">Ready to Make a Move?</h1>
           <p className=" mb-4 contactus_sh">
             Choose the villa lifestyle that blends luxury with legacy.

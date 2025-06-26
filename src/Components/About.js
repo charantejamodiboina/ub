@@ -19,7 +19,7 @@ export default function About() {
     <div className="container px-3 px-md-5">
       <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
-        <div className="col-lg-6 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center align-items-lg-end">
+        <div className="col-lg-5 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end mt-5 align-items-lg-end">
           <div className="d-flex gap-2 gap-md-3 align-items-md-center">
             <Image
               src={about1}
@@ -46,7 +46,7 @@ export default function About() {
         </div>
 
         {/* Content Section */}
-        <div className="col-lg-6 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
+        <div className="col-lg-7 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
           <p className="fw-semibold mb-0 Title">About IRA Realty</p>
           <h1 className=" fw-bold Heading">
             Building Homes. Nurturing Communities.
