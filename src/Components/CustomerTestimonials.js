@@ -53,16 +53,16 @@ export default function CustomerTestimonials() {
 
 
     return (
-        <div className=" py-4 px-4 py-md-5" style={{backgroundColor:"#FEFEFF"}} >
+        <div className=" py-4 px-4 py-md-5" style={{backgroundColor:"#f2f6f8"}} >
             <div className="container px-2 px-md-5">
             <p className="fw-semibold Title">Customer Testimonials</p>
             {isMobile ?<h1 className="fw-bold mb-3 Heading">Built with Heart.<br/> Backed by Trust.</h1> :<h1 className="fw-bold mb-3 Heading">Built with Heart. Backed by Trust.</h1>}
             <div className="row g-4">
                 {data.map((item) => (
                     <div key={item.id} className="col-6 col-md-4 ">
-                        <div className="border rounded-2 h-100 rounded-md-4 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm " style={{backgroundColor: "#DEDCDA"}}>
+                        <div className="border rounded-2 h-100 rounded-md-4 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm " style={{borderColor: "#DEDCDA", borderWidth: 1, backgroundColor:"#FEFEFF"}}>
                             <div >
-                                <Image src={quotes} className="image-fluid mb-2"/>
+                                <Image src={quotes} className="img-fluid mb-2"/>
                                 <h3 className="h5 fw-semibold mb-1 mb-md-3" style={{fontSize: isMobile? 10: 24}}>{item.customer_voice}</h3>
                                 <p className="text-secondary" style={{fontSize: isMobile? 8: 18}}>{item.customer_voice2}</p>
                             </div>

@@ -2,35 +2,33 @@ import Image from "next/image";
 import ftrimg1 from "../assets/footer/ftrimg1.webp";
 import ftrimg2 from "../assets/footer/ftrimg2.webp";
 import ftrimg3 from "../assets/footer/ftrimg3.webp";
-import { SlLocationPin } from "react-icons/sl";
-import { LuPhone } from "react-icons/lu";
-import { MdMailOutline } from "react-icons/md";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 export default function DesktopFooter() {
   return (
-    <footer className="text-white pt-5 px-4" style={{ backgroundColor: "var(--amenitiesbg)" }}>
+    <footer className="text-white pt-5 pb-5 px-4" style={{ backgroundColor: "var(--amenitiesbg)" }}>
       <div className="container">
         <div>
           <div className="row gx-5 d-flex  justify-content-between align-items-start">
             {/* Left Column */}
             <div className="col-md-5 col-lg-4 d-flex flex-column flex-xl-nowrap flex-wrap gap-4">
               <div className="d-flex gap-3 align-items-center">
-                <Image src={ftrimg1} alt="urban ranch logo" className="image-fluid" />
-                <Image src={ftrimg2} alt="Iron horse logo" className="image-fluid" />
+                <Image src={ftrimg1} alt="urban ranch logo" className="img-fluid" />
+                <Image src={ftrimg2} alt="Iron horse logo" className="img-fluid" />
               </div>
               <Image src={ftrimg3} alt="IRA logo" className="img-fluid" />
-              <div>
-                <p className="mb-2 d-flex align-items-start">
-                  <SlLocationPin className="me-2" />
+              <div  style={{ fontSize: 14, color: "#BDBDBD" }}>
+                <p className="mb-2 d-flex align-items-start" >
+                  <FaMapMarkerAlt className="me-2" />
                   4-49/2, Besides Anvaya Conventions Road, Financial District,
                   Vattinagulapally, Hyderabad - 500 032, Telangana
                 </p>
 
                 <div className="d-flex flex-column flex-sm-row justify-content-between gap-2">
                   <p className="mb-0 d-flex align-items-center">
-                    <LuPhone className="me-2" /> +91 9121 777 777
+                    <FaPhoneAlt className="me-2" /> +91 9121 777 777
                   </p>
                   <p className="mb-0 d-flex align-items-center">
-                    <MdMailOutline className="me-2" /> info@irarealty.in
+                    <FaEnvelope className="me-2" /> info@irarealty.in
                   </p>
                 </div>
               </div>
@@ -43,8 +41,8 @@ export default function DesktopFooter() {
                 <div className="d-flex justify-content-between flex-wrap gap-4">
                   {/* Quick Links */}
                   <div>
-                    <h5>Quick Links</h5>
-                    <ul className="list-unstyled">
+                    <h5 style={{fontSize:20}}>Quick Links</h5>
+                    <ul className="list-unstyled mt-4 d-flex flex-column gap-3 fw-light" style={{ fontSize: 14, color: "#BDBDBD" }}>
                       <li>Home</li>
                       <li>Floor Plans</li>
                       <li>Contact Us</li>
@@ -54,8 +52,8 @@ export default function DesktopFooter() {
 
                   {/* Social Media */}
                   <div>
-                    <h5>Social Media</h5>
-                    <ul className="list-unstyled fw-light">
+                    <h5 style={{fontSize:20}}>Social Media</h5>
+                    <ul className="list-unstyled mt-4 d-flex flex-column gap-3  fw-light"  style={{ fontSize: 14, color: "#BDBDBD" }}>
                       <li>Facebook</li>
                       <li>Whatsapp</li>
                     </ul>
@@ -63,9 +61,9 @@ export default function DesktopFooter() {
 
                   {/* Sales Expert Contact */}
                   <div>
-                    <h5>Talk to our sales expert</h5>
+                    <h5 style={{fontSize:20}}>Talk to our sales expert</h5>
                     <button
-                      className="btn text-white"
+                      className="btn text-white mt-4"
                       style={{
                         width: "300px",
                         height: "60px",
@@ -80,7 +78,7 @@ export default function DesktopFooter() {
                 </div>
 
                 {/* Disclaimer */}
-                <p className="fw-light mt-4">
+                <p className="fw-light mt-4"  style={{ fontSize: 14, color: "#BDBDBD" }}>
                   This is purely a conceptual presentation and not a legal offering.
                   The promoters reserve the right to make changes in elevation,
                   specifications, and plans as deemed fit.
@@ -90,7 +88,7 @@ export default function DesktopFooter() {
           </div>
 
           {/* Footer Bottom */}
-          <div className="d-flex justify-content-end pt-4">
+          <div className="d-flex justify-content-end pt-4" style={{ fontSize: 14, color: "#BDBDBD" }}>
             <p className="mb-0">©2025 IRAREALTY</p>
           </div>
         </div>

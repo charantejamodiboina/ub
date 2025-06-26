@@ -63,7 +63,7 @@ export default function Component8mv() {
         <Image
                   src={img6mv}
                   alt="Decoration"
-                  className="position-absolute image-fluid"
+                  className="position-absolute img-fluid"
                   style={{top:0, right:0}}
                 />
         {/* Header Section */}

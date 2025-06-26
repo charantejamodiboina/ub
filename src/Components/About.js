@@ -47,7 +47,10 @@ export default function About() {
 
         {/* Content Section */}
         <div className="col-lg-7 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
-          <p className="fw-semibold mb-0 Title">About IRA Realty</p>
+          <div className="AbTbg">
+            <p className="fw-semibold mb-0 Title">About IRA Realty</p>
+          </div>
+          
           <h1 className=" fw-bold Heading">
             Building Homes. Nurturing Communities.
           </h1>

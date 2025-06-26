@@ -69,6 +69,10 @@
           width: 30px;
           border-radius: 10px;
         }
+.checkLabel {
+    font-size: 12px;
+    font-weight: 200;
+  }
 .villa_type_dv {
   font-size: 28px;
 }
@@ -95,7 +99,18 @@
   font-family: 'Nunito Sans', sans-serif !important;
   height: 50px !important;
 }
-
+.form-check-input:checked {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+.form-check-input:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
+}
+.form-control:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
+}
 .introinput:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
@@ -136,7 +151,14 @@ Nav a {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
-
+.AbTbg {
+  background-color: #ffffff;
+  width:197px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* .introForm{
   height: 438px;
   width:474px;

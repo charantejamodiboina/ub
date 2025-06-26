@@ -21,13 +21,13 @@ export default function Gallery() {
       <Image
           src={isMobile?img6mv:img6}
           alt="Decoration"
-          className="position-absolute start-0 image-fluid"
+          className="position-absolute start-0 img-fluid"
           style={{bottom:isMobile?0:"22%", zIndex:0}}
         />
         <Image
           src={isMobile?img6mv:img6}
           alt="Decoration"
-          className="position-absolute end-0 image-fluid"
+          className="position-absolute end-0 img-fluid"
           style={{top:isMobile?0:"7%"}}
         />
       <div className="container px-md-5" >
