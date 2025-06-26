@@ -69,7 +69,18 @@
           width: 30px;
           border-radius: 10px;
         }
-
+.villa_type_dv {
+  font-size: 28px;
+}
+.villa_name_dv {
+  font-size: 24px;
+}
+.floor_dv {
+  font-size: 24px;
+}
+.villa_bv_dv {
+  font-size: 24px;
+}
 .hammenu {
   top : -43px;
   right: 10px;
@@ -547,9 +558,23 @@ li {
   font-size: 18px;
 }
 
+
+
 }
 
 @media (max-width:1199px) {
+  .villa_type_dv {
+  font-size: 20px;
+}
+.villa_name_dv {
+  font-size: 16px;
+}
+.floor_dv {
+  font-size: 16px;
+}
+.villa_bv_dv {
+  font-size: 16px;
+}
   .Navbar {
     max-width: 885px;
   }

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import ff from "../assets/villa images/ffmv.webp";
 import gf from "../assets/villa images/ggmv.webp";
+import img6mv from "../assets/gallery/Vector.webp";
 
 export default function Component8mv() {
   const data = [
@@ -59,6 +60,12 @@ export default function Component8mv() {
       }}
     >
       <div className="container">
+        <Image
+                  src={img6mv}
+                  alt="Decoration"
+                  className="position-absolute start-0 image-fluid"
+                  style={{bottom:0, zIndex:0}}
+                />
         {/* Header Section */}
         <div className="mb-4 text-start">
           <h1 className="fw-bold mb-3 c8mvheading">Spacious by Design. Smart by Default.</h1>

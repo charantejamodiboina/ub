@@ -10,6 +10,7 @@ import img3mv from "../assets/gallery/image5mv.webp";
 import img4mv from "../assets/gallery/c7mv.webp";
 import img5mv from "../assets/gallery/c2mv.webp";
 import img6 from "../assets/Vector.webp";
+import img6mv from "../assets/gallery/Vector.webp";
 import { useMediaQuery } from "react-responsive";
 
 export default function Gallery() {
@@ -18,13 +19,13 @@ export default function Gallery() {
   return (
     <section className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
       <Image
-          src={img6}
+          src={isMobile?img6mv:img6}
           alt="Decoration"
           className="position-absolute start-0 image-fluid"
           style={{bottom:isMobile?0:"22%", zIndex:0}}
         />
         <Image
-          src={img6}
+          src={isMobile?img6mv:img6}
           alt="Decoration"
           className="position-absolute end-0 image-fluid"
           style={{top:isMobile?0:"7%"}}
