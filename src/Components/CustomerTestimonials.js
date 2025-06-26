@@ -55,7 +55,9 @@ export default function CustomerTestimonials() {
     return (
         <div className=" py-4 px-4 py-md-5" style={{backgroundColor:"#f2f6f8"}} >
             <div className="container px-2 px-md-5">
-            <p className="fw-semibold Title">Customer Testimonials</p>
+                <div className="CtTBg">
+            <p className="Title">Customer Testimonials</p>
+            </div>
             {isMobile ?<h1 className="fw-bold mb-3 Heading">Built with Heart.<br/> Backed by Trust.</h1> :<h1 className="fw-bold mb-3 Heading">Built with Heart. Backed by Trust.</h1>}
             <div className="row g-4">
                 {data.map((item) => (

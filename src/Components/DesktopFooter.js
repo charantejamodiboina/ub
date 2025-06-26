@@ -16,8 +16,8 @@ export default function DesktopFooter() {
                 <Image src={ftrimg2} alt="Iron horse logo" className="img-fluid" />
               </div>
               <Image src={ftrimg3} alt="IRA logo" className="img-fluid" />
-              <div  style={{ fontSize: 14, color: "#BDBDBD" }}>
-                <p className="mb-2 d-flex align-items-start" >
+              <div className="d-flex flex-column gap-3" style={{ fontSize: 14, color: "#BDBDBD" }}>
+                <p className="mb-2" >
                   <FaMapMarkerAlt className="me-2" />
                   4-49/2, Besides Anvaya Conventions Road, Financial District,
                   Vattinagulapally, Hyderabad - 500 032, Telangana
@@ -37,7 +37,7 @@ export default function DesktopFooter() {
 
             {/* Right Column */}
             <div className="col-md-7 col-lg-8 mt-5 mt-md-0">
-              <div className="d-flex flex-column gap-4">
+              <div className="d-flex flex-column mt-2 gap-4">
                 <div className="d-flex justify-content-between flex-wrap gap-4">
                   {/* Quick Links */}
                   <div>
