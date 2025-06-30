@@ -3,6 +3,7 @@ import { useState } from "react";
 import ff from "../assets/villa images/ffmv.webp";
 import gf from "../assets/villa images/ggmv.webp";
 import img6mv from "../assets/gallery/Vector.webp";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 export default function Component8mv() {
   const data = [
@@ -77,21 +78,22 @@ export default function Component8mv() {
 
         {/* Arrows */}
         <div className="d-flex justify-content-end mb-4 pe-3">
-          <button
-            className="btn btn-outline-light rounded-circle me-2 px-2 py-1"
-            onClick={handlePrev}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
-          >
-            ‹
-          </button>
-          <button
-            className="btn btn-outline-light rounded-circle px-2 py-1"
-            onClick={handleNext}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
-          >
-            ›
-          </button>
-        </div>
+  <button
+    className="btn btn-outline-light rounded-circle me-2 px-2 py-1 d-flex align-items-center justify-content-center"
+    onClick={handlePrev}
+    style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+  >
+    <FiChevronLeft size={18} />
+  </button>
+  <button
+    className="btn btn-outline-light rounded-circle px-2 py-1 d-flex align-items-center justify-content-center"
+    onClick={handleNext}
+    style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+  >
+    <FiChevronRight size={18} />
+  </button>
+</div>
+
 
         {/* Villa Cards */}
         <div className="row justify-content-center g-3">
@@ -106,7 +108,7 @@ export default function Component8mv() {
                 />
               </div>
                 
-                <div className="card-body text-light fpdata">
+                <div className="card-body ps-3 text-light text-start fpdata">
                   <h5 className="pt-3 villatype" >{villa.type}</h5>
                   <h6 className="villaname">{villa.name}</h6>
                   <p className="mb-1 floorname" >{floorItem.floor_name}</p>

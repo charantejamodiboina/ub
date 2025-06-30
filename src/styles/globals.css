@@ -41,8 +41,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
+ul {
+padding-left: 0 !important;
+}
         .swiper-amenities .swiper-pagination {
           position: relative;
           margin-top: 42px;
@@ -152,12 +153,8 @@ Nav a {
   font-size: 18px;
 }
 .AbTbg {
-  background-color: #ffffff;
+  background-color: #F8F9FE;
   width:197px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 /* .introForm{
   height: 438px;
@@ -167,10 +164,6 @@ Nav a {
 } */
  .CtTBg {
   width:216px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #F8F9FE;
  }
 .intro_h {
@@ -207,7 +200,25 @@ Nav a {
   border-style: ridge;
   border-color: 1px solid var(--inputborder);
 }
-
+.villa-specs{
+background-color: #F2F6F8;
+}
+.c3-tittle{
+  background-color: #F8F9FE;
+  width : 269px;
+}
+.title-container {
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.villa-specs-title{
+  background-color: #ffffff;
+  width : 210px;
+}
 .villacont {
   border: #DEDCDA 1px solid;
   border-radius: 20px;
@@ -257,6 +268,9 @@ Nav a {
   
 }
 
+.ranchlife{
+
+}
 .GalleryTitle {
   color: var(--primary);
   font-size: 48px;
@@ -302,7 +316,7 @@ Nav a {
   height: 60px;
   border: none;
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   margin-top: 10px ;
 }
 
@@ -345,6 +359,7 @@ Nav a {
 .Adata {
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
+  padding-left: 15px !important;
 }
 
 .c8mvheading {
@@ -437,6 +452,10 @@ Nav a {
   height: 50px !important;
 }
 
+.contactus_input::placeholder {
+  color: #bdbdbd !important;
+}
+
 .contactus_s_btn {
   width: 100%;
   height: 60px;
@@ -471,7 +490,8 @@ Nav a {
 }
 
 .aboutdataheading {
-  font-size: 30px;
+  font-size: 32px !important;
+  font-weight: bold !important;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -719,7 +739,7 @@ li {
   }
 
   .aboutdata {
-    font-size: 20px;
+    font-size: 16px;
   }
   .c3-p {
   font-size: 18px;
@@ -792,9 +812,24 @@ li {
   .introinput {
     font-size: 10px !important;
   height: 30px !important;
-
   }
-
+  .villa-specs-title{
+  width : 95px;
+}
+.c3-tittle{
+  width : 120.8px;
+}
+.CtTBg {
+  width:106.66px;
+ }
+ .AbTbg {
+  width:108.25px;
+}
+  .title-container {
+  height: 23px;
+  border-radius: 2px;
+}
+  
   .intro_h {
     font-size: 36px;
   }
@@ -936,7 +971,7 @@ li {
   }
 
   .aboutdataheading {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .la_btn {
   font-size: 10px !important;

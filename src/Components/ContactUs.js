@@ -57,8 +57,8 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="container-fluid text-white py-5 px-3" id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
-      <div className="container px-3">
+    <div className="container-fluid text-white py-5 px-0 px-lg-3" id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
+      <div className="container px-lg-3 px-0">
       <div className="row g-5 align-items-start justify-content-center px-4">
         {!isMobile && (
           <div className="col-lg-5 d-flex justify-content-center">

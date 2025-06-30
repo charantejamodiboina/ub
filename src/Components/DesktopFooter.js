@@ -17,11 +17,15 @@ export default function DesktopFooter() {
               </div>
               <Image src={ftrimg3} alt="IRA logo" className="img-fluid" />
               <div className="d-flex flex-column gap-3" style={{ fontSize: 14, color: "#BDBDBD" }}>
-                <p className="mb-2" >
+                <ul className="mb-2 list-unstyled" >
+                  <li>
                   <FaMapMarkerAlt className="me-2" />
-                  4-49/2, Besides Anvaya Conventions Road, Financial District,
+                  <span>
+                    4-49/2, Besides Anvaya Conventions Road, Financial District,
                   Vattinagulapally, Hyderabad - 500 032, Telangana
-                </p>
+                  </span>
+                  </li>
+                </ul>
 
                 <div className="d-flex flex-column flex-sm-row justify-content-between gap-2">
                   <p className="mb-0 d-flex align-items-center">
@@ -37,7 +41,7 @@ export default function DesktopFooter() {
 
             {/* Right Column */}
             <div className="col-md-7 col-lg-8 mt-5 mt-md-0">
-              <div className="d-flex flex-column mt-2 gap-4">
+              <div className="d-flex flex-column mt-3 gap-4">
                 <div className="d-flex justify-content-between flex-wrap gap-4">
                   {/* Quick Links */}
                   <div>
@@ -78,7 +82,7 @@ export default function DesktopFooter() {
                 </div>
 
                 {/* Disclaimer */}
-                <p className="fw-light mt-4"  style={{ fontSize: 14, color: "#BDBDBD" }}>
+                <p className="fw-light mt-2"  style={{ fontSize: 14, color: "#BDBDBD" }}>
                   This is purely a conceptual presentation and not a legal offering.
                   The promoters reserve the right to make changes in elevation,
                   specifications, and plans as deemed fit.

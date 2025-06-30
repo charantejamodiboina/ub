@@ -1,22 +1,29 @@
 import Image from "next/image";
 import image1 from "../assets/c3.webp";
+import image1mv from "../assets/c3mv.webp";
 import image2 from "../assets/mask1.webp";
 import { useMediaQuery } from "react-responsive";
 export default function Component3() {
   
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
+  const issmMobile = useMediaQuery({ query: "(max-width: 500px)" });
   return (
     <div
-      className="py-5 d-flex flex-column align-items-center bg-light"
+      className="py-5 d-flex flex-column align-items-center justify-content-center"
       style={{
         backgroundImage: `url(${image2.src})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center bottom ',
         backgroundSize: 'contain',
+        backgroundColor: 'white',
+        maxWidth: 1500,
       }}
     >
-      <div className="" style={{ maxWidth: '86%' }}>
-        <h2 className="mb-4 Title">Welcome to Urban Ranch</h2>
+      <div className="container" style={{ maxWidth: '86%' }}>
+        <div className="" >
+          <div className="title-container c3-tittle mb-2">
+        <h2 className="mb-0 Title">Welcome to Urban Ranch</h2>
+        </div>
 
         <div className="align-items-center gx-5">
           <div className="col-md-12">
@@ -28,15 +35,17 @@ export default function Component3() {
               }
             </p>
           </div>
-          <div className="col-md-12">
+          <div className="col-md-12 d-flex justify-content-center align-items-center align-self-center">
             <Image
-              src={image1}
+              src={issmMobile ? image1mv:image1}
               alt="Image"
               className="img-fluid rounded"
               priority
             />
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );

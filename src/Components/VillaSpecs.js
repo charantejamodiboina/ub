@@ -23,8 +23,10 @@ export default function VillaSpecs() {
   ];
 
   return (
-    <div className="container py-5" id="villa-specs">
-      <h2 className="text-start mb-4 Title">Villa Specifications</h2>
+    <div className="px-5 py-5 villa-specs" id="villa-specs">
+      <div className="villa-specs-title title-container" >
+      <h2 className="mb-0 Title">Villa Specifications</h2>
+      </div>
 
       <div className="row align-items-start gap-3 gap-lg-0">
         <div className="col-lg-7 d-flex flex-column gap-3">

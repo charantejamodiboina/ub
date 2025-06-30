@@ -48,7 +48,7 @@ export default function SmartLiving() {
                     </div>
                   </div>
 
-                  <p className="mb-0 me-1 p-2 smartliving_icon_name" dangerouslySetInnerHTML={{ __html: item.name }}/>
+                  <p className="mb-0 me-1 py-2 smartliving_icon_name" dangerouslySetInnerHTML={{ __html: item.name }}/>
                 </div>
               ))}
             </div>

@@ -15,7 +15,7 @@ export default function About() {
   ];
 
   return (
-  <div className="container-fluid py-5 px-5 bg-light d-flex justify-content-center align-items-center ">
+  <div className="container-fluid py-5 px-md-5 px-0 d-flex justify-content-center align-items-center ">
     <div className="container px-3 px-md-5">
       <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
@@ -47,7 +47,7 @@ export default function About() {
 
         {/* Content Section */}
         <div className="col-lg-7 d-flex flex-column gap-3 gap-xl-4 mt-xl-5">
-          <div className="AbTbg">
+          <div className="title-container AbTbg">
             <p className="fw-semibold mb-0 Title">About IRA Realty</p>
           </div>
           
@@ -58,7 +58,7 @@ export default function About() {
             At IRA Realty, we're redefining real estate with transparency, trust, and transformative design.
           </p>
 
-          <h2 className="h4 mt-lg-4" style={{color:"var(--heading)"}}>Our Landmark Projects:</h2>
+          <h2 className="h4 mt-lg-4 aboutdataheading" style={{color:"var(--heading)"}}>Our Landmark Projects:</h2>
 
           <ul className="list-unstyled mt-lg-3 d-flex flex-column aboutdata " style={{gap:10}}>
             {projects.map((item, index) => (

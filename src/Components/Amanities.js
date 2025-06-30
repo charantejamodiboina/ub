@@ -61,12 +61,12 @@ export default function AmenitiesComponent() {
       <div className="container mx-auto ps-5 " style={{ maxWidth: "1500px" }}>
         <div className="row g-5 align-items-center mt-3 align-items-lg-center justify-content-lg-center">
           {/* Left Text Column */}
-          <div className="col-sm-6 d-flex flex-column mt-0 align-items-center justify-content-center ">
+          <div className="col-sm-6 d-flex flex-column px-0 mt-0 align-items-center justify-content-center ">
             
               <div className="Amanities_title align-self-start ">
               <span>Community &amp; Amenities</span>
             </div>
-            <h2 className="py-4 fw-bold AHeading  align-self-start ">
+            <h2 className="py-2 fw-bold AHeading  align-self-start ">
               A Lifestyle that <br /> Breathes and Belongs
             </h2>
             <div className="datadiv  align-self-start ">
@@ -84,10 +84,23 @@ export default function AmenitiesComponent() {
               loop={true}
               pagination={{ clickable: true }}
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-              spaceBetween={60}
               slidesPerView={1.3}
               
               className="swiper-amenities swam"
+              breakpoints={{
+    320: {
+      spaceBetween: 10, // for small screens (e.g., mobile)
+    },
+    640: {
+      spaceBetween: 20, // for tablets
+    },
+    768: {
+      spaceBetween: 30, // for small laptops
+    },
+    1024: {
+      spaceBetween: 60, // for desktops
+    },
+  }}
             >
               {data.map((item) => (
                 <SwiperSlide key={item.id}  className="d-flex justify-content-center align-items-center swiperamenities">
