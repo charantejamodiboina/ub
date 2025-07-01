@@ -1,5 +1,6 @@
 import Image from "next/image";
-import masterPlanImage from "../assets/plan.webp";
+import masterPlanImage from "../assets/urdesktop/mpdesktop.webp";
+import masterPlanmbImage from "../assets/urmobile/mpmobile.webp";
 import { useMediaQuery } from 'react-responsive';
 export default function MasterPlan() {
     const legendItems = [
@@ -32,15 +33,15 @@ export default function MasterPlan() {
     return (
         <section className="mp px-4 px-lg-5" style={{ backgroundColor: "var(--mpbgclr)" }}>
             <div className="container py-2">
-            <div className="row g-5 align-items-center ">
+            <div className="row g-5 align-items-start ">
                 {/* Left Column: Master Plan */}
-                <div className="col-lg-7 d-flex flex-column align-items-end">
+                <div className="col-lg-7 d-flex flex-column ">
                     <div>
                         <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
                         {!isMobile ? < button className=" mpbroucherbtn" >Download Brochure</button> : null}
                         <div className="">
                             <Image
-                                src={masterPlanImage}
+                                src={isMobile ? masterPlanmbImage :masterPlanImage}
                                 alt="Master plan image"
                                 className="img-fluid "
                                 priority

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import villa from "../assets/c7.webp";
+import mvilla from "../assets/urmobile/vsmobile.webp";
 import areaIcon from "../assets/specicons/area.png";
 import locationIcon from "../assets/specicons/location.png";
 import typeIcon from "../assets/specicons/type.png";
@@ -59,7 +60,7 @@ export default function VillaSpecs() {
 
         <div className="col-lg-5 position-relative d-flex align-items-center justify-content-center ">
           <Image
-            src={villa}
+            src={isMobile?mvilla:villa}
             alt="Villa Image"
             className="img-fluid rounded"
             style={{ objectFit: "contain" }}

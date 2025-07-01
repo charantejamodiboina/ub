@@ -1,8 +1,5 @@
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-
 import quotes from "../assets/ct/quotes.webp";
 
 export default function CustomerTestimonials() {
@@ -66,77 +63,68 @@ export default function CustomerTestimonials() {
           {isMobile && <br />} Backed by Trust.
         </h1>
 
-        <Swiper
-          spaceBetween={20}
-          slidesPerView={isMobile ? 2 : 3}
-          style={{ paddingBottom: "1rem" }}
-        >
-          {data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <div className="col-12 ">
-                <div
-                  className="border rounded-2 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm ctbox"
-                  style={{
-                    borderColor: "#DEDCDA",
-                    borderWidth: 1,
-                    backgroundColor: "#FEFEFF",
-                  }}
-                >
+        <div className="row g-4">
+          {(isMobile ? data.slice(0, 2) : data).map((item) => (
+            <div key={item.id} className="col-6 col-md-4">
+              <div
+                className="border rounded-2 h-100 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm"
+                style={{
+                  borderColor: "#DEDCDA",
+                  borderWidth: 1,
+                  backgroundColor: "#FEFEFF",
+                }}
+              >
+                <div>
+                  <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
+                  <h3
+                    className="h5 fw-semibold mb-1 mb-md-3"
+                    style={{ fontSize: isMobile ? 10 : 24 }}
+                  >
+                    {item.customer_voice}
+                  </h3>
+                  <p
+                    className="text-secondary"
+                    style={{ fontSize: isMobile ? 8 : 18 }}
+                  >
+                    {item.customer_voice2}
+                  </p>
+                </div>
+
+                <div className="d-flex align-items-center mt-2 mt-md-4">
                   <div>
-                    <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
-                    <h3
-                      className="h5 fw-semibold mb-1 mb-md-3"
-                      style={{ fontSize: isMobile ? 10 : 24 }}
-                    >
-                      {item.customer_voice}
-                    </h3>
-                    <p
-                      className="text-secondary"
+                    <div
+                      className="rounded-circle d-flex align-items-center justify-content-center me-3"
                       style={{
-                        fontSize: isMobile ? 8 : 18,
-                        whiteSpace: "normal",
+                        backgroundColor: item.color,
+                        width: isMobile ? "25.5px" : "51px",
+                        height: isMobile ? "25.5px" : "51px",
+                        fontSize: isMobile ? "9px" : "18px",
+                        fontWeight: "600",
+                        color: "white",
                       }}
                     >
-                      {item.customer_voice2}
-                    </p>
+                      {getInitials(item.customer_name)}
+                    </div>
                   </div>
-
-                  <div className="d-flex align-items-center mt-2 mt-md-4">
-                    <div>
-                      <div
-                        className="rounded-circle d-flex align-items-center justify-content-center me-3"
-                        style={{
-                          backgroundColor: item.color,
-                          fontSize: isMobile ? "9px" : "18px",
-                          fontWeight: "600",
-                          color: "white",
-                          width: isMobile ? "25.5px" : "51px",
-                        height: isMobile ? "25.5px" : "51px",
-                        }}
-                      >
-                        {getInitials(item.customer_name)}
-                      </div>
-                    </div>
-                    <div>
-                      <p
-                        className="mb-0 fw-semibold"
-                        style={{ fontSize: isMobile ? 8 : 18 }}
-                      >
-                        {item.customer_name}
-                      </p>
-                      <p
-                        className="mb-0 text-muted small"
-                        style={{ fontSize: isMobile ? 8 : 18 }}
-                      >
-                        {item.customer_occupation}
-                      </p>
-                    </div>
+                  <div>
+                    <p
+                      className="mb-0 fw-semibold"
+                      style={{ fontSize: isMobile ? 8 : 18 }}
+                    >
+                      {item.customer_name}
+                    </p>
+                    <p
+                      className="mb-0 text-muted small"
+                      style={{ fontSize: isMobile ? 8 : 18 }}
+                    >
+                      {item.customer_occupation}
+                    </p>
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       </div>
     </div>
   );

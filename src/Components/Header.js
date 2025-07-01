@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import mlogo from "../assets/urmobile/urflogomobile.webp";
+import mlogo from "../assets/urmobile/urhmobile.webp";
 import dlogo from "../assets/urdesktop/urlogodesktop.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";

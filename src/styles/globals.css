@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
   src: url('/public/fonts/Season.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
@@ -33,7 +33,7 @@
 }
 
 .font-seasons {
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
 }
 
 @font-face {
@@ -125,7 +125,7 @@ padding-left: 0 !important;
 .Heading {
   color: var(--heading);
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
   line-height: 56px;
   letter-spacing: 0.5px;
 }
@@ -271,7 +271,7 @@ background-color: #F2F6F8;
 .GalleryTitle {
   color: var(--primary);
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
 }
 
 .Gallery {
@@ -344,7 +344,7 @@ background-color: #F2F6F8;
 .AHeading {
   color: var(--primary);
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
 }
 
 .Adataheading {
@@ -362,7 +362,7 @@ background-color: #F2F6F8;
 .c8mvheading {
   color: var(--heading);
   font-size: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
 }
 
 .c8mvsubh {
@@ -437,7 +437,7 @@ background-color: #F2F6F8;
 .contactus_title {
   color: var(--primary);
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: "Cormorant", serif;
 }
 
 .contactus_sh {
@@ -997,7 +997,7 @@ li {
   }
 .ctbox {
     width: 150px;
-    height: auto;
+    height :130px
   }
 }
 

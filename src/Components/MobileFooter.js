@@ -10,9 +10,9 @@ export default function MobileFooter() {
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       {/* Top Section */}
-      <div className="row d-flex w-100 justify-content-center align-items-start">
+      <div className="row d-flex w-100 justify-content-between align-items-start ">
         {/* Logos Column */}
-        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
+        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-center ">
           <div className="d-flex flex-column align-items-start justify-content-between gap-5">
           <Image src={ftrimg1} alt="Urban Ranch logo" className="img-fluid" />
           <div className="d-flex flex-column">
@@ -23,7 +23,7 @@ export default function MobileFooter() {
         </div>
 
         {/* Contact Info Column */}
-        <div className="col-8 col-md-6 d-flex flex-column gap-2 ftrcontact" >
+        <div className="col-8 col-md-6 ps-3 d-flex flex-column gap-2 ftrcontact" >
           <div>
             <h6 className=" ftrbold">
               Talk to our sales expert
@@ -57,9 +57,9 @@ export default function MobileFooter() {
           
 
           <div>
-            <h6 className=" ftrsemibold" >Social Media</h6>
+            <h6 className=" ftrsemibold" >Social Media : </h6>
             <div className="d-flex gap-3">
-              <a href="#" className=" text-decoration-none ftrnormal">Facebook</a>
+              <a href="#" className=" text-decoration-none ftrnormal">Facebook |</a>
               <a href="#" className=" text-decoration-none ftrnormal">Whatsapp</a>
             </div>
           </div>

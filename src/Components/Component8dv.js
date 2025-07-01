@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import gf from "../assets/villa images/groundfloor.webp";
-import ff from "../assets/villa images/firstfloor.webp";
+import gf from "../assets/urdesktop/gfdesktop.webp";
+import ff from "../assets/urdesktop/ffdesktop.webp";
 import img6 from "../assets/Vector.webp";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
@@ -93,7 +93,7 @@ export default function FloorPlans() {
           </button>
 
           {/* Villa card */}
-          <div className="d-flex flex-column flex-lg-row align-items-start gap-4 text-dark p-4 rounded  w-100" style={{ maxWidth: 1000 }}>
+          <div className="d-flex flex-column flex-lg-row align-items-start justify-content-between text-dark p-4 rounded  w-100">
 
             {/* Left details */}
             <div className="text-lg-end text-light pt-3">
@@ -107,22 +107,18 @@ export default function FloorPlans() {
             </div>
 
             {/* Images */}
-            <div className="d-flex flex-column flex-md-row justify-content-center gap-4">
               <Image
                 src={villa.floor[0].image}
                 alt={`${villa.floor[0].floor_name} plan`}
-                width={300}
-                height={250}
-                className="img-fluid rounded"
+                
+                className="img-fluid rounded pe-2"
               />
               <Image
                 src={villa.floor[1].image}
                 alt={`${villa.floor[1].floor_name} plan`}
-                width={300}
-                height={250}
+                
                 className="img-fluid rounded"
               />
-            </div>
 
             {/* Right details */}
             <div className="text-lg-start text-light pt-3">

@@ -5,6 +5,6 @@ const Component8dv = dynamic(() => import('./Component8dv'));
 export default function Component8 () {
     
  
-    const isMobile = useMediaQuery({ query: '(min-width: 991px)' });
+    const isMobile = useMediaQuery({ query: '(min-width: 1024px)' });
     return isMobile ? <Component8dv/>: <Component8mv/> 
 }
