@@ -1034,3 +1034,22 @@ li {
   pointer-events: none;
   z-index: 2;
 }
+
+.ftrbold {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.ftrsemibold {
+  font-size: 9px;
+  font-family: "Poppins", sans-serif;
+  color : white
+}
+.ftrnormal {
+  font-size: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #bdbdbd;
+}
+.ftrcontact{
+ border-left: 1px solid white;
+}

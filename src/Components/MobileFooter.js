@@ -1,62 +1,66 @@
 import Image from "next/image";
-import ftrimg1 from "../assets/footer/ftrimg1.webp";
-import ftrimg2 from "../assets/footer/ftrimg2.webp";
-import ftrimg3 from "../assets/footer/ftrimg3.webp";
+import ftrimg1 from "../assets/urmobile/urflogomobile.webp";
+import ftrimg2 from "../assets/urmobile/ihlogomobile.webp";
+import ftrimg3 from "../assets/urmobile/logofmobile.webp";
 
 export default function MobileFooter() {
   return (
-    <footer className=" text-white pt-5 px-3 py-3 d-flex flex-column align-items-center gap-3" style={{backgroundColor:"var(--amenitiesbg)"}}>
-      {/* Top Section with Images and Contact */}
-      <div className="d-flex w-100 justify-content-center align-items-start flex-nowrap gap-4">
+    <footer
+      className="text-white pt-5 px-3 py-3 d-flex flex-column align-items-center gap-3"
+      style={{ backgroundColor: "var(--amenitiesbg)" }}
+    >
+      {/* Top Section */}
+      <div className="row d-flex w-100 justify-content-center align-items-start">
         {/* Logos Column */}
-        <div className="d-flex flex-column align-items-center justify-content-between gap-5" style={{ flex: 1}}>
+        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
+          <div className="d-flex flex-column align-items-start justify-content-between gap-5">
           <Image src={ftrimg1} alt="Urban Ranch logo" className="img-fluid" />
-          <Image src={ftrimg2} alt="Iron Horse logo" className="img-fluid" />
-          <Image src={ftrimg3} alt="IRA logo" className="img-fluid" />
+          <div className="d-flex flex-column">
+            <Image src={ftrimg3} alt="IRA logo" className="img-fluid ps-1" />
+            <Image src={ftrimg2} alt="Iron Horse logo" className="img-fluid" />
+          </div>
+          </div>
         </div>
 
-        {/* Divider Line */}
-        <div
-    className="d-block "
-    style={{
-      width: "1px",
-      backgroundColor: "#ffffff50",
-      height: "auto",
-      alignSelf: "stretch",
-    }}
-  />
-
         {/* Contact Info Column */}
-        <div className="d-flex flex-column gap-3" style={{ flex: 1, fontSize: "0.8rem" }}>
+        <div className="col-8 col-md-6 d-flex flex-column gap-2 ftrcontact" >
           <div>
-            <h6 className="mb-1" style={{ fontSize: "0.9rem" }}>Talk to our sales expert</h6>
+            <h6 className=" ftrbold">
+              Talk to our sales expert
+            </h6>
             <button
               className="btn btn-sm text-white"
-              style={{ backgroundColor: "var(--icondesc)", borderRadius: "5px", fontSize: "0.75rem", width: "120px", height: "30px" }}
+              style={{
+                backgroundColor: "var(--icondesc)",
+                borderRadius: "5px",
+                fontSize: "0.75rem",
+                width: "138px",
+                height: "28px",
+              }}
             >
               Click Here
             </button>
           </div>
 
           <div>
-            <p className="mb-1 fw-bold" style={{ fontSize: "0.8rem" }}>Address:</p>
-            <p className="mb-0">
+            <p className="mb-0 ftrsemibold">Address:</p>
+            <p className="mb-0 ftrnormal">
               4-49/2, Besides Anvaya Conventions Road,<br />
               Financial District, Vattinagulapally,<br />
               Hyderabad - 500 032, Telangana
             </p>
           </div>
 
-          <div>
-            <p className="mb-1">Phone: +91 9121 777 777</p>
-            <p>Email: info@irarealty.in</p>
-          </div>
+          
+            <p className="mb-0 ftrsemibold">Phone: +91 9121 777 777</p>
+            <p className="mb-0 ftrsemibold">Email: info@irarealty.in</p>
+          
 
           <div>
-            <h6 className="mb-1" style={{ fontSize: "0.9rem" }}>Social Media</h6>
+            <h6 className=" ftrsemibold" >Social Media</h6>
             <div className="d-flex gap-3">
-              <a href="#" className="text-white text-decoration-none small">Facebook</a>
-              <a href="#" className="text-white text-decoration-none small">Whatsapp</a>
+              <a href="#" className=" text-decoration-none ftrnormal">Facebook</a>
+              <a href="#" className=" text-decoration-none ftrnormal">Whatsapp</a>
             </div>
           </div>
         </div>
@@ -64,19 +68,19 @@ export default function MobileFooter() {
 
       {/* Bottom Section */}
       <div className="w-100 d-flex flex-column align-items-center text-center gap-2" style={{ fontSize: "0.75rem" }}>
-        <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2">
-          <li>Home</li>
-          <li>Floor Plans</li>
-          <li>Contact Us</li>
-          <li>Privacy Policy</li>
-        </ul>
+       <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
+  <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
+  <li><a href="#floor-plans" className="text-white text-decoration-none">Floor Plans</a></li>
+  <li><a href="#contact-us" className="text-white text-decoration-none">Contact Us</a></li>
+  <li><a href="https://irarealty.in/privacy-policy" className="text-white text-decoration-none" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+</ul>
 
-        <p className="px-3 mb-1" style={{ maxWidth: "700px", lineHeight: "1.4" }}>
+        <p className="px-3 mb-1 ftrnormal" style={{ maxWidth: "700px", lineHeight: "1.4" }}>
           This is purely a conceptual presentation and not a legal offering. The promoters reserve the right to make
           changes in elevation, specifications, and plans as deemed fit.
         </p>
 
-        <p className="mb-0">©2025 IRAREALTY</p>
+        <p className="mb-0 ftrnormal">©2025 IRAREALTY</p>
       </div>
     </footer>
   );
