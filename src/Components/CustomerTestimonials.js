@@ -3,7 +3,7 @@ import Image from "next/image";
 import quotes from "../assets/ct/quotes.webp";
 
 export default function CustomerTestimonials() {
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 567px)" });
 
   const data = [
     {
@@ -77,14 +77,14 @@ export default function CustomerTestimonials() {
                 <div>
                   <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
                   <h3
-                    className="h5 fw-semibold mb-1 mb-md-3"
-                    style={{ fontSize: isMobile ? 10 : 24 }}
+                    className="h5 fw-semibold mb-1 mb-md-3 ctText"
+                    // style={{ fontSize: isMobile ? 10 : 24 }}
                   >
                     {item.customer_voice}
                   </h3>
                   <p
-                    className="text-secondary"
-                    style={{ fontSize: isMobile ? 8 : 18 }}
+                    className="text-secondary ctText2"
+                    // style={{ fontSize: isMobile ? 8 : 18 }}
                   >
                     {item.customer_voice2}
                   </p>
@@ -93,14 +93,14 @@ export default function CustomerTestimonials() {
                 <div className="d-flex align-items-center mt-2 mt-md-4">
                   <div>
                     <div
-                      className="rounded-circle d-flex align-items-center justify-content-center me-3"
+                      className="rounded-circle d-flex align-items-center justify-content-center me-3 cticon"
                       style={{
                         backgroundColor: item.color,
-                        width: isMobile ? "25.5px" : "51px",
-                        height: isMobile ? "25.5px" : "51px",
-                        fontSize: isMobile ? "9px" : "18px",
-                        fontWeight: "600",
-                        color: "white",
+                        // width: isMobile ? "25.5px" : "51px",
+                        // height: isMobile ? "25.5px" : "51px",
+                        // fontSize: isMobile ? "9px" : "18px",
+                        // fontWeight: "600",
+                        // color: "white",
                       }}
                     >
                       {getInitials(item.customer_name)}
@@ -108,14 +108,14 @@ export default function CustomerTestimonials() {
                   </div>
                   <div>
                     <p
-                      className="mb-0 fw-semibold"
-                      style={{ fontSize: isMobile ? 8 : 18 }}
+                      className="mb-0 fw-semibold ctText2"
+                      // style={{ fontSize: isMobile ? 8 : 18 }}
                     >
                       {item.customer_name}
                     </p>
                     <p
-                      className="mb-0 text-muted small"
-                      style={{ fontSize: isMobile ? 8 : 18 }}
+                      className="mb-0 text-muted ctText2"
+                      // style={{ fontSize: isMobile ? 8 : 18 }}
                     >
                       {item.customer_occupation}
                     </p>
