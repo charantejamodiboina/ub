@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import logo from "../assets/Layer_1.webp";
+import mlogo from "../assets/urmobile/urhlogomobile.webp";
+import dlogo from "../assets/urdesktop/urlogodesktop.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 
@@ -28,7 +29,7 @@ export default function Header() {
         {/* Centered Logo */}
         <div className="text-center">
           <Image
-            src={logo}
+            src={mlogo}
             alt="logo"
             height={69.35}
             width={91}
@@ -48,7 +49,7 @@ export default function Header() {
 
       {/* Desktop View */}
       <div className="d-none d-lg-flex justify-content-start align-items-center Navbar1">
-        <Image src={logo} alt="logo" height={69.35} width={91} priority />
+        <Image src={dlogo} alt="logo" className="img-fluid" priority />
         <nav className="d-flex gap-5">
           {["#home", "#floor-plans", "#amenities", "#contact-us"].map((section) => (
             <a

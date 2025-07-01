@@ -98,16 +98,21 @@ export default function Component8mv() {
         {/* Villa Cards */}
         <div className="row justify-content-center g-3">
           {villa.floor.map((floorItem, idx) => (
-            <div key={idx} className="row-12 col-6 d-flex flex-column align-items-center">
-              <div>
-                <div>
+            <div key={idx} className="col-6 d-flex flex-column align-items-center">
+              <div className="w-100">
+               
                   <Image
                     src={floorItem.image}
                     alt={floorItem.floor_name}
-                    className="img-fluid mb-3 w-100"
-                    style={{ borderRadius: 10 }}
+                    className="mb-3"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      borderRadius: 10,
+                    }}
+                    placeholder="blur"
                   />
-                </div>
+                
 
                 <div className="card-body text-light text-start fpdata">
                   <h5 className="pt-3 villatype" >{villa.type}</h5>

@@ -25,15 +25,15 @@
 }
 
 @font-face {
-  font-family: 'Seasons';
-  src: url('/fonts/Season.woff2') format('woff2');
+  font-family: "Playfair Display", serif;
+  src: url('/public/fonts/Season.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   display: "swap",
 }
 
 .font-seasons {
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
 }
 
 @font-face {
@@ -128,7 +128,7 @@ padding-left: 0 !important;
 .Heading {
   color: var(--heading);
   font-size: 48px;
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
   line-height: 56px;
   letter-spacing: 0.5px;
 }
@@ -276,7 +276,7 @@ background-color: #F2F6F8;
 .GalleryTitle {
   color: var(--primary);
   font-size: 48px;
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
 }
 
 .Gallery {
@@ -349,7 +349,7 @@ background-color: #F2F6F8;
 .AHeading {
   color: var(--primary);
   font-size: 48px;
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
 }
 
 .Adataheading {
@@ -367,7 +367,7 @@ background-color: #F2F6F8;
 .c8mvheading {
   color: var(--heading);
   font-size: 24px;
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
 }
 
 .c8mvsubh {
@@ -442,7 +442,7 @@ background-color: #F2F6F8;
 .contactus_title {
   color: var(--primary);
   font-size: 48px;
-  font-family: 'The Seasons';
+  font-family: "Playfair Display", serif;
 }
 
 .contactus_sh {
@@ -951,10 +951,7 @@ li {
     font-size: 10px;
   }
 
-  .ctbox {
-    width: 150px;
-    height: 120px
-  }
+  
 
   .contactus_title {
     font-size: 24px;
@@ -1003,7 +1000,10 @@ li {
     border-radius: 5px;
     font-size: 10px;
   }
-
+.ctbox {
+    width: 150px;
+    height: auto;
+  }
 }
 
 

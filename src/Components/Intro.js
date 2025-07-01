@@ -1,9 +1,13 @@
 "use client";
-
+import Image from "next/image";
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import DatePicker from "react-datepicker";
+import iralogo from "../assets/urdesktop/logodesktop.webp";
+import ihlogo from "../assets/urdesktop/irlogodesktop.webp";
+import iralogom from "../assets/urmobile/logohmobile.webp";
+import ihlogom from "../assets/urmobile/ihlogomobile.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)
@@ -66,7 +70,7 @@ export default function Intro() {
               </>
             ) : (
               <>
-                Experience 17 acres of gated community living <br/> at Urban Ranch
+                Experience 17 acres of gated community living <br /> at Urban Ranch
               </>
             )}
           </p>
@@ -76,6 +80,11 @@ export default function Intro() {
           >
             Download Brochure
           </button>
+          <div className="mt-5">
+            <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
+            <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
+          </div>
+
         </div>
 
         {/* Right Form Box */}
