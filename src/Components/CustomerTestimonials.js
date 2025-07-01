@@ -65,7 +65,7 @@ export default function CustomerTestimonials() {
 
         <div className="row g-4">
           {(isMobile ? data.slice(0, 2) : data).map((item) => (
-            <div key={item.id} className="col-6 col-md-4">
+            <div key={item.id} className="col-6 col-md-4 p-0 pe-2">
               <div
                 className="border rounded-2 h-100 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm"
                 style={{

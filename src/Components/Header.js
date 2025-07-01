@@ -31,10 +31,9 @@ export default function Header() {
           <Image
             src={mlogo}
             alt="logo"
-            height={69.35}
-            width={91}
+            
             priority
-            className="mx-auto mt-5"
+            className="img-fluid mx-auto mt-5"
           />
         </div>
         {/* Hamburger top-right */}

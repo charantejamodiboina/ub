@@ -38,12 +38,12 @@ export default function MasterPlan() {
                 <div className="col-lg-7 d-flex flex-column ">
                     <div>
                         <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
-                        {!isMobile ? < button className=" mpbroucherbtn" >Download Brochure</button> : null}
-                        <div className="">
+                        {!isMobile ? < button className=" mpbroucherbtn mb-5" >Download Brochure</button> : null}
+                        <div className="d-flex align-items-center justify-content-center">
                             <Image
                                 src={isMobile ? masterPlanmbImage :masterPlanImage}
                                 alt="Master plan image"
-                                className="img-fluid "
+                                className="img-fluid align-self-center"
                                 priority
                             />
                         </div>

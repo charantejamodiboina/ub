@@ -118,39 +118,66 @@ export default function AmenitiesComponent() {
 
       {/* Swiper Custom Styling */}
       <style jsx>{`
-        :global(.swiper-amenities .swiper-pagination) {
-          position: relative;
-          margin-top: 50px;
-          display: flex;
-          justify-content: flex-end;
-          max-width: 70%;
-        }
+  /* Base pagination style */
+  :global(.swiper-amenities .swiper-pagination) {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 70%;
+  }
 
-        @media (max-width: 992px) {
-           :global(.swiper-amenities .swiper-pagination-bullet) {
-          
-          width: 10px;
-          height: 5px;
-          border-radius: 5px;
-          transition: all 0.3s ease;
-        }
-        }
+  /* Desktop default pagination dot */
+  :global(.swiper-amenities .swiper-pagination-bullet) {
+    background: #999;
+    opacity: 1;
+    width: 25px;
+    height: 5px;
+    margin-top : 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
 
-        :global(.swiper-amenities .swiper-pagination-bullet) {
-          background: #999;
-          opacity: 1;
-          width: 25px;
-          height: 5px;
-          border-radius: 10px;
-          transition: all 0.3s ease;
-        }
+  :global(.swiper-amenities .swiper-pagination-bullet-active) {
+    background: #f7c24c;
+    width: 25px;
+    border-radius: 10px;
+  }
 
-        :global(.swiper-amenities .swiper-pagination-bullet-active) {
-          background: #f7c24c;
-          width: 25px;
-          border-radius: 10px;
-        }
-      `}</style>
+  /* Tablet */
+  @media (max-width: 992px) {
+    :global(.swiper-amenities .swiper-pagination-bullet) {
+      width: 16px;
+      height: 4px;
+    }
+    :global(.swiper-amenities .swiper-pagination-bullet-active) {
+      width: 16px;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    :global(.swiper-amenities .swiper-pagination-bullet) {
+      width: 12px;
+      height: 3px;
+    }
+    :global(.swiper-amenities .swiper-pagination-bullet-active) {
+      width: 16px;
+    }
+  }
+
+  /* Extra small screens */
+  @media (max-width: 475px) {
+    :global(.swiper-amenities .swiper-pagination-bullet) {
+      width: 8px;
+      height: 3px;
+    }
+    :global(.swiper-amenities .swiper-pagination-bullet-active) {
+      width: 12px;
+    }
+  }
+`}</style>
+
     </section>
   );
 }
