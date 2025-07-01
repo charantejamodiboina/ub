@@ -60,12 +60,27 @@ export default function CustomerTestimonials() {
 
         <h1 className="fw-bold mb-3 Heading">
           Built with Heart.
-          {isMobile && <br />} Backed by Trust.
+          <br /> Backed by Trust.
         </h1>
 
-        <div className="row g-4">
-          {(isMobile ? data.slice(0, 2) : data).map((item) => (
-            <div key={item.id} className="col-6 col-md-4">
+        <div
+          style={{
+            overflowX: "auto",
+            whiteSpace: "nowrap",
+            paddingBottom: "1rem",
+          }}
+        >
+          {data.map((item) => (
+            <div
+              key={item.id}
+              style={{
+                display: "inline-block",
+                width: isMobile ? "80%" : "30%",
+                minWidth: "280px",
+                marginRight: "16px",
+                verticalAlign: "top",
+              }}
+            >
               <div
                 className="border rounded-2 h-100 p-2 p-md-4 d-flex flex-column justify-content-between shadow-sm"
                 style={{

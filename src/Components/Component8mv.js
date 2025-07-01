@@ -62,13 +62,13 @@ export default function Component8mv() {
     >
       <div className="container">
         <Image
-                  src={img6mv}
-                  alt="Decoration"
-                  className="position-absolute img-fluid"
-                  style={{top:0, right:0}}
-                />
+          src={img6mv}
+          alt="Decoration"
+          className="position-absolute img-fluid"
+          style={{ top: 0, right: 0 }}
+        />
         {/* Header Section */}
-        <div className="mb-4 text-start" style={{zIndex:10, position:"relative"}}>
+        <div className="mb-4 text-start" style={{ zIndex: 10, position: "relative" }}>
           <h1 className="fw-bold mb-3 c8mvheading">Spacious by Design. Smart by Default.</h1>
           <p className="c8mvsubh" >Choose from East &amp; West-facing villas:</p>
           <button className=" mt-2 py-2 c8mvfpbutton">
@@ -78,45 +78,50 @@ export default function Component8mv() {
 
         {/* Arrows */}
         <div className="d-flex justify-content-end mb-4 pe-3">
-  <button
-    className="btn btn-outline-light rounded-circle me-2 px-2 py-1 d-flex align-items-center justify-content-center"
-    onClick={handlePrev}
-    style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
-  >
-    <FiChevronLeft size={18} />
-  </button>
-  <button
-    className="btn btn-outline-light rounded-circle px-2 py-1 d-flex align-items-center justify-content-center"
-    onClick={handleNext}
-    style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
-  >
-    <FiChevronRight size={18} />
-  </button>
-</div>
+          <button
+            className="btn btn-outline-light rounded-circle me-2 px-2 py-1 d-flex align-items-center justify-content-center"
+            onClick={handlePrev}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+          >
+            <FiChevronLeft size={18} />
+          </button>
+          <button
+            className="btn btn-outline-light rounded-circle px-2 py-1 d-flex align-items-center justify-content-center"
+            onClick={handleNext}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+          >
+            <FiChevronRight size={18} />
+          </button>
+        </div>
 
 
         {/* Villa Cards */}
         <div className="row justify-content-center g-3">
           {villa.floor.map((floorItem, idx) => (
-            <div key={idx} className="row-12 col-6">
+            <div key={idx} className="row-12 col-6 d-flex flex-column align-items-center">
               <div>
-                <Image
-                  src={floorItem.image}
-                  alt={floorItem.floor_name}
-                  className="img-fluid mb-3"
-                  style={{height:"auto", borderRadius:10}}
-                />
-              </div>
-                
-                <div className="card-body ps-3 text-light text-start fpdata">
+                <div>
+                  <Image
+                    src={floorItem.image}
+                    alt={floorItem.floor_name}
+                    className="img-fluid mb-3 w-100"
+                    style={{ borderRadius: 10 }}
+                  />
+                </div>
+
+                <div className="card-body text-light text-start fpdata">
                   <h5 className="pt-3 villatype" >{villa.type}</h5>
                   <h6 className="villaname">{villa.name}</h6>
                   <p className="mb-1 floorname" >{floorItem.floor_name}</p>
                   <p className="mb-0 builtuparea" >
-                    Built-up Area:<br /><span style={{fontWeight:200}}>{floorItem.built_up_area}</span>
-                    
+                    Built-up Area:<br /><span style={{ fontWeight: 200 }}>{floorItem.built_up_area}</span>
+
                   </p>
+
                 </div>
+              </div>
+
+
             </div>
           ))}
         </div>

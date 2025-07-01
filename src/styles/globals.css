@@ -29,6 +29,7 @@
   src: url('/fonts/Season.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  display: "swap",
 }
 
 .font-seasons {
@@ -40,6 +41,7 @@
   src: url('/public/fonts/FuturaPT-Book.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
+  display: "swap",
 }
 ul {
 padding-left: 0 !important;
