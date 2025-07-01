@@ -53,10 +53,7 @@ padding-left: 0 !important;
           
         }
 
-        @media (min-width: 992px) {
-          .swiper-amenities .swiper-pagination {
-          }
-        }
+        
 
         .swiper-amenities .swiper-pagination-bullet {
           background: #999;
