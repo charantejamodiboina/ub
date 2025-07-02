@@ -57,81 +57,81 @@ export default function CustomerTestimonials() {
   return (
     <div className="py-4 py-md-5" style={{ backgroundColor: "#f2f6f8" }}>
       <div className="container">
-        <div>
-        <div className="CtTBg title-container">
-          <p className="m-0 Title">Customer Testimonials</p>
-        </div>
+        <div className="px-3">
+          <div className="CtTBg title-container">
+            <p className="m-0 Title">Customer Testimonials</p>
+          </div>
 
-        <h1 className="fw-bold mb-3 Heading">
-          Built with Heart.
-          {isMobile && <br />} Backed by Trust.
-        </h1>
+          <h1 className="fw-bold mb-3 Heading">
+            Built with Heart.
+            {isMobile && <br />} Backed by Trust.
+          </h1>
 
-        <Swiper
-          slidesPerView={isMobile ? 2 : 3}
-          spaceBetween={20}
-          pagination={false}
-          modules={[Pagination]}
-        >
-          {data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <div
-                className="border rounded-2 h-100 p-3 d-flex flex-column justify-content-between shadow-sm"
-                style={{
-                  borderColor: "#DEDCDA",
-                  backgroundColor: "#FEFEFF",
-                  height: "100%",
-                }}
-              >
-                <div>
-                  <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
-                  <h3
-                    className="h5 fw-semibold mb-2 ctText"
-                    style={{ fontSize: isMobile ? 10 : 24 }}
-                  >
-                    {item.customer_voice}
-                  </h3>
-                  <p
-                    className="text-secondary ctText2"
-                    style={{ fontSize: isMobile ? 8 : 18, height:isMobile? 40 : 100 }}
-                  >
-                    {item.customer_voice2}
-                  </p>
-                </div>
-
-                <div className="d-flex align-items-center mt-3">
-                  <div
-                    className="rounded-circle d-flex align-items-center justify-content-center me-2 me-lg-3 cticon"
-                    style={{
-                      backgroundColor: item.color,
-                      width: isMobile ? 20 : 51,
-                      height: isMobile ? 20 : 51,
-                      fontSize: isMobile ? 7 : 18,
-                      fontWeight: "600",
-                      color: "white",
-                    }}
-                  >
-                    {getInitials(item.customer_name)}
-                  </div>
+          <Swiper
+            slidesPerView={isMobile ? 2 : 3}
+            spaceBetween={20}
+            pagination={false}
+            modules={[Pagination]}
+          >
+            {data.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div
+                  className="border rounded-2 h-100 p-3 d-flex flex-column justify-content-between shadow-sm"
+                  style={{
+                    borderColor: "#DEDCDA",
+                    backgroundColor: "#FEFEFF",
+                    height: "100%",
+                  }}
+                >
                   <div>
-                    <p
-                      className="mb-0 fw-semibold ctText2"
-                      style={{ fontSize: isMobile ? 7 : 18 }}
+                    <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
+                    <h3
+                      className="h5 fw-semibold mb-2 ctText"
+                      style={{ fontSize: isMobile ? 10 : 24 }}
                     >
-                      {item.customer_name}
-                    </p>
+                      {item.customer_voice}
+                    </h3>
                     <p
-                      className="mb-0 text-muted ctText2"
-                      style={{ fontSize: isMobile ? 7 : 18 }}
+                      className="text-secondary ctText2"
+                      style={{ fontSize: isMobile ? 8 : 18, height: isMobile ? 40 : 100 }}
                     >
-                      {item.customer_occupation}
+                      {item.customer_voice2}
                     </p>
                   </div>
+
+                  <div className="d-flex align-items-center mt-3">
+                    <div
+                      className="rounded-circle d-flex align-items-center justify-content-center me-2 me-lg-3 cticon"
+                      style={{
+                        backgroundColor: item.color,
+                        width: isMobile ? 20 : 51,
+                        height: isMobile ? 20 : 51,
+                        fontSize: isMobile ? 7 : 18,
+                        fontWeight: "600",
+                        color: "white",
+                      }}
+                    >
+                      {getInitials(item.customer_name)}
+                    </div>
+                    <div>
+                      <p
+                        className="mb-0 fw-semibold ctText2"
+                        style={{ fontSize: isMobile ? 7 : 18 }}
+                      >
+                        {item.customer_name}
+                      </p>
+                      <p
+                        className="mb-0 text-muted ctText2"
+                        style={{ fontSize: isMobile ? 7 : 18 }}
+                      >
+                        {item.customer_occupation}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </div>

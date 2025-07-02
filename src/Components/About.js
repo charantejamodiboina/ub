@@ -17,7 +17,8 @@ export default function About() {
   return (
   <div className="container-fluid py-5 d-flex justify-content-center align-items-center ">
     <div className="container ">
-      <div className="row align-items-start flex-column-reverse flex-lg-row px-3">
+      <div className="px-3">
+      <div className="row align-items-start flex-column-reverse flex-lg-row ">
         {/* Image Section */}
         <div className="col-lg-5 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center  px-2">
           <div className="d-flex gap-2 gap-md-3 align-items-md-center ">
@@ -83,6 +84,7 @@ export default function About() {
             ))}
           </ul>
         </div>
+      </div>
       </div>
       </div>
     </div>

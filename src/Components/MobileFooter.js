@@ -10,8 +10,9 @@ export default function MobileFooter() {
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       <div className="container">
+        <div className="px-3">
       {/* Top Section */}
-      <div className="row d-flex w-100 justify-content-between align-items-start h-100 px-3 ">
+      <div className="row d-flex w-100 justify-content-between align-items-start h-100  ">
         {/* Logos Column */}
         <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
           <div className="d-flex flex-column align-items-start justify-content-between  gap-5 h-100">
@@ -82,6 +83,7 @@ export default function MobileFooter() {
         </p>
 
         <p className="mb-0 ftrnormal">©2025 IRAREALTY</p>
+      </div>
       </div>
       </div>
     </footer>

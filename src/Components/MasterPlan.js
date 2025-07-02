@@ -33,7 +33,8 @@ export default function MasterPlan() {
     return (
         <div className=" " style={{ backgroundColor: "var(--mpbgclr)" }}>
             <div className="container py-2">
-            <div className="row g-5 align-items-start px-3">
+                <div className="px-3">
+            <div className="row g-5 align-items-start ">
                 {/* Left Column: Master Plan */}
                 <div className="col-lg-7 d-flex flex-column ">
                     <div>
@@ -70,6 +71,7 @@ export default function MasterPlan() {
                 </div>
             </div>
             {isMobile ? <button className=" mpbroucherbtn" >Download Brochure</button> : null}
+            </div>
             </div>
         </div>
     );
