@@ -8,8 +8,9 @@ export default function Component3() {
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
   const issmMobile = useMediaQuery({ query: "(max-width: 500px)" });
   return (
-    <div
-      className="py-5 d-flex flex-column align-items-center justify-content-center"
+    <div className="d-flex align-items-center justify-content-center">
+      <div
+      className="py-5 d-flex flex-column align-items-center justify-content-center w-100"
       style={{
         backgroundImage: `url(${image2.src})`,
         backgroundRepeat: 'no-repeat',
@@ -48,5 +49,7 @@ export default function Component3() {
         
       </div>
     </div>
+    </div>
+    
   );
 }

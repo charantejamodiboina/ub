@@ -63,11 +63,11 @@ export default function AmenitiesComponent() {
           {/* Left Text Column */}
           <div className="col-sm-6 d-flex flex-column mt-sm-0 align-items-center justify-content-center ">
 
-            <div className="Amanities_title align-self-start ">
+            <div className="Amanities_title align-self-start mb-3 ">
               <span>Community &amp; Amenities</span>
             </div>
-            <h2 className="py-2 fw-bold AHeading  align-self-start ">
-              A Lifestyle that <br /> Breathes and Belongs
+            <h2 className="py-2 fw-bold AHeading  align-self-start mb-4">
+              A Lifestyle that Breathes <br />and Belongs
             </h2>
             <div className="datadiv  align-self-start ">
               <h5 className="mb-2 Adataheading">{data[activeIndex].name}</h5>

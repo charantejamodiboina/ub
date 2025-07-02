@@ -66,7 +66,7 @@ export default function Intro() {
           <p className="intro_desc" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
             {isMobile ? (
               <>
-                Experience 19.5 Acres Of <br /> Gated Community <br /> Living At Urban Ranch
+                Experience 19.5 Acres Of <br /> Gated Community Living At <br /> Urban Ranch
               </>
             ) : (
               <>

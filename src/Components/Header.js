@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import mlogo from "../assets/urmobile/urhmobile.webp";
 import dlogo from "../assets/urdesktop/urlogodesktop.webp";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
 export default function Header() {
@@ -40,7 +40,7 @@ export default function Header() {
         <div className="position-absolute hammenu">
           {!isOpen && (
             <button className="btn text-white fs-3" onClick={() => setIsOpen(true)}>
-              <GiHamburgerMenu />
+              <RxHamburgerMenu />
             </button>
           )}
         </div>

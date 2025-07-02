@@ -33,7 +33,7 @@ export default function Gallery() {
       <div className="container px-md-5" >
         
 
-        <h3 className="mb-4 GalleryTitle" >Gallery</h3>
+        <h3 className="mb-4 GalleryTitle ps-2 ps-lg-0" >Gallery</h3>
 
         {/* Decorative Icons */}
 

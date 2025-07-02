@@ -24,7 +24,7 @@ export default function SmartLiving() {
       <div className="container px-2 px-sm-4 text-center">
         <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting a Finger</h5>
         <p className="mb-4 pb-md-4 text-start smartliving_p" >
-          Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation —<br className="d-none d-md-block" />
+          Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" />
           designed to make everyday life smoother, safer, and more intuitive for your family.
         </p>
 
