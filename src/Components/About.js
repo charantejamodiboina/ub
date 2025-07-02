@@ -15,7 +15,7 @@ export default function About() {
   ];
 
   return (
-  <div className="py-5 d-flex justify-content-center align-items-center ">
+  <div className="py-4 py-lg-5 d-flex justify-content-center align-items-center ">
     <div className="container ">
       <div>
       <div className="row px-3 align-items-start flex-column-reverse flex-lg-row ">
@@ -61,7 +61,7 @@ export default function About() {
 
           <h2 className="h4 mt-lg-4 mb-4 mb-lg-0 aboutdataheading" style={{color:"var(--heading)"}}>Our Landmark Projects:</h2>
 
-          <ul className="list-unstyled mt-lg-3 d-flex flex-column aboutdata " style={{gap:10}}>
+          <ul className="list-unstyled mt-lg-3 pb-4 d-flex flex-column aboutdata " style={{gap:10}}>
             {projects.map((item, index) => (
               <li
                 key={index}
