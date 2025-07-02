@@ -87,7 +87,7 @@ export default function AmenitiesComponent() {
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
               slidesPerView={1.3}
 
-              className="swiper-amenities swam mt-md-0 pt-4 px-4 pt-md-5 w-100"
+              className="swiper-amenities swam mt-md-0 pt-4 pt-md-5 w-100"
               breakpoints={{
                 320: {
                   spaceBetween: 10, // for small screens (e.g., mobile)
