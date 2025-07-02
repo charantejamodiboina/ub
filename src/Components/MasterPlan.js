@@ -54,8 +54,10 @@ export default function MasterPlan() {
                 </div>
 
                 {/* Right Column: Legend */}
-                <div className="col-lg-5 rounded-4 py-3" style={{ backgroundColor: "white" }}>
-                    <h3 className="mb-4 fw-bold Heading">Legend</h3>
+                
+                <div className="col-12 col-lg-5 rounded-4 py-3 ">
+                    <div className="bg-light p-2" style={{border:10}}>
+                        <h3 className="mb-4 fw-bold Heading">Legend</h3>
                     <ul className="list-unstyled row">
                         {legendItems.map((item, index) => (
                             <li
@@ -68,6 +70,8 @@ export default function MasterPlan() {
                             </li>
                         ))}
                     </ul>
+                    </div>
+                    
                 </div>
             </div>
             {isMobile ? <button className=" mpbroucherbtn" >Download Brochure</button> : null}
