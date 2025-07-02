@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import ff from "../assets/urmobile/ffmobile.webp";
 import gf from "../assets/urmobile/gfmobile.webp";
-import img6mv from "../assets/gallery/Vector.webp";
+import img6mv from "../assets/decor.png";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 export default function Component8mv() {
@@ -65,7 +65,7 @@ export default function Component8mv() {
           src={img6mv}
           alt="Decoration"
           className="position-absolute img-fluid"
-          style={{ top: 0, right: 0 }}
+          style={{ top: -15, right: 0 }}
         />
         {/* Header div */}
         <div className="mb-4 text-start px-3" style={{ zIndex: 10, position: "relative" }}>
@@ -77,20 +77,20 @@ export default function Component8mv() {
         </div>
 
         {/* Arrows */}
-        <div className="d-flex justify-content-end mb-4 pe-3">
+        <div className="d-flex justify-content-end mb-2 pe-3">
           <button
-            className="btn btn-outline-light rounded-circle me-2 px-2 py-1 d-flex align-items-center justify-content-center"
+            className="btn btn-outline-light rounded-circle me-2 d-flex align-items-center justify-content-center"
             onClick={handlePrev}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none"  }}
+            style={{ width: 20, height: 20, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none", padding:0 }}
           >
-            <FiChevronLeft size={18} />
+            <FiChevronLeft size={10} className="" />
           </button>
           <button
-            className="btn btn-outline-light rounded-circle px-2 py-1 d-flex align-items-center justify-content-center"
+            className="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center"
             onClick={handleNext}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none" }}
+            style={{ width: 20, height: 20, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none", padding:0}}
           >
-            <FiChevronRight size={18} />
+            <FiChevronRight size={10} />
           </button>
         </div>
 
