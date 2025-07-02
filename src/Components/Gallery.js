@@ -17,7 +17,7 @@ export default function Gallery() {
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
   return (
-    <div className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
+    <div className="py-4  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
       <Image
         src={isMobile ? img6mv : img6}
         alt="Decoration"
