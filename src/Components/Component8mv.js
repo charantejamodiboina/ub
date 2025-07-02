@@ -53,7 +53,7 @@ export default function Component8mv() {
   const villa = data[activeIndex];
 
   return (
-    <section
+    <div
       id="floor-plans"
       className="py-5 text-center text-white position-relative"
       style={{
@@ -67,7 +67,7 @@ export default function Component8mv() {
           className="position-absolute img-fluid"
           style={{ top: 0, right: 0 }}
         />
-        {/* Header Section */}
+        {/* Header div */}
         <div className="mb-4 text-start" style={{ zIndex: 10, position: "relative" }}>
           <h1 className="fw-bold mb-3 c8mvheading">Spacious by Design. Smart by Default.</h1>
           <p className="c8mvsubh" >Choose from East &amp; West-facing villas:</p>
@@ -131,6 +131,6 @@ export default function Component8mv() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

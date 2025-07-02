@@ -15,12 +15,12 @@ export default function About() {
   ];
 
   return (
-  <div className="container-fluid py-5 px-md-5 px-0 d-flex justify-content-center align-items-center ">
-    <div className="container px-3 px-md-5">
-      <div className="row gx-5 align-items-start flex-column-reverse flex-lg-row">
+  <div className="container-fluid py-5 d-flex justify-content-center align-items-center ">
+    <div className="container ">
+      <div className="row align-items-start flex-column-reverse flex-lg-row">
         {/* Image Section */}
-        <div className="col-lg-5 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-end mt-5 align-items-lg-end">
-          <div className="d-flex gap-2 gap-md-3 align-items-md-center">
+        <div className="col-lg-5 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center  px-2">
+          <div className="d-flex gap-2 gap-md-3 align-items-md-center ">
             <Image
               src={about1}
               alt="About Image 1"
@@ -46,7 +46,7 @@ export default function About() {
         </div>
 
         {/* Content Section */}
-        <div className="col-lg-7 d-flex flex-column gap-1 gap-xl-2 mt-xl-5 mb-0">
+        <div className="col-lg-7 d-flex flex-column gap-1 gap-xl-2 mt-xl-5 mb-0 px-2">
           <div className="title-container AbTbg">
             <p className="fw-semibold mb-0 Title">About IRA Realty</p>
           </div>

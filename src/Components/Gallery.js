@@ -14,10 +14,10 @@ import img6mv from "../assets/gallery/Vector.webp";
 import { useMediaQuery } from "react-responsive";
 
 export default function Gallery() {
-  const isMobile = useMediaQuery({ query: "(max-width: 750px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
   return (
-    <section className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
+    <div className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
       <Image
           src={isMobile?img6mv:img6}
           alt="Decoration"
@@ -30,7 +30,7 @@ export default function Gallery() {
           className="position-absolute end-0 img-fluid"
           style={{top:isMobile?0:"7%"}}
         />
-      <div className="container px-md-5" >
+      <div className="container " >
         
 
         <h3 className="mb-4 GalleryTitle ps-2 ps-lg-0" >Gallery</h3>
@@ -41,7 +41,7 @@ export default function Gallery() {
        {isMobile && (
   <div className="container-fluid px-2"  style={{position:"relative", zIndex:10}}>
     {/* Row 1: 2 side-by-side images */}
-    <div className="row gx-2 gy-2">
+    <div className="row gx-2 gy-2 ">
       <div className="col-6" >
         <Image
           src={img1mv}
@@ -144,6 +144,6 @@ export default function Gallery() {
 
 
       </div>
-    </section>
+    </div>
   );
 }

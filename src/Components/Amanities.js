@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 
 export default function AmenitiesComponent() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const isMobile = useMediaQuery({ query: "(max-width: 475px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
   const data = [
     {
@@ -53,15 +53,15 @@ export default function AmenitiesComponent() {
   ];
 
   return (
-    <section
+    <div
       className="text-white  ps-3 py-3 ps-md-5 position-relative mb-5"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
       id="amenities"
     >
-      <div className="container mx-auto ps-2 ps-lg-5 " style={{ maxWidth: "1500px" }}>
-        <div className="row g-5 align-items-center mt-3 align-items-lg-center justify-content-lg-center">
+      <div className="container">
+        <div className="row g-5 align-items-center mt-2 align-items-lg-center justify-content-lg-center">
           {/* Left Text Column */}
-          <div className="col-sm-6 d-flex flex-column mt-sm-0 align-items-center justify-content-center ">
+          <div className="col-lg-6 d-flex flex-column mt-2 px-2 align-items-center justify-content-center ">
 
             <div className="Amanities_title align-self-start mb-3 ">
               <span>Community &amp; Amenities</span>
@@ -78,7 +78,7 @@ export default function AmenitiesComponent() {
           </div>
 
           {/* Swiper Image Carousel */}
-          <div className="col-sm-6 p-0 m-0">
+          <div className="col-lg-6 p-0 m-0">
             <Swiper
               modules={[Pagination]}
               loop={true}
@@ -86,7 +86,7 @@ export default function AmenitiesComponent() {
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
               slidesPerView={1.3}
 
-              className="swiper-amenities swam mt-4 mt-md-0 pt-0 pt-md-5"
+              className="swiper-amenities swam mt-4 mt-md-0 pt-0 px-4 pt-md-5 w-100"
               breakpoints={{
                 320: {
                   spaceBetween: 10, // for small screens (e.g., mobile)
@@ -107,7 +107,7 @@ export default function AmenitiesComponent() {
                   <Image
                     src={isMobile ? item.mobileimage : item.image}
                     alt={item.name}
-                    className=" rounded img-fluid"
+                    className=" rounded img-fluid w-100"
                   />
                 </SwiperSlide>
               ))}
@@ -178,6 +178,6 @@ export default function AmenitiesComponent() {
   }
 `}</style>
 
-    </section>
+    </div>
   );
 }

@@ -20,20 +20,21 @@ export default function SmartLiving() {
   ];
 
   return (
-    <section className="py-5 px-4 bg-white" id="smart-living">
-      <div className="container px-2 px-sm-4 text-center">
+    <div className="py-5 bg-white" id="smart-living">
+      <div className="container text-center">
+        <div>
         <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting a Finger</h5>
         <p className="mb-4 pb-md-4 text-start smartliving_p" >
           Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" />
           designed to make everyday life smoother, safer, and more intuitive for your family.
         </p>
 
-        <div className="row align-items-center gy-4">
+        <div className="row align-items-center ">
           {/* Icons List */}
-          <div className="col-md-5">
+          <div className="col-lg-5">
             <div className="row row-col-1 g-4 text-start ">
               {data.map((item) => (
-                <div className="col-6 col-md-12 d-flex align-items-lg-center align-items-start flex-md-row flex-column smartliving_icon_container my-4 my-md-0 my-lg-3" key={item.id}>
+                <div className="col-6 col-lg-12 d-flex align-items-lg-center align-items-start flex-md-row flex-column smartliving_icon_container mb-2 my-md-0 my-lg-3" key={item.id}>
                   <div>
                     <div
                       className="me-3 align-items-center smartliving_icon"
@@ -55,15 +56,16 @@ export default function SmartLiving() {
           </div>
 
           {/* Smart Living Image */}
-          <div className="col-md-7 text-center">
+          <div className="col-lg-7 text-center">
             <Image
-              src={issmMobile ? msmartimage : smartimage}
+              src={isMobile ? msmartimage : smartimage}
               alt="Smart Living"
-              className="img-fluid rounded shadow"
+              className="img-fluid rounded shadow w-100"
             />
           </div>
         </div>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
