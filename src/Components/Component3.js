@@ -21,7 +21,7 @@ export default function Component3() {
       }}
     >
       <div className="container" >
-        <div className="" >
+        <div className="px-3" >
           <div className="title-container c3-tittle mb-2">
             <h2 className="mb-0 Title">Welcome to Urban Ranch</h2>
           </div>

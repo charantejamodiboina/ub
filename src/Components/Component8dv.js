@@ -65,7 +65,7 @@ export default function FloorPlans() {
         style={{ top: 0 }}
       />
       <div className="container">
-        <div>
+        <div className="px-3">
         {/* ───── Title / CTA ───── */}
         <h1 className="fw-bold mb-3 Heading" style={{ zIndex: 10, position: "relative" }}>Spacious by Design.&nbsp;Smart by Default.</h1>
         <p className="fs-4 mb-4 floorplanssheading">Choose from East &amp; West‑facing villas:</p>

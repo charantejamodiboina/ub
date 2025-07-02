@@ -57,7 +57,7 @@ export default function CustomerTestimonials() {
   return (
     <div className="py-4 py-md-5" style={{ backgroundColor: "#f2f6f8" }}>
       <div className="container">
-        <div className="CtTBg title-container">
+        <div className="CtTBg title-container px-3">
           <p className="m-0 Title">Customer Testimonials</p>
         </div>
 

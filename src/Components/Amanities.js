@@ -59,7 +59,7 @@ export default function AmenitiesComponent() {
       id="amenities"
     >
       <div className="container">
-        <div className="row g-5 align-items-center mt-2 align-items-lg-center justify-content-lg-center">
+        <div className="row g-5 align-items-center mt-2 align-items-lg-center justify-content-lg-center px-3">
           {/* Left Text Column */}
           <div className="col-lg-6 d-flex flex-column mt-2 px-2 align-items-center justify-content-center ">
 

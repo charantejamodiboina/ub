@@ -19,128 +19,128 @@ export default function Gallery() {
   return (
     <div className="py-5  position-relative" style={{ backgroundColor: "var(--gallerybg)" }}>
       <Image
-          src={isMobile?img6mv:img6}
-          alt="Decoration"
-          className="position-absolute start-0 img-fluid"
-          style={{bottom:isMobile?0:"22%", zIndex:0}}
-        />
-        <Image
-          src={isMobile?img6mv:img6}
-          alt="Decoration"
-          className="position-absolute end-0 img-fluid"
-          style={{top:isMobile?0:"7%"}}
-        />
+        src={isMobile ? img6mv : img6}
+        alt="Decoration"
+        className="position-absolute start-0 img-fluid"
+        style={{ bottom: isMobile ? 0 : "22%", zIndex: 0 }}
+      />
+      <Image
+        src={isMobile ? img6mv : img6}
+        alt="Decoration"
+        className="position-absolute end-0 img-fluid"
+        style={{ top: isMobile ? 0 : "7%" }}
+      />
       <div className="container " >
-        
+
 
         <h3 className="mb-4 GalleryTitle ps-2 ps-lg-0" >Gallery</h3>
 
         {/* Decorative Icons */}
 
-        
-       {isMobile && (
-  <div className="container-fluid px-2"  style={{position:"relative", zIndex:10}}>
-    {/* Row 1: 2 side-by-side images */}
-    <div className="row gx-2 gy-2 ">
-      <div className="col-6" >
-        <Image
-          src={img1mv}
-          alt="Gallery Image 1"
-          className="img-fluid rounded w-100"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-      <div className="col-6">
-        <Image
-          src={img2mv}
-          alt="Gallery Image 2"
-          className="img-fluid rounded w-100"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-    </div>
 
-    {/* Row 2: full width image */}
-    <div className="row gx-2 gy-2 mt-1">
-      <div className="col-12">
-        <Image
-          src={img3mv}
-          alt="Gallery Image 3"
-          className="img-fluid rounded w-100"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-    </div>
+        {isMobile && (
+          <div className="container-fluid px-3" style={{ position: "relative", zIndex: 10 }}>
+            {/* Row 1: 2 side-by-side images */}
+            <div className="row gx-2 gy-2 ">
+              <div className="col-6" >
+                <Image
+                  src={img1mv}
+                  alt="Gallery Image 1"
+                  className="img-fluid rounded w-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="col-6">
+                <Image
+                  src={img2mv}
+                  alt="Gallery Image 2"
+                  className="img-fluid rounded w-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+            </div>
 
-    {/* Row 3: 2 side-by-side images */}
-    <div className="row gx-2 gy-2 mt-1">
-      <div className="col-6">
-        <Image
-          src={img4mv}
-          alt="Gallery Image 4"
-          className="img-fluid rounded w-100"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-      <div className="col-6">
-        <Image
-          src={img5mv}
-          alt="Gallery Image 5"
-          className="img-fluid rounded w-100"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-    </div>
-  </div>
-)}
+            {/* Row 2: full width image */}
+            <div className="row gx-2 gy-2 mt-1">
+              <div className="col-12">
+                <Image
+                  src={img3mv}
+                  alt="Gallery Image 3"
+                  className="img-fluid rounded w-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+            </div>
+
+            {/* Row 3: 2 side-by-side images */}
+            <div className="row gx-2 gy-2 mt-1">
+              <div className="col-6">
+                <Image
+                  src={img4mv}
+                  alt="Gallery Image 4"
+                  className="img-fluid rounded w-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="col-6">
+                <Image
+                  src={img5mv}
+                  alt="Gallery Image 5"
+                  className="img-fluid rounded w-100"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+            </div>
+          </div>
+        )}
 
 
 
         {!isMobile && (
-  <div className="row g-3 justify-content-center">
-    {/* First column: 2 stacked images */}
-    <div className="col-md-4 d-flex flex-column justify-content-end align-items-end" style={{zIndex:10}}>
-      <Image
-        src={img1}
-        alt="Gallery Image 1"
-        className="img-fluid w-100"
-        style={{ maxHeight: 391, objectFit: 'cover', borderRadius:15 }}
-      />
-      <Image
-        src={img2}
-        alt="Gallery Image 2"
-        className="img-fluid w-100 mt-3"
-        style={{ maxHeight: 227, objectFit: 'cover', borderRadius:15 }}
-      />
-    </div>
+          <div className="row g-3 px-3 justify-content-center">
+            {/* First column: 2 stacked images */}
+            <div className="col-md-4 d-flex flex-column justify-content-end align-items-end" style={{ zIndex: 10 }}>
+              <Image
+                src={img1}
+                alt="Gallery Image 1"
+                className="img-fluid w-100"
+                style={{ maxHeight: 391, objectFit: 'cover', borderRadius: 15 }}
+              />
+              <Image
+                src={img2}
+                alt="Gallery Image 2"
+                className="img-fluid w-100 mt-3"
+                style={{ maxHeight: 227, objectFit: 'cover', borderRadius: 15 }}
+              />
+            </div>
 
-    {/* Second column: 1 image full height */}
-    <div className="col-md-4 d-flex align-items-center justify-content-center">
-      <Image
-        src={img3}
-        alt="Gallery Image 3"
-        className="img-fluid w-100"
-        style={{ maxHeight: 636, objectFit: 'cover', borderRadius:15 }}
-      />
-    </div>
+            {/* Second column: 1 image full height */}
+            <div className="col-md-4 d-flex align-items-center justify-content-center">
+              <Image
+                src={img3}
+                alt="Gallery Image 3"
+                className="img-fluid w-100"
+                style={{ maxHeight: 636, objectFit: 'cover', borderRadius: 15 }}
+              />
+            </div>
 
-    {/* Third column: 2 stacked images */}
-    <div className="col-md-4 d-flex flex-column justify-content-start"style={{zIndex:10}}>
-      <Image
-        src={img4}
-        alt="Gallery Image 4"
-        className="img-fluid w-100"
-        style={{ maxHeight: 347, objectFit: 'cover', borderRadius:15 }}
-      />
-      <Image
-        src={img5}
-        alt="Gallery Image 5"
-        className="img-fluid w-100 mt-4 rounded"
-        style={{ maxHeight: 263, objectFit: 'cover', borderRadius:15 }}
-      />
-    </div>
-  </div>
-)}
+            {/* Third column: 2 stacked images */}
+            <div className="col-md-4 d-flex flex-column justify-content-start" style={{ zIndex: 10 }}>
+              <Image
+                src={img4}
+                alt="Gallery Image 4"
+                className="img-fluid w-100"
+                style={{ maxHeight: 347, objectFit: 'cover', borderRadius: 15 }}
+              />
+              <Image
+                src={img5}
+                alt="Gallery Image 5"
+                className="img-fluid w-100 mt-4 rounded"
+                style={{ maxHeight: 263, objectFit: 'cover', borderRadius: 15 }}
+              />
+            </div>
+          </div>
+        )}
 
 
       </div>

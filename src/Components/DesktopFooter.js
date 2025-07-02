@@ -7,7 +7,7 @@ export default function DesktopFooter() {
   return (
     <footer className="text-white pt-5 pb-5 px-3 px-xl-4" style={{ backgroundColor: "var(--amenitiesbg)" }}>
       <div className="container">
-        <div>
+        <div className="px-3">
           <div className="row gx-5 d-flex  justify-content-between align-items-start">
             {/* Left Column */}
             <div className="col-md-5 col-lg-4 d-flex flex-column flex-xl-nowrap flex-wrap gap-4">

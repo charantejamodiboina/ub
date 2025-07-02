@@ -26,7 +26,7 @@ export default function VillaSpecs() {
   return (
     <div className="py-3 py-md-5 villa-specs" id="villa-specs">
       <div className="container">
-        <div>
+        <div className="px-3">
         <div className="villa-specs-title title-container" >
           <h2 className="mb-0 Title">Villa Specifications</h2>
         </div>

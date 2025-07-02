@@ -33,7 +33,7 @@ export default function MasterPlan() {
     return (
         <div className=" " style={{ backgroundColor: "var(--mpbgclr)" }}>
             <div className="container py-2">
-            <div className="row g-5 align-items-start ">
+            <div className="row g-5 align-items-start px-3">
                 {/* Left Column: Master Plan */}
                 <div className="col-lg-7 d-flex flex-column ">
                     <div>

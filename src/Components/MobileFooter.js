@@ -6,12 +6,12 @@ import ftrimg3 from "../assets/urmobile/logofmobile.webp";
 export default function MobileFooter() {
   return (
     <footer
-      className="text-white pt-5 px-3 py-3 d-flex flex-column align-items-center gap-3"
+      className="text-white pt-5 py-3 d-flex flex-column align-items-center gap-3"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       <div className="container">
       {/* Top Section */}
-      <div className="row d-flex w-100 justify-content-between align-items-start h-100 ">
+      <div className="row d-flex w-100 justify-content-between align-items-start h-100 px-3 ">
         {/* Logos Column */}
         <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
           <div className="d-flex flex-column align-items-start justify-content-between  gap-5 h-100">
