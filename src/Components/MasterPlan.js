@@ -56,7 +56,7 @@ export default function MasterPlan() {
                 {/* Right Column: Legend */}
                 
                 <div className="col-12 col-lg-5 rounded-4 py-3 mt-2">
-                    <div className="bg-light px-3" style={{borderRadius:10}}>
+                    <div className="bg-light p-4" style={{borderRadius:10}}>
                         <h3 className="mb-4 fw-bold Heading">Legend</h3>
                     <ul className="list-unstyled row">
                         {legendItems.map((item, index) => (
