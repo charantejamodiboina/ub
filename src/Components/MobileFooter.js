@@ -6,13 +6,12 @@ import ftrimg3 from "../assets/urmobile/logofmobile.webp";
 export default function MobileFooter() {
   return (
     <footer
-      className="text-white pt-5 py-3 d-flex flex-column align-items-center gap-3"
+      className="text-white pt-4 pb-1 d-flex flex-column align-items-center gap-3"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       <div className="container">
-        <div className="px-3">
       {/* Top Section */}
-      <div className="row d-flex w-100 justify-content-between align-items-start h-100  ">
+      <div className="row px-3 d-flex w-100 justify-content-between align-items-start h-100  ">
         {/* Logos Column */}
         <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
           <div className="d-flex flex-column align-items-start justify-content-between  gap-5 h-100">
@@ -69,7 +68,7 @@ export default function MobileFooter() {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-100 d-flex flex-column align-items-center text-center gap-2" style={{ fontSize: "0.75rem" }}>
+      <div className="w-100 d-flex flex-column align-items-center text-center gap-2 py-4" style={{ fontSize: "0.75rem" }}>
         <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
           <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
           <li><a href="#floor-plans" className="text-white text-decoration-none">Floor Plans</a></li>
@@ -85,7 +84,7 @@ export default function MobileFooter() {
         <p className="mb-0 ftrnormal">©2025 IRAREALTY</p>
       </div>
       </div>
-      </div>
+      
     </footer>
   );
 }

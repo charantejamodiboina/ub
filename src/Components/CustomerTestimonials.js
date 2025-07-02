@@ -88,13 +88,13 @@ export default function CustomerTestimonials() {
                     <Image src={quotes} className="img-fluid mb-2" alt="quotes" />
                     <h3
                       className="h5 fw-semibold mb-2 ctText"
-                      style={{ fontSize: isMobile ? 10 : 24 }}
+                      style={{ fontSize: isMobile ? 10 : 24, color:"#1f2744" }}
                     >
                       {item.customer_voice}
                     </h3>
                     <p
-                      className="text-secondary ctText2"
-                      style={{ fontSize: isMobile ? 8 : 18, height: isMobile ? 40 : 100 }}
+                      className=" ctText2"
+                      style={{ fontSize: isMobile ? 8 : 18, height: isMobile ? 40 : 100, color:"#1f2744"}}
                     >
                       {item.customer_voice2}
                     </p>
@@ -117,13 +117,13 @@ export default function CustomerTestimonials() {
                     <div>
                       <p
                         className="mb-0 fw-semibold ctText2"
-                        style={{ fontSize: isMobile ? 7 : 18 }}
+                        style={{ fontSize: isMobile ? 7 : 18, color:"#0b2e29"}}
                       >
                         {item.customer_name}
                       </p>
                       <p
                         className="mb-0 text-muted ctText2"
-                        style={{ fontSize: isMobile ? 7 : 18 }}
+                        style={{ fontSize: isMobile ? 7 : 18, color:"#767676" }}
                       >
                         {item.customer_occupation}
                       </p>

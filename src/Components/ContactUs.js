@@ -57,10 +57,9 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="container-fluid text-white py-5 " id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
+    <div className="text-white py-4 py-lg-5 " id="contact-us" style={{ backgroundColor: "var(--amenitiesbg)" }}>
       <div className="container">
-        <div className="px-3">
-      <div className="row g-5 align-items-start justify-content-center ">
+      <div className="row px-3 align-items-start justify-content-center ">
         {!isMobile && (
           <div className="col-lg-5 d-flex justify-content-center">
             <Image src={contactusbanner} alt="Contact Banner" className="img-fluid rounded-3" />
@@ -75,18 +74,18 @@ export default function ContactUs() {
 
           <form onSubmit={handleSubmit}>
             <div className="row g-3 mb-3">
-              <div className="col-6">
+              <div className="col-6 pe-1">
                 <input
                   type="text"
                   name="name"
-                  className="form-control contactus_input"
+                  className="form-control contactus_input "
                   placeholder="Name"
                   value={form.name}
                   onChange={handleChange}
                   required
                 />
               </div>
-              <div className="col-6">
+              <div className="col-6 ps-1">
                 <input
                   type="email"
                   name="email"
@@ -124,7 +123,7 @@ export default function ContactUs() {
             </div>
 
             <div className="form-check text-start mb-4">
-              <input className="form-check-input" type="checkbox" id="authorization" style={{backgroundColor : "rgba(255, 255, 255, 0.0)"}}/>
+              <input className="form-check-input checkboX" type="checkbox" id="authorization" style={{backgroundColor : "rgba(255, 255, 255, 0.0)"}}/>
               <label className="form-check-label checkLabel" htmlFor="authorization">
                 I authorize representatives of Urban Ranch to Call, SMS, Email or WhatsApp me about its products and
                 offers. This consent overrides any registration for DNC/NDNC.
@@ -151,6 +150,6 @@ export default function ContactUs() {
       </div>
       </div>
       </div>
-    </div>
+    
   );
 }

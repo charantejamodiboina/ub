@@ -816,6 +816,10 @@ li {
     font-weight: 600;
     color : white
   }
+  .checkboX {
+    width: 12px !important;
+    height: 12px !important;
+  }
 }
 @media (max-width:768px) {
   .vslistcontainer {

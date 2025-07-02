@@ -36,7 +36,7 @@ export default function LocationAdvantages() {
           <ul className="list-unstyled ">
             {data.map((item, index) => (
               <li key={index} className="d-flex align-items-center mb-3">
-                <GoCheckCircleFill className="text-success me-3 flex-shrink-0" size={isMobile ? 16 : 28} />
+                <GoCheckCircleFill className="text-success me-2 flex-shrink-0" size={isMobile ? 16 : 28} />
                 <span className="la_li">
                   <span className="fw-semibold" style={{ color: "#73788C" }}>{item.time}</span>
                   <span className="text-dark"> {item.place}</span>
@@ -45,7 +45,7 @@ export default function LocationAdvantages() {
             ))}
           </ul>
 
-          <button className="btn mt-4 px-4 py-2 fw-semibold la_btn">
+          <button className="btn mt-2 mt-lg-4 px-4 py-2 fw-semibold la_btn">
             Why Adibatla?
           </button>
         </div>
