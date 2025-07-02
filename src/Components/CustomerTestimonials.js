@@ -72,6 +72,7 @@ export default function CustomerTestimonials() {
             spaceBetween={20}
             pagination={false}
             modules={[Pagination]}
+            loop={true}
           >
             {data.map((item) => (
               <SwiperSlide key={item.id}>

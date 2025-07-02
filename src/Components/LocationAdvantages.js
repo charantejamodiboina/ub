@@ -14,10 +14,10 @@ export default function LocationAdvantages() {
   ];
 
   return (
-    <div>
-    <div className="container mt-4 py-4 ">
+    <div className= "py-4">
+    <div className="container ">
       <div className="px-3">
-      <div className="row align-items-center g-5 flex-column-reverse flex-md-row ">
+      <div className="row align-items-center flex-column-reverse flex-md-row ">
         {/* Image Section */}
         <div className="col-12 col-md-5 d-flex justify-content-center mt-4 px-2">
           <Image src={issmallMobile?locationmv:location} alt="Location Advantages" className="img-fluid w-100" />
