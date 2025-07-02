@@ -72,7 +72,7 @@ export default function AmenitiesComponent() {
             </h2>
             <div className="datadiv  align-self-start ">
               <h5 className="mb-2 Adataheading">{data[activeIndex].name}</h5>
-              <div className="text-white Adata">{data[activeIndex].points}</div>
+              <div className="text-white Adata pe-2">{data[activeIndex].points}</div>
             </div>
 
 
