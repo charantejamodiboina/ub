@@ -6,7 +6,7 @@ import ftrimg3 from "../assets/urmobile/logofmobile.webp";
 export default function MobileFooter() {
   return (
     <footer
-      className="text-white pt-4 pb-1 d-flex flex-column align-items-center gap-3"
+      className="text-white pt-4 pb-0 d-flex flex-column align-items-center gap-3"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       <div className="container">
@@ -68,7 +68,7 @@ export default function MobileFooter() {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-100 d-flex flex-column align-items-center text-center gap-2 py-4" style={{ fontSize: "0.75rem" }}>
+      <div className="w-100 d-flex flex-column align-items-center text-center gap-2 pt-4 pb-2" style={{ fontSize: "0.75rem" }}>
         <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
           <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
           <li><a href="#floor-plans" className="text-white text-decoration-none">Floor Plans</a></li>
