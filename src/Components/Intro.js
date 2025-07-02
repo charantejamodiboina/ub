@@ -48,7 +48,7 @@ export default function Intro() {
   };
 
   return (
-    <section className="container my-5 ps-lg-5 align-items-center" id="home">
+    <section className="container my-3 my-lg-5 ps-lg-5 align-items-center" id="home">
       <div className="row align-items-center g-5 ps-lg-5">
         {/* Left Content */}
         <div className="col-lg-6 text-white text-center text-lg-start">
@@ -75,12 +75,12 @@ export default function Intro() {
             )}
           </p>
           <button
-            className="btn fw-bold px-4 py-2 mt-3 intro_btn"
+            className="btn fw-bold px-4 py-2  intro_btn"
             style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
           >
             Download Brochure
           </button>
-          <div className="mt-5">
+          <div className="mt-3 mt-lg-5">
             <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
             <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
           </div>

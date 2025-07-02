@@ -42,7 +42,7 @@ export default function VillaSpecs() {
               Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further.
             </p>}
 
-            <div className="row gx-2 gx-md-3 gy-2 gy-md-3 mb-2 ">
+            <div className="row gx-2 gx-md-3 gy-2 gy-md-3 mb-2 mb-lg-0 ">
               {data.map((item) => (
                 <div key={item.id} className="col-6">
                   <div className="d-flex align-items-center p-1 p-md-3 villacont">
