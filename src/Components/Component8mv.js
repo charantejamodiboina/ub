@@ -81,14 +81,14 @@ export default function Component8mv() {
           <button
             className="btn btn-outline-light rounded-circle me-2 px-2 py-1 d-flex align-items-center justify-content-center"
             onClick={handlePrev}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none"  }}
           >
             <FiChevronLeft size={18} />
           </button>
           <button
             className="btn btn-outline-light rounded-circle px-2 py-1 d-flex align-items-center justify-content-center"
             onClick={handleNext}
-            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.5)" }}
+            style={{ width: 32, height: 32, backgroundColor: "rgba(260, 260, 260, 0.3)", border:"none" }}
           >
             <FiChevronRight size={18} />
           </button>
@@ -114,7 +114,7 @@ export default function Component8mv() {
                   />
                 
 
-                <div className="card-body text-light text-start fpdata">
+                <div className="card-body text-light text-start ps-3 fpdata">
                   <h5 className="pt-3 villatype" >{villa.type}</h5>
                   <h6 className="villaname">{villa.name}</h6>
                   <p className="mb-1 floorname" >{floorItem.floor_name}</p>

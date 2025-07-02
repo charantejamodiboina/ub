@@ -24,7 +24,7 @@ export default function SmartLiving() {
       <div className="container text-center">
         <div className="px-3">
         <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting a Finger</h5>
-        <p className="mb-4 pb-md-4 text-start smartliving_p" >
+        <p className="mb-0 pb-md-4 text-start smartliving_p" >
           Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" />
           designed to make everyday life smoother, safer, and more intuitive for your family.
         </p>
@@ -32,9 +32,9 @@ export default function SmartLiving() {
         <div className="row align-items-center ">
           {/* Icons List */}
           <div className="col-lg-5">
-            <div className="row row-col-1 g-4 text-start mt-1 ">
+            <div className="row row-col-1 g-4 text-start my-3 ">
               {data.map((item) => (
-                <div className="col-6 col-lg-12 d-flex align-items-lg-center align-items-start flex-md-row flex-column smartliving_icon_container mb-4 my-md-0 my-lg-3 mt-0" key={item.id}>
+                <div className= {isMobile ? "col-6 col-lg-12 mt-0 " :"col-6 col-lg-12 d-flex align-items-lg-center align-items-start flex-md-row flex-column smartliving_icon_container mb-4 my-md-0 my-lg-3 "} key={item.id}>
                   <div>
                     <div
                       className="me-3 align-items-center smartliving_icon"
