@@ -22,7 +22,7 @@ export default function SmartLiving() {
   return (
     <div className="py-5 bg-white" id="smart-living">
       <div className="container text-center">
-        <div>
+        <div className="px-3">
         <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting a Finger</h5>
         <p className="mb-4 pb-md-4 text-start smartliving_p" >
           Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" />

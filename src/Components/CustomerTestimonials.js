@@ -57,7 +57,8 @@ export default function CustomerTestimonials() {
   return (
     <div className="py-4 py-md-5" style={{ backgroundColor: "#f2f6f8" }}>
       <div className="container">
-        <div className="CtTBg title-container px-3">
+        <div>
+        <div className="CtTBg title-container">
           <p className="m-0 Title">Customer Testimonials</p>
         </div>
 
@@ -131,6 +132,7 @@ export default function CustomerTestimonials() {
             </SwiperSlide>
           ))}
         </Swiper>
+        </div>
       </div>
     </div>
   );

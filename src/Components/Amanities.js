@@ -60,7 +60,7 @@ export default function AmenitiesComponent() {
     >
       <div className="container">
         <div className="px-3">
-        <div className="row g-5 align-items-center mt-2 align-items-lg-center justify-content-lg-center px-3">
+        <div className="row g-5 align-items-center mt-2 align-items-lg-center justify-content-lg-center">
           {/* Left Text Column */}
           <div className="col-lg-6 d-flex flex-column mt-2 px-2 align-items-center justify-content-center ">
 
@@ -87,7 +87,7 @@ export default function AmenitiesComponent() {
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
               slidesPerView={1.3}
 
-              className="swiper-amenities swam mt-md-0 pt-0 px-4 pt-md-5 w-100"
+              className="swiper-amenities swam mt-md-0 pt-4 px-4 pt-md-5 w-100"
               breakpoints={{
                 320: {
                   spaceBetween: 10, // for small screens (e.g., mobile)
