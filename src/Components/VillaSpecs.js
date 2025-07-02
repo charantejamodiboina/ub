@@ -24,7 +24,7 @@ export default function VillaSpecs() {
   ];
 
   return (
-    <div className="px-2 px-md-5 py-5 villa-specs" id="villa-specs">
+    <div className="py-3 py-md-5 villa-specs" id="villa-specs">
       <div className="container">
         <div>
         <div className="villa-specs-title title-container" >
@@ -33,7 +33,7 @@ export default function VillaSpecs() {
 
         <div className="row align-items-start gap-3 gap-lg-0">
           <div className="col-lg-7 d-flex flex-column gap-3">
-            <h3 className="fw-bold mb-3 Heading">
+            <h3 className="fw-bold mb-0 Heading">
               {isMobile ? <>
                 Designed for Comfort, <br />Built with Intention</> : <>
                 Designed for Comfort, Built <br />with Intention</>}
@@ -42,7 +42,7 @@ export default function VillaSpecs() {
               Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further.
             </p>}
 
-            <div className="row gx-2 gx-md-3 gy-2 gy-md-3 ">
+            <div className="row gx-2 gx-md-3 gy-2 gy-md-3 mb-2 ">
               {data.map((item) => (
                 <div key={item.id} className="col-6">
                   <div className="d-flex align-items-center p-1 p-md-3 villacont">
