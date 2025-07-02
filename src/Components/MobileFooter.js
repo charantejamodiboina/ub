@@ -10,15 +10,15 @@ export default function MobileFooter() {
       style={{ backgroundColor: "var(--amenitiesbg)" }}
     >
       {/* Top Section */}
-      <div className="row d-flex w-100 justify-content-between align-items-start ">
+      <div className="row d-flex w-100 justify-content-between align-items-start h-100 ">
         {/* Logos Column */}
-        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-center ">
-          <div className="d-flex flex-column align-items-start justify-content-between gap-5">
-          <Image src={ftrimg1} alt="Urban Ranch logo" className="img-fluid" />
-          <div className="d-flex flex-column">
-            <Image src={ftrimg3} alt="IRA logo" className="img-fluid ps-1" />
-            <Image src={ftrimg2} alt="Iron Horse logo" className="img-fluid" />
-          </div>
+        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
+          <div className="d-flex flex-column align-items-start justify-content-between  gap-5 h-100">
+            <Image src={ftrimg1} alt="Urban Ranch logo" className="img-fluid" />
+            <div className="d-flex flex-column mt-4">
+              <Image src={ftrimg3} alt="IRA logo" className="img-fluid ps-1" />
+              <Image src={ftrimg2} alt="Iron Horse logo" className="img-fluid" />
+            </div>
           </div>
         </div>
 
@@ -46,15 +46,15 @@ export default function MobileFooter() {
             <p className="mb-0 ftrsemibold">Address:</p>
             <p className="mb-0 ftrnormal">
               4-49/2, Besides Anvaya Conventions Road,<br />
-              Financial District, Vattinagulapally,<br />
-              Hyderabad - 500 032, Telangana
+              Financial District, Vattinagulapally,
+              Hyderabad - <br />500 032, Telangana
             </p>
           </div>
 
-          
-            <p className="mb-0 ftrsemibold">Phone: +91 9121 777 777</p>
-            <p className="mb-0 ftrsemibold">Email: info@irarealty.in</p>
-          
+
+          <p className="mb-0 ftrsemibold">Phone: +91 9121 777 777</p>
+          <p className="mb-0 ftrsemibold">Email: info@irarealty.in</p>
+
 
           <div>
             <h6 className=" ftrsemibold" >Social Media : </h6>
@@ -68,12 +68,12 @@ export default function MobileFooter() {
 
       {/* Bottom Section */}
       <div className="w-100 d-flex flex-column align-items-center text-center gap-2" style={{ fontSize: "0.75rem" }}>
-       <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
-  <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
-  <li><a href="#floor-plans" className="text-white text-decoration-none">Floor Plans</a></li>
-  <li><a href="#contact-us" className="text-white text-decoration-none">Contact Us</a></li>
-  <li><a href="https://irarealty.in/privacy-policy" className="text-white text-decoration-none" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-</ul>
+        <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
+          <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
+          <li><a href="#floor-plans" className="text-white text-decoration-none">Floor Plans</a></li>
+          <li><a href="#contact-us" className="text-white text-decoration-none">Contact Us</a></li>
+          <li><a href="https://irarealty.in/privacy-policy" className="text-white text-decoration-none" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+        </ul>
 
         <p className="px-3 mb-1 ftrnormal" style={{ maxWidth: "700px", lineHeight: "1.4" }}>
           This is purely a conceptual presentation and not a legal offering. The promoters reserve the right to make
