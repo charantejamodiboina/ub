@@ -30,6 +30,7 @@ export default function MobileFooter() {
                 <h6 className=" ftrbold">
                   Talk to our sales expert
                 </h6>
+                <a href="#contact-us" className="text-white text-decoration-none">
                 <button
                   className="btn btn-sm text-white"
                   style={{
@@ -42,6 +43,7 @@ export default function MobileFooter() {
                 >
                   Click Here
                 </button>
+                </a>
               </div>
 
               <div>
@@ -61,7 +63,8 @@ export default function MobileFooter() {
               <div>
                 <h6 className=" ftrsemibold" >Social Media : </h6>
                 <div className="d-flex gap-3">
-                  <a href="#" className=" text-decoration-none ftrnormal">Facebook |</a>
+                  <a href="#" className=" text-decoration-none ftrnormal">Facebook </a>
+                  <span className="ftrnormal">|</span>
                   <a href="#" className=" text-decoration-none ftrnormal">Whatsapp</a>
                 </div>
               </div>
