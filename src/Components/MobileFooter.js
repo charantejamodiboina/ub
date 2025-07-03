@@ -11,9 +11,10 @@ export default function MobileFooter() {
     >
       <div className="container">
       {/* Top Section */}
+      <div className="d-flex align-items-center">
       <div className="row px-3 d-flex w-100 justify-content-between align-items-start h-100  ">
         {/* Logos Column */}
-        <div className="col-4 col-md-6 d-flex flex-column align-items-center justify-content-between ">
+        <div className="col-5 col-md-6 d-flex flex-column align-items-center justify-content-between ">
           <div className="d-flex flex-column align-items-start justify-content-between  gap-5 h-100">
             <Image src={ftrimg1} alt="Urban Ranch logo" className="img-fluid" />
             <div className="d-flex flex-column mt-4">
@@ -24,7 +25,7 @@ export default function MobileFooter() {
         </div>
 
         {/* Contact Info Column */}
-        <div className="col-8 col-md-6 ps-3 d-flex flex-column gap-2 ftrcontact" >
+        <div className="col-7 col-md-6 ps-3 d-flex flex-column gap-2 ftrcontact" >
           <div>
             <h6 className=" ftrbold">
               Talk to our sales expert
@@ -66,7 +67,7 @@ export default function MobileFooter() {
           </div>
         </div>
       </div>
-
+</div>
       {/* Bottom Section */}
       <div className="w-100 d-flex flex-column align-items-center text-center gap-2 pt-4 pb-2" style={{ fontSize: "0.75rem" }}>
         <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-2 ftrsemibold">
