@@ -23,10 +23,12 @@ export default function SmartLiving() {
     <div className="py-4 bg-white" id="smart-living">
       <div className="container text-center">
         <div className="px-3">
-        <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting a Finger</h5>
-        <p className="mb-0 pb-md-4 text-start smartliving_p" >
-          Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" />
-          designed to make everyday life smoother, safer, and more intuitive for your family.
+        <h5 className="mb-3 fw-bold text-start Heading">Smart Living, Without Lifting A Finger</h5>
+        <p className="mb-0 pb-md-4 text-start smartliving_p" > {!isMobile ? <>
+        Your villa at IRA Urban Ranch comes fully pre-fitted with complete home automation -<br className="d-none d-md-block" /> 
+          designed to make everyday life smoother, safer, and more intuitive for your family.</> : <>Your villa at <b>IRA Urban Ranch comes</b> fully pre-fitted with <b>complete home automation</b> -<br className="d-none d-md-block" />
+          designed to make everyday life smoother, safer, and more intuitive for your family.</>}
+          
         </p>
 
         <div className="row align-items-center ">
