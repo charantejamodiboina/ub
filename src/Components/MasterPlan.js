@@ -34,7 +34,14 @@ export default function MasterPlan() {
 
   // Compute number of rows (half of the items rounded up)
   const half = Math.ceil(legendItems.length / 2);
-
+const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/sample.pdf'; // PDF path relative to `public` folder
+    link.download = 'sample.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div style={{ backgroundColor: "var(--mpbgclr)" }}>
       <div className="container py-4">
@@ -45,7 +52,7 @@ export default function MasterPlan() {
               <div>
                 <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
                 {!isMobile && (
-                  <button className="mpbroucherbtn mb-5">Download Brochure</button>
+                  <button className="mpbroucherbtn mb-5" onClick={handleDownload}>Download Brochure</button>
                 )}
                 <div className="d-flex align-items-center justify-content-center">
                   <Image
@@ -90,7 +97,7 @@ export default function MasterPlan() {
             </div>
           </div>
 
-          {isMobile && <button className="mpbroucherbtn">Download Brochure</button>}
+          {isMobile && <button className="mpbroucherbtn" onClick={handleDownload}>Download Brochure</button>}
         </div>
       </div>
     </div>

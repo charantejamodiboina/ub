@@ -16,8 +16,8 @@ import About from "@/Components/About";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
 
-const Footer = dynamic(() => import("@/Components/Footer"), { ssr: false });
-const Component8 = dynamic(() => import("@/Components/Component8"), { ssr: false });
+const Footer = dynamic(() => import("@/Components/Footer"), { ssr: true });
+const Component8 = dynamic(() => import("@/Components/Component8"), { ssr: true });
 const LoadingSpinner = dynamic(() => import("@/Components/LoadingPage"), { ssr: false });
 
 const geistSans = Geist({

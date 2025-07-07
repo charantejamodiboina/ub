@@ -20,7 +20,14 @@ export default function Intro() {
   const [loading, setLoading] = useState(false); // Loading state
 
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
-
+const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/sample.pdf'; // PDF path relative to `public` folder
+    link.download = 'sample.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -75,6 +82,7 @@ export default function Intro() {
             )}
           </p>
           <button
+          onClick={handleDownload}
             className="btn fw-bold px-4 py-2  intro_btn"
             style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
           >
