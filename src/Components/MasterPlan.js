@@ -2,7 +2,7 @@ import Image from "next/image";
 import masterPlanImage from "../assets/urdesktop/mpdesktop.webp";
 import masterPlanmbImage from "../assets/urmobile/mpmobile.webp";
 import { useMediaQuery } from 'react-responsive';
-
+// import brochure from '../assets/UR_MiniBrochure.pdf'
 export default function MasterPlan() {
   const legendItems = [
     "Entry/exit with security cabin",
@@ -36,8 +36,8 @@ export default function MasterPlan() {
   const half = Math.ceil(legendItems.length / 2);
 const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/sample.pdf'; // PDF path relative to `public` folder
-    link.download = 'sample.pdf';
+    link.href = 'UR_MiniBrochure.pdf'; // PDF path relative to `public` folder
+    link.download = 'UR_MiniBrochure.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

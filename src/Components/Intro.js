@@ -22,8 +22,8 @@ export default function Intro() {
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/sample.pdf'; // PDF path relative to `public` folder
-    link.download = 'sample.pdf';
+    link.href = 'UR_MiniBrochure.pdf'; // PDF path relative to `public` folder
+    link.download = 'UR_MiniBrochure.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
