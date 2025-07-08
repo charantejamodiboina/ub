@@ -31,7 +31,7 @@ export default function DesktopFooter() {
 
                 <div className="d-flex flex-column flex-sm-row justify-content-between gap-2">
                   <p className="mb-0 d-flex align-items-center">
-                    <FaPhoneAlt className="me-2" /> +91 9121 777 777
+                    <FaPhoneAlt className="me-2" /> +91 8001 345 345
                   </p>
                   <p className="mb-0 d-flex align-items-center">
                     <FaEnvelope className="me-2" /> info@irarealty.in
@@ -79,6 +79,7 @@ export default function DesktopFooter() {
                   {/* Sales Expert Contact */}
                   <div>
                     <h5 style={{ fontSize: 20 }}>Talk to our sales expert</h5>
+                    <a href="#contact-us" className="text-white text-decoration-none">
                     <button
                       className="btn text-white mt-4"
                       style={{
@@ -91,6 +92,7 @@ export default function DesktopFooter() {
                     >
                       Click Here
                     </button>
+                    </a>
                   </div>
                 </div>
 

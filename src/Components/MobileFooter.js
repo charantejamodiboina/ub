@@ -56,7 +56,7 @@ export default function MobileFooter() {
               </div>
 
 
-              <p className="mb-0 ftrsemibold">Phone: +91 9121 777 777</p>
+              <p className="mb-0 ftrsemibold">Phone: +91 8001 345 345</p>
               <p className="mb-0 ftrsemibold">Email: info@irarealty.in</p>
 
 
