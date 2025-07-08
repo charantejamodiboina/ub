@@ -63,9 +63,11 @@ export default function MobileFooter() {
               <div>
                 <h6 className=" ftrsemibold" >Social Media : </h6>
                 <div className="d-flex gap-3">
-                  <a href="#" className=" text-decoration-none ftrnormal">Facebook </a>
+                  <a href="https://www.facebook.com/IRARealtyIndia/" target="_blank" rel="noopener noreferrer" className=" text-decoration-none ftrnormal">Facebook </a>
                   <span className="ftrnormal">|</span>
-                  <a href="#" className=" text-decoration-none ftrnormal">Whatsapp</a>
+                  <a href="https://www.instagram.com/irarealtyindia" target="_blank" rel="noopener noreferrer" className=" text-decoration-none ftrnormal">Instagram</a>
+                  {/* <span className="ftrnormal">|</span>
+                  <a href="#" className=" text-decoration-none ftrnormal">Whatsapp</a> */}
                 </div>
               </div>
             </div>
