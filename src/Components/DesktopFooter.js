@@ -73,7 +73,7 @@ export default function DesktopFooter() {
                     <ul className="list-unstyled mt-4 d-flex flex-column gap-3  fw-light" style={{ fontSize: 14, color: "#BDBDBD" }}>
                       <li><a href="https://www.facebook.com/IRARealtyIndia/" target="_blank" rel="noopener noreferrer" className="text-decoration-none"  style={{ color: "#BDBDBD" }}>Facebook</a></li>
                       <li><a href="https://www.instagram.com/irarealtyindia" target="_blank" rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Instagram</a></li>
-                      <li><a href="" target="_blank" rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Whatsapp</a></li>
+                      <li><a href="#" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Whatsapp</a></li>
                     </ul>
                   </div>
 
