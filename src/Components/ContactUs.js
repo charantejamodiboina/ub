@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import contactusbanner from "../assets/c6.webp";
+// import contactusbanner from "../assets/c6.webp";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import DatePicker from "react-datepicker";

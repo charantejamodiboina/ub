@@ -1,6 +1,6 @@
 import Image from "next/image";
-import masterPlanImage from "../assets/urdesktop/mpdesktop.webp";
-import masterPlanmbImage from "../assets/urmobile/mpmobile.webp";
+// import masterPlanImage from "../assets/urdesktop/mpdesktop.webp";
+// import masterPlanmbImage from "../assets/urmobile/mpmobile.webp";
 import { useMediaQuery } from 'react-responsive';
 // import brochure from '../assets/UR_MiniBrochure.pdf'
 export default function MasterPlan() {

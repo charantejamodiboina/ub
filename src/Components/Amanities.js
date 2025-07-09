@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import image2 from "../assets/c1.webp";
-import image2mv from "../assets/c1mv.webp";
+// import image2 from "../assets/c1.webp";
+// import image2mv from "../assets/c1mv.webp";
 import { useMediaQuery } from "react-responsive";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";

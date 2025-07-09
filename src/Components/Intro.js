@@ -4,13 +4,14 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import DatePicker from "react-datepicker";
-import iralogo from "../assets/urdesktop/logodesktop.webp";
-import ihlogo from "../assets/urdesktop/irlogodesktop.webp";
-import iralogom from "../assets/urmobile/logohmobile.webp";
-import ihlogom from "../assets/urmobile/ihlogomobile.webp";
+import iralogo from "../assets/Images/desktop/Layer_1.webp";
+import ihlogo from "../assets/Images/desktop/Rectangle.webp";
+import iralogom from "../assets/Images/mobile/Layer_1m.webp";
+import ihlogom from "../assets/Images/mobile/Rectanglem.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)
+import { TbRosetteDiscountCheckFilled } from "react-icons/tb";
 
 export default function Intro() {
   const [name, setName] = useState("");
@@ -20,7 +21,7 @@ export default function Intro() {
   const [loading, setLoading] = useState(false); // Loading state
 
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
-const handleDownload = () => {
+  const handleDownload = () => {
     const link = document.createElement('a');
     link.href = 'UR_MiniBrochure.pdf'; // PDF path relative to `public` folder
     link.download = 'UR_MiniBrochure.pdf';
@@ -55,11 +56,12 @@ const handleDownload = () => {
   };
 
   return (
-    <section className="container my-3 my-lg-5 ps-lg-5 align-items-center" id="home">
+    <section className="  align-items-end justify-content-end d-flex flex-column" id="home" style={{height:"100vh"}}>
+      <div className="container">
       <div className="row align-items-center g-5 ps-lg-5">
         {/* Left Content */}
-        <div className="col-lg-6 text-white text-center text-lg-start">
-          <h1 className="font-seasons intro_h">
+        <div className="col-lg-8 text-white text-center text-lg-start">
+          {/* <h1 className="font-seasons intro_h">
             {isMobile ? (
               <>
                 4BHK<br />GATED VILLA<br />COMMUNITY IN<br />ADIBATLA
@@ -81,75 +83,47 @@ const handleDownload = () => {
               </>
             )}
           </p>
-          <button
-          onClick={handleDownload}
-            className="btn fw-bold px-4 py-2  intro_btn"
-            style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
-          >
-            Download Brochure
-          </button>
-          <div className="mt-3 mt-lg-5">
-            <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
-            <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
-          </div>
+           */}
+
 
         </div>
 
         {/* Right Form Box */}
-        <div className="col-lg-6 d-flex justify-content-center mt-0">
+        <div className="col-lg-4 d-flex justify-content-center align-items-center mt-0 flex-column">
+          <div className="d-flex align-items-center rera justify-content-center font-poppins" >
+            
+            <TbRosetteDiscountCheckFilled color="white"/>
+            <p className="text-light mb-0 ps-2 ">RERA APPROVED</p>
+          </div>
           <div
-            className="introForm bg-white shadow p-4 p-lg-5 d-flex flex-column justify-content-between w-100 h-100 mt-0"
-            style={{ maxWidth: 474, maxHeight:438 }}
+            className="introForm bg-white shadow p-4 p-lg-4 d-flex flex-column justify-content-between w-100 h-100 mt-0"
+            style={{ maxWidth: 315, maxHeight: 312 }}
           >
-            <h2 className="text-center text-dark form-heading">Unlock Early Access</h2>
+            <h2 className="text-center form-heading">Unlock Pre Launch Pricing</h2>
             <form onSubmit={handleSubmit}>
               <div className="row g-3 mb-3 mt-3 mt-lg-4">
-                <div className="col-6">
-                  <input
-                    type="text"
-                    className="form-control introinput"
-                    placeholder="Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                  />
-                </div>
-                <div className="col-6">
-                  <input
-                    type="tel"
-                    className="form-control introinput"
-                    placeholder="Mobile Number"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    required
-                  />
-                </div>
-              </div>
 
-              <div className="mb-3 position-relative">
-                <DatePicker
-                  selected={date}
-                  onChange={(date) => setDate(date)}
-                  className="form-control introinput"
-                  placeholderText="Select date"
-                  dateFormat="dd/MM/yyyy"
-                  required
-                />
-                <FaCalendarAlt className="calendar-icon" />
-              </div>
-
-              <div className="mb-4">
                 <input
-                  type="email"
+                  type="text"
                   className="form-control introinput"
-                  placeholder="Email ID"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
+                <input
+                  type="tel"
+                  className="form-control introinput"
+                  placeholder="Mobile Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   required
                 />
               </div>
 
-              <button
+
+
+              {/* <button
                 type="submit"
                 className="btn w-100 introFbtn"
                 disabled={loading}
@@ -163,11 +137,33 @@ const handleDownload = () => {
                 ) : (
                   "Book a visit"
                 )}
-              </button>
+              </button> */}
             </form>
+          </div>
+          <button
+            onClick={handleDownload}
+            className="btn fw-bold px-4 py-2  intro_btn"
+            style={{ color: "var(--active_nav_item)", backgroundColor: "white", borderWidth: 1, borderColor: "var(--active_nav_item)" }}
+          >
+            Download Brochure
+          </button>
+        </div>
+
+
+      </div>
+      </div>
+      <div className="mt-3 mt-lg-5 mb-0 logoshadow w-100 p-5">
+        <div className="container">
+          <div>
+          <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
+          <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
+          </div>
+          <div                                                                       >
+            <p className="mb-0 text-light font-nunito logodesc">A Project by Ira in Partnership with Iron Horse</p>
           </div>
         </div>
       </div>
+
     </section>
   );
 }

@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import gf from "../assets/urdesktop/gfdesktop.webp";
-import ff from "../assets/urdesktop/ffdesktop.webp";
-import img6 from "../assets/Vector.webp";
+// import gf from "../assets/urdesktop/gfdesktop.webp";
+// import ff from "../assets/urdesktop/ffdesktop.webp";
+// import img6 from "../assets/Vector.webp";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
 export default function FloorPlans() {

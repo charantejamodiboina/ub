@@ -1,6 +1,6 @@
 import Image from "next/image";
-import location from "../assets/urdesktop/ladesktop.webp";
-import locationmv from "../assets/urmobile/lamobile.webp";
+// import location from "../assets/urdesktop/ladesktop.webp";
+// import locationmv from "../assets/urmobile/lamobile.webp";
 import { GoCheckCircleFill } from "react-icons/go";
 import { useMediaQuery } from "react-responsive";
 export default function LocationAdvantages() {

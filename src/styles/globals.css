@@ -24,16 +24,17 @@
   --amanitiesdataheading: #4C98AB;
 }
 
-@font-face {
-  font-family: "Cormorant", serif;
-  src: url('/public/fonts/Season.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  display: "swap",
-}
+
 
 .font-seasons {
   font-family: "Cormorant", serif;
+}
+.font-poppins
+{
+  font-family: "Poppins", sans-serif;}
+
+.font-nunito {
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 @font-face {
@@ -69,6 +70,20 @@ padding-left: 0 !important;
           width: 30px;
           border-radius: 10px;
         }
+
+.logoshadow {
+  background: linear-gradient(to top, rgba(0, 0, 0, 01), rgba(0, 0, 0, 0.1));
+}
+.logodesc {
+  font-size: 16px;
+}
+.rera{
+  border-top-right-radius :5px;
+  border-top-left-radius :5px;
+  background-color: #158A44;
+  width: 204px;
+  height: 44px;
+}
 .checkLabel {
     font-size: 12px;
     font-weight: 200;
@@ -120,6 +135,8 @@ padding-left: 0 !important;
 
   font-size: 36px !important;
   font-family: 'Nunito Sans', sans-serif !important;
+  color: #1F2744 !important;
+  font-weight: 600;
 }
 .ctText {
     font-size: 24px !important; 

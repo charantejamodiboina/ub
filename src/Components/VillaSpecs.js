@@ -1,14 +1,14 @@
 import Image from "next/image";
-import villa from "../assets/c7.webp";
-import mvilla from "../assets/urmobile/vsmobile.webp";
-import areaIcon from "../assets/specicons/area.png";
-import locationIcon from "../assets/specicons/location.png";
-import typeIcon from "../assets/specicons/type.png";
-import totalVillasIcon from "../assets/specicons/totalvillas.png";
-import plotAreaIcon from "../assets/specicons/plotarea.png";
-import villaAreaIcon from "../assets/specicons/villaarea.png";
-import structureIcon from "../assets/specicons/structure.png";
-import clubhouseIcon from "../assets/specicons/clubhouse.png";
+// import villa from "../assets/c7.webp";
+// import mvilla from "../assets/urmobile/vsmobile.webp";
+// import areaIcon from "../assets/specicons/area.png";
+// import locationIcon from "../assets/specicons/location.png";
+// import typeIcon from "../assets/specicons/type.png";
+// import totalVillasIcon from "../assets/specicons/totalvillas.png";
+// import plotAreaIcon from "../assets/specicons/plotarea.png";
+// import villaAreaIcon from "../assets/specicons/villaarea.png";
+// import structureIcon from "../assets/specicons/structure.png";
+// import clubhouseIcon from "../assets/specicons/clubhouse.png";
 import { useMediaQuery } from "react-responsive";
 export default function VillaSpecs() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
