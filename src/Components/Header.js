@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import mlogo from "../assets/Images/mobile/Group801.webp";
-import dlogo from "../assets/Images/mobile/Group802.webp";
+import dlogo from "../assets/Images/desktop/Group801.webp";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 

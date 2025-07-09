@@ -39,7 +39,7 @@ export default function Home() {
           <HomePage />
         </main>
         <div className={styles.bodyComp}>
-          {/* <VillaSpecs />
+          <VillaSpecs />
           <Component3 />
           <AmanitiesComponent />
           <Gallery />
@@ -50,7 +50,7 @@ export default function Home() {
           <CustomerTestimonials />
           <ContactUs />
           <About />
-          <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>

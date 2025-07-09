@@ -4,10 +4,10 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import DatePicker from "react-datepicker";
-import iralogo from "../assets/Images/desktop/Layer_1.webp";
-import ihlogo from "../assets/Images/desktop/Rectangle.webp";
-import iralogom from "../assets/Images/mobile/Layer_1m.webp";
-import ihlogom from "../assets/Images/mobile/Rectanglem.webp";
+import iralogo from "../assets/images/desktop/Layer_1.webp";
+import ihlogo from "../assets/images/desktop/Rectangle.webp";
+import iralogom from "../assets/images/mobile/Layer_1.webp";
+import ihlogom from "../assets/images/mobile/Rectangle.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)
@@ -56,7 +56,7 @@ export default function Intro() {
   };
 
   return (
-    <section className="  align-items-end justify-content-end d-flex flex-column" id="home" style={{height:"100vh"}}>
+    <section className="  align-items-end justify-content-end d-flex flex-column top-gradient" id="home" style={{maxHeight:851}}>
       <div className="container">
       <div className="row align-items-center g-5 ps-lg-5">
         {/* Left Content */}
