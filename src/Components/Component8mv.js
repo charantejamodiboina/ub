@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
-// import ff from "../assets/urmobile/ffmobile.webp";
-// import gf from "../assets/urmobile/gfmobile.webp";
-// import img6mv from "../assets/decor.png";
+import ff from "../assets/urmobile/ffmobile.webp";
+import gf from "../assets/urmobile/gfmobile.webp";
+import img6mv from "../assets/decor.png";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 export default function Component8mv() {

@@ -1,7 +1,7 @@
 import Image from "next/image";
-// import image1 from "../assets/c3.webp";
-// import image1mv from "../assets/c3mv.webp";
-// import image2 from "../assets/mask1.webp";
+import image1 from "../assets/c3.webp";
+import image1mv from "../assets/c3mv.webp";
+import image2 from "../assets/mask1.webp";
 import { useMediaQuery } from "react-responsive";
 export default function Component3() {
 

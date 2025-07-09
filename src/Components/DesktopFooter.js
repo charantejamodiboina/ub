@@ -1,7 +1,7 @@
 import Image from "next/image";
-// import ftrimg1 from "../assets/urdesktop/urlogodesktop.webp";
-// import ftrimg2 from "../assets/urdesktop/irlogodesktop.webp";
-// import ftrimg3 from "../assets/urdesktop/logodesktop.webp";
+import ftrimg1 from "../assets/urdesktop/urlogodesktop.webp";
+import ftrimg2 from "../assets/urdesktop/irlogodesktop.webp";
+import ftrimg3 from "../assets/urdesktop/logodesktop.webp";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 export default function DesktopFooter() {
   return (

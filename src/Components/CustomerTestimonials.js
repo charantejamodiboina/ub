@@ -1,6 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
-// import quotes from "../assets/ct/quotes.webp";
+import quotes from "../assets/ct/quotes.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 

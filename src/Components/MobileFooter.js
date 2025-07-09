@@ -1,7 +1,7 @@
 import Image from "next/image";
-// import ftrimg1 from "../assets/urmobile/urflogomobile.webp";
-// import ftrimg2 from "../assets/urmobile/ihlogomobile.webp";
-// import ftrimg3 from "../assets/urmobile/logofmobile.webp";
+import ftrimg1 from "../assets/urmobile/urflogomobile.webp";
+import ftrimg2 from "../assets/urmobile/ihlogomobile.webp";
+import ftrimg3 from "../assets/urmobile/logofmobile.webp";
 
 export default function MobileFooter() {
   return (
