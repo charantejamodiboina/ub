@@ -23,7 +23,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-3 my-5 px-3 px-lg-5 Navbar">
+    <header className="py-3 my-5 px-3 px-lg-5 Navbar position-fixed">
       {/* Mobile View */}
       <div className="d-lg-none position-relative">
         {/* Centered Logo */}

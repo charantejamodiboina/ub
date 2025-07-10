@@ -34,11 +34,13 @@ export default function Home() {
   return (
     <>
       <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable} `}>
+        {/* <Header /> */}
         <main className={styles.main}>
-          <Header />
+          
           <HomePage />
         </main>
         <div className={styles.bodyComp}>
+
           <VillaSpecs />
           <Component3 />
           <AmanitiesComponent />

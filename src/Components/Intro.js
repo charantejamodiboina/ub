@@ -61,6 +61,13 @@ export default function Intro() {
       <div className="row align-items-center g-5 ps-lg-5">
         {/* Left Content */}
         <div className="col-lg-8 text-white text-center text-lg-start">
+          <div>
+          <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
+          <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
+          </div>
+          <div                                                                       >
+            <p className="mb-0 text-light font-nunito logodesc">A Project by Ira in Partnership with Iron Horse</p>
+          </div>
           {/* <h1 className="font-seasons intro_h">
             {isMobile ? (
               <>
@@ -151,16 +158,11 @@ export default function Intro() {
 
 
       </div>
+
       </div>
       <div className="mt-3 mt-lg-5 mb-0 logoshadow w-100 p-5">
         <div className="container">
-          <div>
-          <Image src={isMobile ? iralogom : iralogo} alt="logo" className="img-fluid me-4" priority />
-          <Image src={isMobile ? ihlogom : ihlogo} alt="logo" className="img-fluid " priority />
-          </div>
-          <div                                                                       >
-            <p className="mb-0 text-light font-nunito logodesc">A Project by Ira in Partnership with Iron Horse</p>
-          </div>
+          
         </div>
       </div>
 
