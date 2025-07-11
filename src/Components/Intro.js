@@ -8,7 +8,7 @@ import iralogo from "../assets/images/desktop/Layer_1.webp";
 import ihlogo from "../assets/images/desktop/Rectangle.webp";
 import iralogom from "../assets/images/mobile/Layer_1.webp";
 import ihlogom from "../assets/images/mobile/Rectangle.webp";
-import { FaCalendarAlt } from "react-icons/fa";
+// import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)
 import { TbRosetteDiscountCheckFilled } from "react-icons/tb";
