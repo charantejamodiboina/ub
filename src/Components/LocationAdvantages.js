@@ -25,7 +25,7 @@ export default function LocationAdvantages() {
         </div>
 
         {/* Text Content */}
-        <div className="col-12 col-md-7 px-2">
+        <div className="col-12 col-md-7 ps-5">
           <div className="LaHbg">
             <p className=" fw-semibold mb-0 Title">Location Advantages</p>
           </div>
