@@ -3,14 +3,15 @@ import ftrimg1 from "../assets/urdesktop/urlogodesktop.webp";
 import ftrimg2 from "../assets/urdesktop/irlogodesktop.webp";
 import ftrimg3 from "../assets/urdesktop/logodesktop.webp";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { openStartupModal } from "./formpopup";
 export default function DesktopFooter() {
   return (
     <footer className="text-white pt-5 pb-5 px-3 px-xl-4" style={{ backgroundColor: "var(--amenitiesbg)" }}>
       <div className="container">
         <div className="px-3">
-          <div className="row gx-5 d-flex  justify-content-between align-items-start">
+          <div className="row gx-5 d-flex  justify-content-end align-items-start">
             {/* Left Column */}
-            <div className="col-md-5 col-lg-4 d-flex flex-column flex-xl-nowrap flex-wrap gap-4">
+            <div className="col-md-4 col-lg-4 d-flex flex-column flex-xl-nowrap flex-wrap gap-4">
               
                 <Image src={ftrimg1} alt="urban ranch logo" className="img-fluid" />
               
@@ -42,46 +43,55 @@ export default function DesktopFooter() {
             </div>
 
             {/* Right Column */}
-            <div className="col-md-7 col-lg-8 mt-5 mt-md-0">
+            <div className="col-md-4 col-lg-4 mt-5 mt-md-0">
               <div className="d-flex flex-column mt-3 gap-5 gap-xxl-4">
-                <div className="d-flex justify-content-between flex-wrap gap-4">
+                <div className="d-flex gap-4 flex-column">
                   {/* Quick Links */}
-                  <div>
+                  
                     <h5 style={{ fontSize: 20 }}>Quick Links</h5>
                     <ul className="list-unstyled mt-4 d-flex flex-column gap-3 fw-light" style={{ fontSize: 14, color: "#BDBDBD" }}>
-                      <li>
+                      <div className="row">
+                        <li className="col-6">
                         <a href="#home" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Home</a>
                       </li>
-                      <li>
-                        <a href="#floor-plans" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Floor Plans</a>
-                      </li>
-                      <li>
+                      <li className="col-6">
                         <a href="#contact-us" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Contact Us</a>
                       </li>
-                      <li>
+                      </div>
+                      <div className="row">
+                        <li className="col-6">
+                        <a href="#floor-plans" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Floor Plans</a>
+                      </li>
+                      
+                      <li className="col-6">
                         <a href="https://irarealty.in/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#BDBDBD" }}>
                           Privacy Policy
                         </a>
                       </li>
+                      </div>
+                      
                     </ul>
-                  </div>
+                  
+                </div>
 
-
-                  {/* Social Media */}
-                  <div>
-                    <h5 style={{ fontSize: 20 }}>Social Media</h5>
-                    <ul className="list-unstyled mt-4 d-flex flex-column gap-3  fw-light" style={{ fontSize: 14, color: "#BDBDBD" }}>
-                      <li><a href="https://www.facebook.com/IRARealtyIndia/" target="_blank" rel="noopener noreferrer" className="text-decoration-none"  style={{ color: "#BDBDBD" }}>Facebook</a></li>
-                      <li><a href="https://www.instagram.com/irarealtyindia" target="_blank" rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Instagram</a></li>
-                      <li><a href="#" className="text-decoration-none" style={{ color: "#BDBDBD" }}>Whatsapp</a></li>
-                    </ul>
-                  </div>
-
+                {/* Disclaimer */}
+                <p className="fw-light mt-2" style={{ fontSize: 14, color: "#BDBDBD" }}>
+                  This is purely a conceptual presentation and not a legal offering.
+                  The promoters reserve the right to make changes in elevation,
+                  specifications, and plans as deemed fit.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-4 mt-5 mt-md-0">
+              <div className="d-flex flex-column mt-3 gap-5 gap-xxl-4">
+                <div className="d-flex justify-content-between flex-wrap gap-4">
+                  
                   {/* Sales Expert Contact */}
                   <div>
                     <h5 style={{ fontSize: 20 }}>Talk to our sales expert</h5>
                     <a href="#contact-us" className="text-white text-decoration-none">
                     <button
+                    onClick={openStartupModal}
                       className="btn text-white mt-4"
                       style={{
                         width: "300px",
@@ -97,12 +107,6 @@ export default function DesktopFooter() {
                   </div>
                 </div>
 
-                {/* Disclaimer */}
-                <p className="fw-light mt-2" style={{ fontSize: 14, color: "#BDBDBD" }}>
-                  This is purely a conceptual presentation and not a legal offering.
-                  The promoters reserve the right to make changes in elevation,
-                  specifications, and plans as deemed fit.
-                </p>
               </div>
             </div>
           </div>

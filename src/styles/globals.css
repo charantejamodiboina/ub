@@ -3,6 +3,11 @@
   --foreground: #171717;
 }
 
+body.modal-open {
+  overflow: hidden !important;
+  padding-right: 0 !important;
+}
+
 :root {
   --inputborder: #DADBDE;
   --navitems: #ffffff;
@@ -25,13 +30,17 @@
 }
 
 
+.checking {
+  border: 1px solid blue;
+}
 
 .font-seasons {
   font-family: "Cormorant", serif;
 }
-.font-poppins
-{
-  font-family: "Poppins", sans-serif;}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
 
 .font-nunito {
   font-family: 'Nunito Sans', sans-serif;
@@ -44,89 +53,123 @@
   font-style: normal;
   display: "swap",
 }
+
 ul {
-padding-left: 0 !important;
+  padding-left: 0 !important;
 }
-        .swiper-amenities .swiper-pagination {
-          position: relative;
-          margin-top: 42px;
-          display: flex;
-          
-        }
+.top-gradient {
+  /* height: 20% !important; 20% of the viewport height */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+.swiper-amenities .swiper-pagination {
+  position: relative;
+  margin-top: 42px;
+  display: flex;
 
-        
+}
 
-        .swiper-amenities .swiper-pagination-bullet {
-          background: #999;
-          opacity: 1;
-          width: 30px;
-          height: 5px;
-          border-radius: 10px;
-          transition: all 0.3s ease;
-        }
 
-        .swiper-amenities .swiper-pagination-bullet-active {
-          background: #f7c24c;
-          width: 30px;
-          border-radius: 10px;
-        }
+
+.swiper-amenities .swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.swiper-amenities .swiper-pagination-bullet-active {
+  background: #f7c24c;
+  width: 30px;
+  border-radius: 10px;
+}
 
 .logoshadow {
   background: linear-gradient(to top, rgba(0, 0, 0, 01), rgba(0, 0, 0, 0.1));
 }
+
 .logodesc {
   font-size: 16px;
 }
-.rera{
-  border-top-right-radius :5px;
-  border-top-left-radius :5px;
+
+.irap {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.irap2 {
+  font-size: 20px;
+  font-weight: 100;
+  color: #BDBDBD;
+}
+
+.rera {
+  font-size: 16;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   background-color: #158A44;
   width: 204px;
   height: 44px;
 }
+
 .checkLabel {
-    font-size: 12px;
-    font-weight: 200;
-  }
+  font-size: 12px;
+  font-weight: 200;
+}
+
 .villa_type_dv {
   font-size: 28px;
 }
+
 .villa_name_dv {
   font-size: 24px;
 }
+
 .floor_dv {
   font-size: 24px;
 }
+
 .villa_bv_dv {
   font-size: 24px;
 }
+
 .hammenu {
-  top : -43px;
+  top: -43px;
   right: 10px;
 }
-.intro_btn{
+
+.intro_btn {
   font-size: 16px !important;
   width: 242px !important;
   height: 60px !important;
 }
-.introinput {
+
+.introinput,  
+.introinput1  {
   font-size: 14px !important;
   font-family: 'Nunito Sans', sans-serif !important;
+  max-width: 366px;
   height: 50px !important;
 }
+
 .form-check-input:checked {
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
+
 .form-check-input:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
 }
+
 .form-control:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
 }
-.introinput:focus {
+
+.introinput:focus, .introinput1:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 0 2px rgba(205, 156, 64, 0.2) !important;
 }
@@ -138,19 +181,23 @@ padding-left: 0 !important;
   color: #1F2744 !important;
   font-weight: 600;
 }
+
 .ctText {
-    font-size: 24px !important; 
-  }
-  .ctText2 {
-    font-size: 18px;
-  }
+  font-size: 24px !important;
+}
+
+.ctText2 {
+  font-size: 18px;
+}
+
 .cticon {
-    font-size: 18px;
-    width: 51px;
-    height:51px;
-    font-weight: 600;
-    color : white
-  }
+  font-size: 18px;
+  width: 51px;
+  height: 51px;
+  font-weight: 600;
+  color: white
+}
+
 .Heading {
   color: var(--heading);
   font-size: 48px;
@@ -180,20 +227,22 @@ Nav a {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
+
 .AbTbg {
   background-color: #F8F9FE;
-  width:197px;
+  width: 293px !important;
 }
-/* .introForm{
-  height: 438px;
-  width:474px;
+
+.introForm1{
+  height: 312px;
+  width:315px;
   border-top:5px solid var(--primary);
-  
-} */
- .CtTBg {
-  width:216px;
+}
+.CtTBg {
+  width: 216px;
   background-color: #F8F9FE;
- }
+}
+
 .intro_h {
   font-size: 64px;
 }
@@ -228,13 +277,16 @@ Nav a {
   border-style: ridge;
   border-color: 1px solid var(--inputborder);
 }
-.villa-specs{
-background-color: #F2F6F8;
+
+.villa-specs {
+  background-color: #F2F6F8;
 }
-.c3-tittle{
+
+.c3-tittle {
   background-color: #F8F9FE;
-  width : 269px;
+  width: 269px;
 }
+
 .title-container {
   height: 50px;
   border-radius: 5px;
@@ -243,19 +295,29 @@ background-color: #F2F6F8;
   align-items: center;
   justify-content: center;
 }
-.villa-specs-title{
+
+.villa-specs-title {
   background-color: #ffffff;
-  width : 210px;
+  width: 210px;
 }
+
 .villacont {
   border: #DEDCDA 1px solid;
   border-radius: 20px;
 }
 
 .introFbtn {
-  width: 385px;
+  max-width: 366px !important;
   height: 60px;
   font-size: 16px;
+}
+
+.introdb {
+  max-width: 243px !important;
+  height: 58px;
+  font-size: 16px;
+  bottom: -46px;
+  left :36px
 }
 
 @media (max-width: 576px) {
@@ -293,7 +355,7 @@ background-color: #F2F6F8;
   font-size: 24px;
   color: var(--subhead);
   font-family: 'Nunito Sans', sans-serif;
-  
+
 }
 
 
@@ -343,7 +405,7 @@ background-color: #F2F6F8;
   border: none;
   border-radius: 10px;
   margin-bottom: 10px;
-  margin-top: 10px ;
+  margin-top: 10px;
 }
 
 .mp {
@@ -355,9 +417,11 @@ background-color: #F2F6F8;
   font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
 }
+
 .AmanitiesImage {
   max-width: 546px;
 }
+
 .Amanities_title {
   width: 252px;
   height: 50px;
@@ -422,9 +486,11 @@ background-color: #F2F6F8;
 .villaname {
   font-size: 14px;
 }
+
 .datadiv {
-    height: 100px
-  }
+  height: 100px
+}
+
 .floorname {
   font-size: 14px;
 }
@@ -448,16 +514,18 @@ background-color: #F2F6F8;
   font-family: 'Nunito Sans', sans-serif;
   line-height: 59px;
 }
+
 .la_btn {
   font-size: 16px !important;
   font-family: "Poppins", sans-serif !important;
   background-color: var(--btncolor) !important;
   color: #ffffff !important;
   border: none !important;
-  width : 300px !important;
+  width: 300px !important;
   height: 60px !important;
   border-radius: 10px !important;
 }
+
 .ctbox {
   width: 376px;
   height: 304px
@@ -484,7 +552,7 @@ background-color: #F2F6F8;
 
 .contactus_s_btn {
   width: 100%;
-  height: 60px;
+  height: 51px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -498,7 +566,7 @@ background-color: #F2F6F8;
 
 .contactus_fp_btn {
   width: 100%;
-  height: 60px;
+  height: 51px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -565,18 +633,30 @@ li {
 @media (max-width:1199px) {
   .form-heading {
 
-    font-size: 24px !important;
+    font-size: 19px !important;
+  }
+  .introinput1 {
+    height: 33px !important;
   }
 }
 
-@media (max-width:1400px) {
-  .aboutdata {
-  font-size: 18px;
-}
 
-.aboutdataheading {
-  font-size: 24px !important;
+@media (max-width:1400px) {
+  .introForm1{
+  height: 292px;
+  width:295px;
 }
+.introdb {
+  left :26px
+}
+  .aboutdata {
+    font-size: 18px;
+  }
+
+  .aboutdataheading {
+    font-size: 24px !important;
+  }
+
   .Navbar {
     max-width: 1000px;
   }
@@ -591,7 +671,7 @@ li {
 
   .Heading {
     font-size: 36px;
-  line-height: 50px;
+    line-height: 50px;
   }
 
   .Title {
@@ -615,58 +695,87 @@ li {
   .villaspecdetail {
     font-size: 20px;
   }
+
   .la_li {
-  font-size: 18px;
-  line-height: 48px;
-}
-.Amanities_title{
-  width: 200px;
-  height: 40px;
-  font-size: 16px;
-}
-.AHeading {
-  font-size: 40px;
-}
-.Adata {
-  font-size: 18px;
-}
-.Adataheading {
-  font-size: 30px;
-}
-.smartliving_icon {
+    font-size: 18px;
+    line-height: 48px;
+  }
+
+  .Amanities_title {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .AHeading {
+    font-size: 40px;
+  }
+
+  .Adata {
+    font-size: 18px;
+  }
+
+  .Adataheading {
+    font-size: 30px;
+  }
+
+  .smartliving_icon {
     width: 65px;
     height: 65px;
     border-radius: 10px;
   }
-.smartliving_icon_name {
-  font-size: 18px;
-}
+
+  .smartliving_icon_name {
+    font-size: 18px;
+  }
 
 
+  .irap {
+    font-size: 20px;
 
+  }
+
+  .irap2 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width:1199px) {
+  
+  .introForm1{
+  height: 198px;
+  width:275px;
+}
+.introdb {
+  max-width: 182px !important;
+  height: 45px;
+  left :46px;
+  bottom : -36px 
+}
   .villa_type_dv {
-  font-size: 20px;
-}
-.villa_name_dv {
-  font-size: 16px;
-}
-.floor_dv {
-  font-size: 16px;
-}
-.villa_bv_dv {
-  font-size: 16px;
-}
+    font-size: 20px;
+  }
+
+  .villa_name_dv {
+    font-size: 16px;
+  }
+
+  .floor_dv {
+    font-size: 16px;
+  }
+
+  .villa_bv_dv {
+    font-size: 16px;
+  }
+
   .Navbar {
     max-width: 885px;
   }
 
   .la_li {
-  font-size: 16px;
-  line-height: 36px;
-}
+    font-size: 16px;
+    line-height: 36px;
+  }
 
   .villaicon {
     width: 40px;
@@ -680,6 +789,15 @@ li {
   .villaspecdetail {
     font-size: 12px;
   }
+
+  .irap {
+    font-size: 18px;
+
+  }
+
+  .irap2 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width:1024px) {
@@ -690,7 +808,7 @@ li {
 
   .Heading {
     font-size: 36px;
-  line-height: 45px;
+    line-height: 45px;
   }
 
   .Title {
@@ -700,18 +818,23 @@ li {
   .intro_h {
     font-size: 48px;
   }
-.intro_btn{
-  font-size: 12px !important;
-  width: 200px !important;
-  height: 40px !important;
-}
+
+  .intro_btn {
+    font-size: 12px !important;
+    width: 200px !important;
+    height: 40px !important;
+  }
+
   .introForm {
     width: 370px;
     height: 370px;
   }
-.introinput {
-  height: 40px !important;
-}
+
+  .introinput {
+    height: 40px !important;
+  }
+ 
+
   .half_input {
     width: 133px;
     height: 33.45px;
@@ -774,11 +897,13 @@ li {
   .aboutdata {
     font-size: 16px;
   }
+
   .c3-p {
-  font-size: 18px;
-  
-}
-.contactus_title {
+    font-size: 18px;
+
+  }
+
+  .contactus_title {
     font-size: 24px;
   }
 
@@ -786,72 +911,124 @@ li {
     font-size: 14px !important;
   }
 }
+
 @media (max-width:991px) {
-.AmanitiesImage {
-  max-width: 346px;
+  .rera {
+  font-size: 9;
+  
+  width: 125px;
+  height: 30px;
 }
-.intro_desc {
+  .form-box {
+      height: 418px;
+      align-items: center;
+  }
+  /* .image-box{
+    align-items: center;
+  } */
+   .logodesc {
+  font-size: 9px;
+}
+  .irap {
+    font-size: 14px;
+    margin-bottom: 5 !important;
+
+  }
+
+  .irap2 {
+    font-size: 12px;
+    margin-bottom: 5 !important;
+  }
+
+  .AmanitiesImage {
+    max-width: 346px;
+  }
+
+  .intro_desc {
     font-size: 16px;
   }
-.Heading {
+
+  .Heading {
     font-size: 24px;
     line-height: 35px;
     letter-spacing: 0.26px;
   }
-.la_btn {
-  font-size: 10px !important;
-  width : 150px !important;
-  height: 30px !important;
-  border-radius: 5px !important;
-}
-.la_li {
-  font-size: 12px;
-  line-height: 20px;
-}
-.smartliving_icon {
-  
-  width: 55px;
-  height: 55px;
-  border-radius: 10px;
-}
-.smartliving_icon_name {
+
+  .la_btn {
+    font-size: 10px !important;
+    width: 150px !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+  }
+
+  .la_li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .smartliving_icon {
+
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+  }
+
+  .smartliving_icon_name {
     font-size: 14px;
   }
+
   .smartliving_p {
-  font-size: 16px;
-}
-.ctText {
+    font-size: 16px;
+  }
+
+  .ctText {
     font-size: 10px !important;
   }
+
   .ctText2 {
     font-size: 8px;
   }
-.cticon {
+
+  .cticon {
     font-size: 9px;
     width: 25.5px;
-    height:25.5px;
+    height: 25.5px;
     font-weight: 600;
-    color : white
+    color: white
   }
+
   .checkboX {
     width: 12px !important;
     height: 12px !important;
   }
 }
+
 @media (max-width:768px) {
   .vslistcontainer {
-  max-width: 145px;
-}
+    max-width: 145px;
+  }
 
-.vslistmaincontainer {
-  max-width: 294px;
+  .irap {
+    font-size: 12px;
+    margin-bottom: 5 !important;
+  }
+
+  .irap2 {
+    font-size: 10px;
+    margin-bottom: 5 !important;
+  }
+
+  .vslistmaincontainer {
+    max-width: 294px;
     align-self: center;
-}
-.contactus_input {
-  height: 35px !important;
-  font-size: 12px !important;
-  border-radius: 5px !important;
-}
+  }
+
+  .contactus_input {
+    height: 35px !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+  }
+
   .Heading {
     font-size: 24px;
     line-height: 35px;
@@ -864,31 +1041,36 @@ li {
 
   .form-heading {
 
-    font-size: 24px !important;
+    font-size: 19px !important;
     font-family: 'Nunito Sans', sans-serif !important;
   }
 
   .introinput {
     font-size: 10px !important;
-  height: 30px !important;
+    height: 30px !important;
   }
-  .villa-specs-title{
-  width : 95px;
-}
-.c3-tittle{
-  width : 120.8px;
-}
-.CtTBg {
-  width:106.66px;
- }
- .AbTbg {
-  width:108.25px;
-}
+
+  .villa-specs-title {
+    width: 95px;
+  }
+
+  .c3-tittle {
+    width: 120.8px;
+  }
+
+  .CtTBg {
+    width: 106.66px;
+  }
+
+  .AbTbg {
+    width: 161.25px !important;
+  }
+
   .title-container {
-  height: 23px;
-  border-radius: 2px;
-}
-  
+    height: 23px;
+    border-radius: 2px;
+  }
+
   .intro_h {
     font-size: 36px;
   }
@@ -989,7 +1171,7 @@ li {
     border-radius: 5px;
   }
 
-  
+
 
   .villatype {
     font-size: 14px;
@@ -1008,7 +1190,7 @@ li {
     font-size: 10px;
   }
 
-  
+
 
   .contactus_title {
     font-size: 24px;
@@ -1029,36 +1211,42 @@ li {
   .aboutdataheading {
     font-size: 18px !important;
   }
+
   .la_btn {
-  font-size: 10px !important;
-  width : 150px !important;
-  height: 30px !important;
-  border-radius: 5px !important;
-}
-.ctbox {
+    font-size: 10px !important;
+    width: 150px !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+  }
+
+  .ctbox {
     width: 150px;
-    height :130px
+    height: 130px
   }
 
   .ctText {
     font-size: 10px !important;
   }
+
   .ctText2 {
     font-size: 8px;
   }
+
   .cticon {
     font-size: 9px;
     width: 25.5px;
-    height:25.5px;
+    height: 25.5px;
     font-weight: 600;
-    color : white
+    color: white
   }
 }
+
 @media (max-width:576px) {
   .swam {
     width: 300px
   }
 }
+
 @media (max-width:450px) {
   .intro_h {
     font-size: 28px;
@@ -1075,9 +1263,10 @@ li {
     border-radius: 5px;
     font-size: 10px;
   }
-.ctbox {
+
+  .ctbox {
     width: 150px;
-    height :130px
+    height: 130px
   }
 }
 
@@ -1120,16 +1309,19 @@ li {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+
 .ftrsemibold {
   font-size: 9px;
   font-family: "Poppins", sans-serif;
-  color : white
+  color: white
 }
+
 .ftrnormal {
   font-size: 8px;
   font-family: "Poppins", sans-serif;
   color: #bdbdbd;
 }
-.ftrcontact{
- border-left: 1px solid white;
+
+.ftrcontact {
+  border-left: 1px solid white;
 }

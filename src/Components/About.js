@@ -1,12 +1,15 @@
 import Image from "next/image";
-import about1 from "../assets/About Images/aboutimg1.webp";
-import about2 from "../assets/About Images/aboutimg2.webp";
-import about3 from "../assets/About Images/aboutimg3.webp";
+import about1 from "../assets/Images/desktop/au1.webp";
+import about2 from "../assets/Images/desktop/au2.webp";
+import about3 from "../assets/Images/desktop/au3.webp";
+import aboutm1 from "../assets/Images/mobile/ip1.webp";
+import aboutm2 from "../assets/Images/mobile/ip2.webp";
+import aboutm3 from "../assets/Images/mobile/ip.webp";
 import { CiLocationOn } from "react-icons/ci";
 import { useMediaQuery } from "react-responsive";
 export default function About() {
-  
-  const isMobile = useMediaQuery({ query: '(max-width: 1240px)' });
+
+  const isMobile = useMediaQuery({ query: '(max-width: 991px)' });
   const isSMobile = useMediaQuery({ query: '(max-width: 500px)' });
   const projects = [
     { name: "IRA The Square Villas", area: "Kongarakalan" },
@@ -15,78 +18,65 @@ export default function About() {
   ];
 
   return (
-  <div className="py-4 py-lg-5 d-flex justify-content-center align-items-center ">
-    <div className="container ">
-      <div>
-      <div className="row px-3 align-items-start flex-column-reverse flex-lg-row ">
-        {/* Image Section */}
-        <div className="col-lg-5 d-flex flex-column gap-2 gap-md-3 justify-content-end align-items-center px-1  ">
-          <div className="d-flex gap-2 gap-md-3 align-items-md-center ">
-            <Image
-              src={about1}
-              alt="About Image 1"
-              className="img-fluid rounded abtimg"
-              style={{ width:  "55%" }}
-            />
-            <Image
-              src={about2}
-              alt="About Image 2"
-              className="img-fluid rounded"
-              style={{ width: "41%" }}
-            />
+    <div className="py-4 py-lg-5 d-flex justify-content-center align-items-center ">
+      <div className="container ">
+        <div>
+          <div className="row px-3 align-items-start flex-lg-row ">
+            <div className="title-container AbTbg">
+              <p className="fw-semibold mb-0 Title">IRA Realty Ongoing Projects</p>
+            </div>
+
+            <h1 className=" fw-bold Heading">
+              Building Homes. Nurturing Communities.
+            </h1>
+            <p className=" text-secondary aboutdata">
+              At IRA Realty, we're redefining real estate with transparency, trust, and transformative design.
+            </p>
           </div>
-          <div>
+        </div>
+        <div className="row font-nunito">
+          <div className="col-12 col-lg-4 pb-2 position-relative text-white d-flex justify-content-center align-items-center">
             <Image
-            src={about3}
-            alt="About Image 3"
-            className="img-fluid rounded "
-            style={{width:!isMobile ? 537:"100%"}}
+            src={isMobile? aboutm1 :about1}
+            alt="About Image 1"
+            className="img-fluid rounded w-100"
           />
+          <div className="position-absolute bottom-0 start-0 w-100 text-center p-3"
+    style={{ zIndex: 1 }}>
+            <p className="irap">IRA THE SQUARE</p>
+          <p className="irap2">4 BHK VILLAS AT ADIBATLA</p>
           </div>
           
+          </div>
+          <div className="col-12 col-lg-4 pb-2 position-relative text-white d-flex justify-content-center align-items-center">
+            <Image
+            src={isMobile? aboutm2 :about2}
+            alt="About Image 2"
+            className="img-fluid rounded w-100"
+          />
+          <div className="position-absolute bottom-0 start-0 w-100 text-center p-3"
+    style={{ zIndex: 1 }}>
+          <p className="irap">MOONGLADE APARTMENTS</p>
+          <p className="irap2">3 & 4 BHK APARTMENT AT KOKAPET</p>
+          </div>
+          </div>
+          <div className="col-12 col-lg-4 pb-2 position-relative text-white d-flex justify-content-center align-items-center">
+            <Image
+            src={isMobile? aboutm3 :about3}
+            alt="About Image 3"
+            className="img-fluid rounded w-100"
+          />
+          <div className="position-absolute bottom-0 start-0 w-100 text-center p-3"
+    style={{ zIndex: 1 }}>
+          <p className="irap">IRA ELEVATE VILLAS </p>
+          <p className="irap2">4 BHK VILLAS AT SHAMSHABAD</p>
+          </div>
+          </div>
         </div>
-
         {/* Content Section */}
-        <div className="col-lg-7 d-flex flex-column gap-1 gap-xl-2 mt-xl-5 mb-0 px-2">
-          <div className="title-container AbTbg">
-            <p className="fw-semibold mb-0 Title">About IRA Realty</p>
-          </div>
-          
-          <h1 className=" fw-bold Heading">
-            Building Homes. Nurturing Communities.
-          </h1>
-          <p className=" text-secondary aboutdata">
-            At IRA Realty, we're redefining real estate with transparency, trust, and transformative design.
-          </p>
 
-          <h2 className="h4 mt-lg-4 mb-4 mb-lg-0 aboutdataheading" style={{color:"var(--heading)"}}>Our Landmark Projects:</h2>
-
-          <ul className="list-unstyled mt-lg-3 pb-4 d-flex flex-column aboutdata " style={{gap:10}}>
-            {projects.map((item, index) => (
-              <li
-                key={index}
-                className="d-flex align-items-center mb-0 mb-xxl-3 text-secondary"
-              >
-                <div>
-                  <div
-                  className="d-flex justify-content-center align-items-center bg-success text-white rounded-circle me-3"
-                  style={{ width: isSMobile?20:38, height: isSMobile?20:38 }}
-                >
-                  <CiLocationOn size={isSMobile?14:24} />
-                </div>
-                </div>
-                
-                <span className="fw-bold " style={{color:"var(--heading)"}}>
-                  {item.name} —{" "}
-                  <span className="fw-normal text-muted">{item.area}</span>
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-      </div>
       </div>
     </div>
+
   );
 }

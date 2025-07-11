@@ -3,7 +3,7 @@ import lock from "../assets/smarticons/smartlock.png";
 import voice from "../assets/smarticons/voice_assistant.png";
 import remote from "../assets/smarticons/remote_access.png";
 import wiring from "../assets/smarticons/wiring.png";
-import smartimage from "../assets/C4_Westfacingwithclub.webp";
+import smartimage from "../assets/Images/desktop/s1.webp";
 import msmartimage from "../assets/slmbimg.webp";
 import Image from "next/image";
 import "./style.module.css"

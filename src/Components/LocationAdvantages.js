@@ -3,6 +3,7 @@ import location from "../assets/urdesktop/ladesktop.webp";
 import locationmv from "../assets/urmobile/lamobile.webp";
 import { GoCheckCircleFill } from "react-icons/go";
 import { useMediaQuery } from "react-responsive";
+import { openStartupModal } from "./formpopup";
 export default function LocationAdvantages() {
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
   const issmallMobile = useMediaQuery({ query: "(max-width: 767px)" });
@@ -45,7 +46,7 @@ export default function LocationAdvantages() {
             ))}
           </ul>
 
-          <button className="btn mt-2 mt-lg-4 px-4 py-2 fw-semibold la_btn">
+          <button className="btn mt-2 mt-lg-4 px-4 py-2 fw-semibold la_btn" onClick={openStartupModal}>
             Why Adibatla?
           </button>
         </div>

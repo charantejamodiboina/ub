@@ -15,6 +15,7 @@ import ContactUs from "@/Components/ContactUs";
 import About from "@/Components/About";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
+import StartupModal from "@/Components/formpopup";
 
 const Footer = dynamic(() => import("@/Components/Footer"), { ssr: true });
 const Component8 = dynamic(() => import("@/Components/Component8"), { ssr: true });
@@ -33,10 +34,10 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-      <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable} `}>
-        {/* <Header /> */}
+      <div className={` `}>
+        <Header />
         <main className={styles.main}>
-          
+          <StartupModal/>
           <HomePage />
         </main>
         <div className={styles.bodyComp}>

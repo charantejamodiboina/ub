@@ -2,6 +2,7 @@ import Image from "next/image";
 import ftrimg1 from "../assets/urmobile/urflogomobile.webp";
 import ftrimg2 from "../assets/urmobile/ihlogomobile.webp";
 import ftrimg3 from "../assets/urmobile/logofmobile.webp";
+import { openStartupModal } from "./formpopup";
 
 export default function MobileFooter() {
   return (
@@ -25,13 +26,14 @@ export default function MobileFooter() {
             </div>
 
             {/* Contact Info Column */}
-            <div className="col-7 col-md-6 ps-3 d-flex flex-column gap-2 ftrcontact" >
+            <div className="col-7 col-md-6 ps-3 d-flex flex-column justify-content-between gap-2 ftrcontact" >
               <div>
                 <h6 className=" ftrbold">
                   Talk to our sales expert
                 </h6>
                 <a href="#contact-us" className="text-white text-decoration-none">
                 <button
+                onClick={openStartupModal}
                   className="btn btn-sm text-white"
                   style={{
                     backgroundColor: "var(--icondesc)",
@@ -60,7 +62,7 @@ export default function MobileFooter() {
               <p className="mb-0 ftrsemibold">Email: info@irarealty.in</p>
 
 
-              <div>
+              {/* <div>
                 <h6 className=" ftrsemibold" >Social Media : </h6>
                 <div className="d-flex gap-1">
                   <a href="https://www.facebook.com/IRARealtyIndia/" target="_blank" rel="noopener noreferrer" className=" text-decoration-none ftrnormal">Facebook </a>
@@ -69,7 +71,7 @@ export default function MobileFooter() {
                   <span className="ftrnormal">|</span>
                   <a href="" className=" text-decoration-none ftrnormal">Whatsapp</a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

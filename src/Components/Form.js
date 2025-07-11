@@ -20,30 +20,43 @@ export default function Form() {
   const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
+  setLoading(true);
 
-    try {
-      const formData = new FormData();
-      formData.append("name", name);
-      formData.append("phone", phone);
-      formData.append("message", "Schedule Date is: " + (date ? date.toLocaleDateString() : ""));
-      formData.append("email", email);
-      formData.append("property", "Urban Ranch");
+  try {
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("phone", phone);
+    formData.append("message", "Schedule Date is: " + (date ? date.toLocaleDateString() : ""));
+    formData.append("email", email);
+    formData.append("property", "Urban Ranch");
 
-      await axios.post("https://irarealty.in/cms/api/submitContact", formData);
-      alert("Submitted successfully!");
-      setName("");
-      setPhone("");
-      setDate(null);
-      setEmail("");
-    } catch (error) {
-      console.error("Submission error", error);
-      alert("Something went wrong. Please try again.");
-    } finally {
-      setLoading(false);
-    }
-  };
+    await axios.post("https://irarealty.in/cms/api/submitContact", formData);
+
+    alert("Submitted successfully!");
+
+    // Reset form
+    setName("");
+    setPhone("");
+    setDate(null);
+    setEmail("");
+
+    // ✅ Trigger brochure download
+    const link = document.createElement("a");
+    link.href = "/UR_MiniBrochure.pdf"; // path must be under `public/` folder
+    link.download = "UR_MiniBrochure.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+  } catch (error) {
+    console.error("Submission error", error);
+    alert("Something went wrong. Please try again.");
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   return (
     

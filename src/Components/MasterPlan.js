@@ -1,8 +1,10 @@
 import Image from "next/image";
-import masterPlanImage from "../assets/urdesktop/mpdesktop.webp";
-import masterPlanmbImage from "../assets/urmobile/mpmobile.webp";
+import masterPlanImage from "../assets/Images/desktop/mp.webp";
+import masterPlanmbImage from "../assets/Images/mobile/mp.webp";
 import { useMediaQuery } from 'react-responsive';
-// import brochure from '../assets/UR_MiniBrochure.pdf'
+import { useMemo } from "react";
+import { openStartupModal } from "./formpopup";
+
 export default function MasterPlan() {
   const legendItems = [
     "Entry/exit with security cabin",
@@ -30,31 +32,45 @@ export default function MasterPlan() {
     "Edible garden",
   ];
 
-  const isMobile = useMediaQuery({ query: '(max-width: 756px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 991px)' });
+  const COLUMN_COUNT = isMobile ? 2 : 3;
 
-  // Compute number of rows (half of the items rounded up)
-  const half = Math.ceil(legendItems.length / 2);
-const handleDownload = () => {
+  const columns = useMemo(() => {
+    const rows = Math.ceil(legendItems.length / COLUMN_COUNT);
+    const cols = Array.from({ length: COLUMN_COUNT }, () => []);
+
+    for (let i = 0; i < legendItems.length; i++) {
+      const colIndex = Math.floor(i / rows);
+      cols[colIndex].push({ index: i + 1, item: legendItems[i] });
+    }
+
+    return cols;
+  }, [legendItems, isMobile]);
+
+  const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'UR_MiniBrochure.pdf'; // PDF path relative to `public` folder
+    link.href = 'UR_MiniBrochure.pdf';
     link.download = 'UR_MiniBrochure.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
+
   return (
-    <div style={{ backgroundColor: "var(--mpbgclr)" }}>
-      <div className="container py-4">
-        <div className="px-3">
-          <div className="row g-5 align-items-start">
-            {/* Left Column: Master Plan */}
-            <div className="col-lg-7 d-flex flex-column">
-              <div>
+    <div className=" pt-3 pt-lg-5 pb-3" style={{ backgroundColor: "var(--mpbgclr)" }}>
+    <div className="container px-3">
+      <div className="d-flex justify-content-between">
                 <h3 className="mb-3 fw-bold Heading">Master Plan</h3>
                 {!isMobile && (
-                  <button className="mpbroucherbtn mb-5" onClick={handleDownload}>Download Brochure</button>
+                  <button className="mpbroucherbtn mb-5" onClick={openStartupModal}>
+                    Download Brochure
+                  </button>
                 )}
-                <div className="d-flex align-items-center justify-content-center">
+                
+              </div>
+    </div>
+    <div>
+      <div className={isMobile ? "container":"d-flex align-items-center justify-content-center"}>
                   <Image
                     src={isMobile ? masterPlanmbImage : masterPlanImage}
                     alt="Master plan image"
@@ -62,44 +78,37 @@ const handleDownload = () => {
                     priority
                   />
                 </div>
-              </div>
-            </div>
-
-            {/* Right Column: Legend */}
-            <div className="col-12 col-lg-5 rounded-4 py-3 mt-2">
-              <div className="bg-light p-4" style={{ borderRadius: 10 }}>
+    </div>
+    <div className="container px-3">
+      <div className="d-flex justify-content-center">
+              <div className="bg-light p-4 " style={{ borderRadius: 10, }}>
                 <h3 className="mb-4 fw-bold Heading">Legend</h3>
 
-                {/* Render 2-column format: i and i+half in same row */}
                 <div className="row">
-                  {Array.from({ length: half }).map((_, i) => (
-                    <div className="row mb-2" key={i}>
-                      <div className="col-6 d-flex align-items-start" style={{ fontSize: isMobile ? "10px" : "16px" }}>
-                        {legendItems[i] && (
-                          <>
-                            <span className="me-2">{i + 1}.</span>
-                            <span>{legendItems[i]}</span>
-                          </>
-                        )}
-                      </div>
-                      <div className="col-6 d-flex align-items-start" style={{ fontSize: isMobile ? "10px" : "16px" }}>
-                        {legendItems[i + half] && (
-                          <>
-                            <span className="me-2">{i + 1 + half}.</span>
-                            <span>{legendItems[i + half]}</span>
-                          </>
-                        )}
-                      </div>
+                  {columns.map((col, colIndex) => (
+                    <div key={colIndex} className="col-6 col-lg-4">
+                      {col.map(({ index, item }) => (
+                        <div
+                          key={index}
+                          className="mb-2 d-flex align-items-start"
+                          style={{ fontSize: isMobile ? "10px" : "16px" }}
+                        >
+                          <span className="me-2">{index}.</span>
+                          <span>{item}</span>
+                        </div>
+                      ))}
                     </div>
                   ))}
                 </div>
               </div>
             </div>
-          </div>
-
-          {isMobile && <button className="mpbroucherbtn" onClick={handleDownload}>Download Brochure</button>}
-        </div>
-      </div>
+            {isMobile && (
+            <button className="mpbroucherbtn" onClick={openStartupModal}>
+              Download Brochure
+            </button>
+          )}
+    </div>
+      
     </div>
   );
 }

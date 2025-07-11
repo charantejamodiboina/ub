@@ -2,8 +2,12 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import image2 from "../assets/c1.webp";
-import image2mv from "../assets/c1mv.webp";
+import image2 from "../assets/Images/desktop/a2.webp";
+import image3 from "../assets/Images/desktop/a3.webp";
+import image1 from "../assets/Images/desktop/c1.webp";
+import image1mv from "../assets/c1mv.webp";
+import image2mv from "../assets/Images/mobile/a2.webp";
+import image3mv from "../assets/Images/mobile/a3.webp";
 import { useMediaQuery } from "react-responsive";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -25,8 +29,8 @@ export default function AmenitiesComponent() {
           <li>Party Lawns, Amphitheater, Café‑style seating</li>
         </ul>
       ),
-      image: image2,
-      mobileimage: image2mv,
+      image: image1,
+      mobileimage: image1mv,
     },
     {
       id: 2,
@@ -47,8 +51,8 @@ export default function AmenitiesComponent() {
           <li>Edible Gardens, Tree Courts, Outdoor Gym, Yoga Decks, Infinity Pool</li>
         </ul>
       ),
-      image: image2,
-      mobileimage: image2mv,
+      image: image3,
+      mobileimage: image3mv,
     },
   ];
 
@@ -56,7 +60,7 @@ export default function AmenitiesComponent() {
     <div
       className="text-white  ps-3 py-3 ps-md-5 position-relative mb-lg-5 mb-0"
       style={{ backgroundColor: "var(--amenitiesbg)" }}
-      
+      id="amenities"
     >
       <div className="container">
         <div className="px-3">

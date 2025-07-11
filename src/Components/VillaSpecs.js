@@ -1,6 +1,8 @@
 import Image from "next/image";
-import villa from "../assets/c7.webp";
-import mvilla from "../assets/urmobile/vsmobile.webp";
+import villa from "../assets/Images/desktop/Maskgroup.webp";
+import villa2 from "../assets/Images/desktop/Maskgroup2.webp";
+import mvilla from "../assets/Images/mobile/vs1.webp";
+import mvill2 from "../assets/Images/mobile/vs2.webp";
 import areaIcon from "../assets/specicons/area.png";
 import locationIcon from "../assets/specicons/location.png";
 import typeIcon from "../assets/specicons/type.png";
@@ -13,14 +15,14 @@ import { useMediaQuery } from "react-responsive";
 export default function VillaSpecs() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const data = [
-    { id: 1, name: "Area", value: "17 acres", icon: areaIcon },
-    { id: 2, name: "Location", value: "Kongarakalan", icon: locationIcon },
+    { id: 1, name: "Area", value: "19.5 acres", icon: areaIcon },
+    { id: 2, name: "Location", value: "Kongara kalan", icon: locationIcon },
     { id: 3, name: "Type", value: "4BHK Villas", icon: typeIcon },
     { id: 4, name: "Total villas", value: "163", icon: totalVillasIcon },
-    { id: 5, name: "Plot area", value: "298-351 Sq. Yds", icon: plotAreaIcon },
-    { id: 6, name: "Villa area", value: "3,718-4,711 Sq. Ft", icon: villaAreaIcon },
+    { id: 5, name: "Plot area", value: "292-351 Sq. Yds", icon: plotAreaIcon },
+    { id: 6, name: "Villa area", value: "3,807-4,927 Sft", icon: villaAreaIcon },
     { id: 7, name: "Structure", value: "G+2", icon: structureIcon },
-    { id: 8, name: "Clubhouse", value: "20500 SFT", icon: clubhouseIcon }
+    { id: 8, name: "Clubhouse", value: "30,000 Sft", icon: clubhouseIcon }
   ];
 
   return (
@@ -36,13 +38,13 @@ export default function VillaSpecs() {
             <h3 className="fw-bold mb-0 Heading">
               {isMobile ? <>
                 Designed for Comfort, <br />Built with Intention</> : <>
-                Designed for Comfort, Built <br />with Intention</>}
+                4BHK Gated Villa  <br />Community in Adibatla</>}
             </h3>
             {isMobile ? null : <p className=" villadesc">
               Searching for 4 BHK villas for sale in Hyderabad that feel spacious and soulful? Look no further.
             </p>}
 
-            <div className="row gx-2 gx-md-3 gy-2 gy-md-3 mb-2 mb-lg-0 ">
+            <div className="row gx-2 gx-lg-4 gy-2 gy-lg-4 mb-2 mb-lg-0 ">
               {data.map((item) => (
                 <div key={item.id} className="col-6">
                   <div className="d-flex align-items-center p-1 p-md-3 villacont">
@@ -62,9 +64,16 @@ export default function VillaSpecs() {
 
           </div>
 
-          <div className="col-lg-5 position-relative d-flex align-items-center justify-content-center ">
+          <div className="col-lg-5 position-relative d-flex flex-column align-items-center justify-content-center gap-2 ">
             <Image
               src={isMobile ? mvilla : villa}
+              alt="Villa Image"
+              className="img-fluid rounded w-100 "
+              style={{ objectFit: "contain" }}
+              priority
+            />
+            <Image
+              src={isMobile ? mvill2 : villa2}
               alt="Villa Image"
               className="img-fluid rounded w-100"
               style={{ objectFit: "contain" }}
