@@ -4,8 +4,6 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import mlogo from "../assets/Images/mobile/Group801.webp";
-import overlay from "../assets/Images/desktop/overlay.png"
-import DatePicker from "react-datepicker";
 import iralogo from "../assets/images/desktop/Layer_1.webp";
 import ihlogo from "../assets/images/desktop/Rectangle.webp";
 import iralogom from "../assets/images/mobile/Layer_1.webp";
