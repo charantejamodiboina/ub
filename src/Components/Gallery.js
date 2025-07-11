@@ -1,14 +1,14 @@
 import Image from "next/image";
-import img1 from "../assets/Images/desktop/g1.webp";
-import img2 from "../assets/Images/desktop/g2.webp";
-import img3 from "../assets/Images/desktop/g3.webp";
-import img4 from "../assets/Images/desktop/g4.webp";
-import img5 from "../assets/Images/desktop/g5.webp";
-import img1mv from "../assets/Images/mobile/g1.webp";
-import img2mv from "../assets/Images/mobile/g2.webp";
-import img3mv from "../assets/Images/mobile/g3.webp";
-import img4mv from "../assets/Images/mobile/g4.webp";
-import img5mv from "../assets/Images/mobile/g5.webp";
+import img1 from "../assets/UrImages/desktop/g1.webp";
+import img2 from "../assets/UrImages/desktop/g2.webp";
+import img3 from "../assets/UrImages/desktop/g3.webp";
+import img4 from "../assets/UrImages/desktop/g4.webp";
+import img5 from "../assets/UrImages/desktop/g5.webp";
+import img1mv from "../assets/UrImages/mobile/g1.webp";
+import img2mv from "../assets/UrImages/mobile/g2.webp";
+import img3mv from "../assets/UrImages/mobile/g3.webp";
+import img4mv from "../assets/UrImages/mobile/g4.webp";
+import img5mv from "../assets/UrImages/mobile/g5.webp";
 import img6 from "../assets/Vector.webp";
 import img6mv from "../assets/gallery/Vector.webp";
 import { useMediaQuery } from "react-responsive";
@@ -40,7 +40,7 @@ export default function Gallery() {
 
           {isMobile && (
             <div className="" style={{ position: "relative", zIndex: 10 }}>
-              {/* Row 1: 2 side-by-side images */}
+              {/* Row 1: 2 side-by-side UrImages */}
               <div className="row gx-2 gy-2 ">
                 <div className="col-6" >
                   <Image
@@ -72,7 +72,7 @@ export default function Gallery() {
                 </div>
               </div>
 
-              {/* Row 3: 2 side-by-side images */}
+              {/* Row 3: 2 side-by-side UrImages */}
               <div className="row gx-2 gy-2 mt-1">
                 <div className="col-6">
                   <Image
@@ -98,7 +98,7 @@ export default function Gallery() {
 
           {!isMobile && (
             <div className="row g-3 justify-content-center">
-              {/* First column: 2 stacked images */}
+              {/* First column: 2 stacked UrImages */}
               <div className="col-md-4 d-flex flex-column justify-content-end align-items-end" style={{ zIndex: 10 }}>
                 <Image
                   src={img1}
@@ -124,7 +124,7 @@ export default function Gallery() {
                 />
               </div>
 
-              {/* Third column: 2 stacked images */}
+              {/* Third column: 2 stacked UrImages */}
               <div className="col-md-4 d-flex flex-column justify-content-start" style={{ zIndex: 10 }}>
                 <Image
                   src={img4}

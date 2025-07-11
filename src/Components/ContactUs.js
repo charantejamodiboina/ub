@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import contactusbanner from "../assets/Images/desktop/c6.webp";
+import contactusbanner from "../assets/UrImages/desktop/c6.webp";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";

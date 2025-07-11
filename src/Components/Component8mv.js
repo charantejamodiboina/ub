@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
-import ff from "../assets/Images/mobile/ffmobile.webp";
-import gf from "../assets/Images/mobile/gfmobile.webp";
+import ff from "../assets/UrImages/mobile/ffmobile.webp";
+import gf from "../assets/UrImages/mobile/gfmobile.webp";
 import img6mv from "../assets/decor.png";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 

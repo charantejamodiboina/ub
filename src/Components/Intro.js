@@ -3,11 +3,11 @@ import Image from "next/image";
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
-import mlogo from "../assets/Images/mobile/Group801.webp";
-import iralogo from "../assets/images/desktop/Layer_1.webp";
-import ihlogo from "../assets/images/desktop/Rectangle.webp";
-import iralogom from "../assets/images/mobile/Layer_1.webp";
-import ihlogom from "../assets/images/mobile/Rectangle.webp";
+import mlogo from "../assets/UrImages/mobile/Group801.webp";
+import iralogo from "../assets/UrImages/desktop/Layer_1.webp";
+import ihlogo from "../assets/UrImages/desktop/Rectangle.webp";
+import iralogom from "../assets/UrImages/mobile/Layer_1.webp";
+import ihlogom from "../assets/UrImages/mobile/Rectangle.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)

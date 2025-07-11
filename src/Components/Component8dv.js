@@ -2,8 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import gf from "../assets/Images/desktop/gfdesktop.webp";
-import ff from "../assets/Images/desktop/ffdesktop.webp";
+import gf from "../assets/UrImages/desktop/gfdesktop.webp";
+import ff from "../assets/UrImages/desktop/ffdesktop.webp";
 import img6 from "../assets/Vector.webp";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 

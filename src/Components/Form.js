@@ -4,10 +4,10 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import axios from "axios";
 import DatePicker from "react-datepicker";
-import iralogo from "../assets/Images/desktop/Layer_1.webp";
-import ihlogo from "../assets/Images/desktop/Rectangle.webp";
-import iralogom from "../assets/Images/mobile/Layer_1m.webp";
-import ihlogom from "../assets/Images/mobile/Rectanglem.webp";
+import iralogo from "../assets/UrImages/desktop/Layer_1.webp";
+import ihlogo from "../assets/UrImages/desktop/Rectangle.webp";
+import iralogom from "../assets/UrImages/mobile/Layer_1m.webp";
+import ihlogom from "../assets/UrImages/mobile/Rectanglem.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import "react-datepicker/dist/react-datepicker.css";
 import Spinner from "react-bootstrap/Spinner"; // Optional spinner (Bootstrap)

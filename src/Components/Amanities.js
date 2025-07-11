@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import image2 from "../assets/Images/desktop/a2.webp";
-import image3 from "../assets/Images/desktop/a3.webp";
-import image1 from "../assets/Images/desktop/c1.webp";
+import image2 from "../assets/UrImages/desktop/a2.webp";
+import image3 from "../assets/UrImages/desktop/a3.webp";
+import image1 from "../assets/UrImages/desktop/c1.webp";
 import image1mv from "../assets/c1mv.webp";
-import image2mv from "../assets/Images/mobile/a2.webp";
-import image3mv from "../assets/Images/mobile/a3.webp";
+import image2mv from "../assets/UrImages/mobile/a2.webp";
+import image3mv from "../assets/UrImages/mobile/a3.webp";
 import { useMediaQuery } from "react-responsive";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";

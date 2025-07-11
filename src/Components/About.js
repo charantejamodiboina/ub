@@ -1,10 +1,10 @@
 import Image from "next/image";
-import about1 from "../assets/Images/desktop/au1.webp";
-import about2 from "../assets/Images/desktop/au2.webp";
-import about3 from "../assets/Images/desktop/au3.webp";
-import aboutm1 from "../assets/Images/mobile/ip1.webp";
-import aboutm2 from "../assets/Images/mobile/ip2.webp";
-import aboutm3 from "../assets/Images/mobile/ip.webp";
+import about1 from "../assets/UrImages/desktop/au1.webp";
+import about2 from "../assets/UrImages/desktop/au2.webp";
+import about3 from "../assets/UrImages/desktop/au3.webp";
+import aboutm1 from "../assets/UrImages/mobile/ip1.webp";
+import aboutm2 from "../assets/UrImages/mobile/ip2.webp";
+import aboutm3 from "../assets/UrImages/mobile/ip.webp";
 import { CiLocationOn } from "react-icons/ci";
 import { useMediaQuery } from "react-responsive";
 export default function About() {

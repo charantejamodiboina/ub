@@ -1,6 +1,6 @@
 import Image from "next/image";
-import masterPlanImage from "../assets/Images/desktop/mp.webp";
-import masterPlanmbImage from "../assets/Images/mobile/mp.webp";
+import masterPlanImage from "../assets/UrImages/desktop/mp.webp";
+import masterPlanmbImage from "../assets/UrImages/mobile/mp.webp";
 import { useMediaQuery } from 'react-responsive';
 import { useMemo } from "react";
 import { openStartupModal } from "./formpopup";
