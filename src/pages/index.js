@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/Components/Header";
+import Intro from "@/Components/Intro";
 import HomePage from "@/Components/Home";
 import VillaSpecs from "@/Components/VillaSpecs";
 import Component3 from "@/Components/Component3";
@@ -34,11 +35,11 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-      <div className={` `}>
+      <div className={` overflow-x-hidden`}>
         <Header />
         <main className={styles.main}>
           <StartupModal/>
-          <HomePage />
+          <Intro />
         </main>
         <div className={styles.bodyComp}>
 

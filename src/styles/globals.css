@@ -313,11 +313,13 @@ Nav a {
 }
 
 .introdb {
+  font-size: 16px;
   max-width: 243px !important;
   height: 58px;
   font-size: 16px;
   bottom: -46px;
-  left :36px
+  left :36px;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 @media (max-width: 576px) {
@@ -1239,6 +1241,9 @@ li {
     font-weight: 600;
     color: white
   }
+  .introdb {
+  font-size: 12px !important;
+}
 }
 
 @media (max-width:576px) {
