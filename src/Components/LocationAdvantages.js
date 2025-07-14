@@ -12,7 +12,7 @@ export default function LocationAdvantages() {
     { time: "15-20 mins to", place: "Delhi Public School, Aga Khan Academy" },
     { time: "10-15 mins to", place: "Wonderla & upcoming World Trade Center" },
     { time: "25 mins to", place: "RGI Airport & ORR Exit 13" },
-    { time: "35 mins FROM", place: "Financial District" },
+    { time: "35 mins from", place: "Financial District" },
   ];
 
   return (

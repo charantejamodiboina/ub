@@ -94,7 +94,8 @@ const StartupModal = () => {
 
   return (
     <div
-      className="modal fade overflow-hidden"
+      className="modal fade overflow-hidden "
+      style={{backgroundColor:"rgba(8, 35, 42, 0.8)"}}
       id="startupModal"
       tabIndex="-1"
       aria-hidden="true"
