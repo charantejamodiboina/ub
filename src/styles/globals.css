@@ -916,11 +916,13 @@ li {
 
 @media (max-width:991px) {
   .rera {
-  font-size: 9 !important;
+  font-size: 9px !important;
   
   width: 125px;
   height: 30px;
 }
+
+
   .form-box {
       height: 418px;
       align-items: center;
