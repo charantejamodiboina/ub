@@ -12,6 +12,7 @@ export default function LocationAdvantages() {
     { time: "15-20 mins to", place: "Delhi Public School, Aga Khan Academy" },
     { time: "10-15 mins to", place: "Wonderla & upcoming World Trade Center" },
     { time: "25 mins to", place: "RGI Airport & ORR Exit 13" },
+    { time: "35 mins FROM", place: "Financial District" },
   ];
 
   return (
@@ -39,16 +40,16 @@ export default function LocationAdvantages() {
               <li key={index} className="d-flex align-items-center mb-3">
                 <GoCheckCircleFill className="text-success me-2 flex-shrink-0" size={isMobile ? 16 : 28} />
                 <span className="la_li">
-                  <span className="fw-semibold" style={{ color: "#73788C" }}>{item.time}</span>
-                  <span className="text-dark"> {item.place}</span>
+                  <span className="fw-semibold" style={{ color: "#73788C"}}>{item.time}</span>
+                  <span className="" style={{ color: "#08232A" }}> {item.place}</span>
                 </span>
               </li>
             ))}
           </ul>
 
-          <button className="btn mt-2 mt-lg-4 px-4 py-2 fw-semibold la_btn" onClick={openStartupModal}>
+          {/* <button className="btn mt-2 mt-lg-4 px-4 py-2 fw-semibold la_btn" onClick={openStartupModal}>
             Why Adibatla?
-          </button>
+          </button> */}
         </div>
       </div>
       </div>

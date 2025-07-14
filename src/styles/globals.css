@@ -916,7 +916,7 @@ li {
 
 @media (max-width:991px) {
   .rera {
-  font-size: 9;
+  font-size: 9 !important;
   
   width: 125px;
   height: 30px;
