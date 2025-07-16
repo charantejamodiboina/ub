@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import mlogo from "../assets/UrImages/mobile/Group801.webp";
 import dlogo from "../assets/UrImages/desktop/Group801.webp";
-import dlogoScrolled from "../assets/UrImages/desktop/GroupM801.webp";
+import dlogoScrolled from "../assets/UrImages/desktop/14.webp";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
