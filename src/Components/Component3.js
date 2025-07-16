@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "../assets/UrImages/desktop/c3.webp";
+import image1 from "../assets/UrImages/desktop/3.webp";
 import image1mv from "../assets/UrImages/mobile/c3.webp";
 import image2 from "../assets/mask1.webp";
 import { useMediaQuery } from "react-responsive";

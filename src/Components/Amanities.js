@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import image2 from "../assets/UrImages/desktop/a2.webp";
-import image3 from "../assets/UrImages/desktop/a3.webp";
-import image1 from "../assets/UrImages/desktop/c1.jpg";
+import image2 from "../assets/UrImages/desktop/13.webp";
+import image3 from "../assets/UrImages/desktop/12.webp";
+import image1 from "../assets/UrImages/desktop/4.webp";
 import image1mv from "../assets/c1mv.webp";
 import image2mv from "../assets/UrImages/mobile/a2.webp";
 import image3mv from "../assets/UrImages/mobile/a3.webp";
