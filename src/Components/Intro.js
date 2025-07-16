@@ -85,7 +85,7 @@ export default function Intro() {
       <div className="d-flex flex-column w-100 g-5 ps-lg-5 container">
         <div className="flex-end">
           {isMobile ? (
-            <div className="d-flex align-items-center justify-content-center my-5">
+            <div className="d-flex align-items-center justify-content-center mt-5">
               <Image src={mlogo} alt="Mobile Logo" priority className="img-fluid" />
             </div>
           ) : null}
